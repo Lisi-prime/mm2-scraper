@@ -1,0 +1,39 @@
+name: Update Supreme Values
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Scraper Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Scraper and Push Values
+        env:
+          DEST_REPO: ${{ secrets.DEST_REPO }}
+          DEST_TOKEN: ${{ secrets.DEST_REPO_TOKEN }}
+          DEST_BRANCH: 'main'
+          DEST_FILE: 'values.json'
+        run: |
+          python update_values.py
+
+      - name: Fallback Local Commit (if single repo mode)
+        if: env.DEST_REPO == ''
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add values.json skins.json
+          git commit -m "Auto-update Supreme Values [skip ci]" || exit 0
+          git push
