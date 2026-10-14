@@ -340,14 +340,13 @@ def main():
     dest_file = os.environ.get("DEST_FILE", "values.json")
 
     if dest_repo and dest_token:
-        print(f"[Values System] Pushing to remote storage repo: {dest_repo} ...")
-        update_remote_github(dest_token, dest_repo, dest_file, json_bytes, dest_branch)
+        print(f"[Values System] Pushing unified skins.json to remote storage repo: {dest_repo} ...")
         if os.path.exists(skins_path):
             with open(skins_path, "rb") as sf:
                 skins_bytes = sf.read()
             update_remote_github(dest_token, dest_repo, "skins.json", skins_bytes, dest_branch)
     else:
-        print("[Values System] Notice: DEST_REPO or DEST_TOKEN not provided in env. Local values.json updated successfully.")
+        print("[Values System] Notice: DEST_REPO or DEST_TOKEN not provided in env. Local skins.json updated successfully.")
 
 if __name__ == "__main__":
     main()
