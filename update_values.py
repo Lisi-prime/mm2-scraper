@@ -20,6 +20,10 @@ CATEGORIES = [
     "vintages",
     "chromas",
     "uniques",
+    "legendaries",
+    "rares",
+    "uncommons",
+    "commons",
     "pets"
 ]
 
@@ -248,7 +252,13 @@ def update_skins_json_values(skins_json_path, prices_dict):
         updated_count = 0
         is_dict = isinstance(entries, dict)
         iterable = entries.values() if is_dict else entries
-        
+
+        def norm(s):
+            if not s: return ""
+            return re.sub(r"[^a-zA-Z0-9]", "", str(s)).lower()
+
+        norm_prices = {norm(k): v for k, v in prices_dict.items()}
+
         for rec in iterable:
             if not isinstance(rec, dict):
                 continue
@@ -256,12 +266,20 @@ def update_skins_json_values(skins_json_path, prices_dict):
             meta = rec.get("meta") or {}
             item_name = meta.get("ItemName")
             
-            # Find price from prices_dict
+            # Find price from prices_dict directly or normalized
             price = prices_dict.get(item_name) or prices_dict.get(name)
+            if price is None:
+                n1 = norm(item_name)
+                n2 = norm(name)
+                price = norm_prices.get(n1) or norm_prices.get(n2)
+            
             if price is not None:
                 meta["Value"] = int(price)
-                rec["meta"] = meta
-                updated_count += 1
+            elif "Value" not in meta:
+                meta["Value"] = 1
+                
+            rec["meta"] = meta
+            updated_count += 1
                 
         with open(skins_json_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
