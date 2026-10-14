@@ -5035,7 +5035,8 @@
         "ItemName": "Magma",
         "ItemType": "Knife",
         "Rarity": "Rare",
-        "Year": "2017"
+        "Year": "2017",
+        "Value": 3
       },
       "name": "MagmaK",
       "owners": [
@@ -5663,7 +5664,8 @@
         "ItemName": "Default Knife",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "DefaultKnife",
       "owners": [
@@ -6871,7 +6873,8 @@
         "ItemID": 198438554,
         "ItemName": "8bit",
         "ItemType": "Knife",
-        "Rarity": "Common"
+        "Rarity": "Common",
+        "Value": 1
       },
       "name": "8bit",
       "owners": [
@@ -7543,7 +7546,8 @@
         "ItemID": 196750899,
         "ItemName": "Plasmite",
         "ItemType": "Knife",
-        "Rarity": "Legendary"
+        "Rarity": "Legendary",
+        "Value": 1
       },
       "name": "Plasmite",
       "owners": [
@@ -9061,7 +9065,8 @@
         "ItemID": 235366460,
         "ItemName": "Clan",
         "ItemType": "Knife",
-        "Rarity": "Common"
+        "Rarity": "Common",
+        "Value": 1
       },
       "name": "Clan",
       "owners": [
@@ -9178,7 +9183,8 @@
         "ItemID": 196751515,
         "ItemName": "Whiteout",
         "ItemType": "Knife",
-        "Rarity": "Common"
+        "Rarity": "Common",
+        "Value": 1
       },
       "name": "Whiteout",
       "owners": [
@@ -10232,7 +10238,8 @@
         "ItemID": 196750422,
         "ItemName": "Galaxy",
         "ItemType": "Knife",
-        "Rarity": "Rare"
+        "Rarity": "Rare",
+        "Value": 1
       },
       "name": "Galaxy",
       "owners": [
@@ -10349,7 +10356,8 @@
         "ItemID": 196749885,
         "ItemName": "Adurite",
         "ItemType": "Knife",
-        "Rarity": "Uncommon"
+        "Rarity": "Uncommon",
+        "Value": 1
       },
       "name": "Adurite",
       "owners": [
@@ -10466,7 +10474,8 @@
         "ItemID": 196750845,
         "ItemName": "Love",
         "ItemType": "Knife",
-        "Rarity": "Common"
+        "Rarity": "Common",
+        "Value": 1
       },
       "name": "Love",
       "owners": [
@@ -10722,7 +10731,8 @@
         "ItemID": 235372015,
         "ItemName": "Predator",
         "ItemType": "Knife",
-        "Rarity": "Legendary"
+        "Rarity": "Legendary",
+        "Value": 1
       },
       "name": "PredatorKnife",
       "owners": [
@@ -11230,7 +11240,8 @@
         "ItemID": 241095344,
         "ItemName": "Elite",
         "ItemType": "Knife",
-        "Rarity": "Legendary"
+        "Rarity": "Legendary",
+        "Value": 1
       },
       "name": "Elite",
       "owners": [
@@ -11352,7 +11363,8 @@
         "ItemID": 315501434,
         "ItemName": "Hive",
         "ItemType": "Knife",
-        "Rarity": "Uncommon"
+        "Rarity": "Uncommon",
+        "Value": 1
       },
       "name": "Hive",
       "owners": [
@@ -11795,7 +11807,8 @@
         "ItemName": "Copper",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Copper",
       "owners": [
@@ -12468,7 +12481,8 @@
         "ItemName": "Camo",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "CamoKnife",
       "owners": [
@@ -13970,7 +13984,8 @@
         "ItemName": "Tiger",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Tiger",
       "owners": [
@@ -14644,7 +14659,8 @@
         "ItemName": "Rune",
         "ItemType": "Knife",
         "Rarity": "Legendary",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Rune",
       "owners": [
@@ -15318,7 +15334,8 @@
         "ItemID": 365569265,
         "ItemName": "Lucky",
         "ItemType": "Knife",
-        "Rarity": "Uncommon"
+        "Rarity": "Uncommon",
+        "Value": 1
       },
       "name": "Lucky",
       "owners": [
@@ -15435,7 +15452,8 @@
         "ItemID": 473626150,
         "ItemName": "Red",
         "ItemType": "Knife",
-        "Rarity": "Uncommon"
+        "Rarity": "Uncommon",
+        "Value": 1
       },
       "name": "Snoop",
       "owners": [
@@ -15816,7 +15834,8 @@
         "ItemID": 473626646,
         "ItemName": "Black",
         "ItemType": "Knife",
-        "Rarity": "Rare"
+        "Rarity": "Rare",
+        "Value": 1
       },
       "name": "Dew",
       "owners": [
@@ -16982,7 +17001,8 @@
         "ItemID": 473626979,
         "ItemName": "Shiny",
         "ItemType": "Knife",
-        "Rarity": "Legendary"
+        "Rarity": "Legendary",
+        "Value": 1
       },
       "name": "MLG",
       "owners": [
@@ -24450,7 +24470,8 @@
         "ItemName": "Hallow's Blade",
         "ItemType": "Knife",
         "Rarity": "Godly",
-        "Year": "2017"
+        "Year": "2017",
+        "Value": 1
       },
       "name": "HallowsBlade",
       "owners": [
@@ -42224,7 +42245,8 @@
         "ItemName": "Vampire's Edge",
         "ItemType": "Knife",
         "Rarity": "Godly",
-        "Year": "2020"
+        "Year": "2020",
+        "Value": 15
       },
       "name": "VampiresEdge",
       "owners": [
@@ -42651,7 +42673,8 @@
         "ItemName": "Default Knife",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "DefaultKnife",
       "owners": [
@@ -46411,7 +46434,8 @@
         "ItemName": "Neopolitan",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Neopolitan_K_2026",
       "owners": [
@@ -47739,7 +47763,8 @@
         "ItemName": "Snowball",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Snowball_K_2025",
       "owners": [
@@ -48524,7 +48549,8 @@
         "ItemName": "Bunnies",
         "ItemType": "Knife",
         "Rarity": "Legendary",
-        "Season": 1
+        "Season": 1,
+        "Value": 15
       },
       "name": "Bunnies_K_2025",
       "owners": [
@@ -50249,7 +50275,8 @@
         "ItemName": "Hot Chocolate",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2024"
+        "Year": "2024",
+        "Value": 1
       },
       "name": "HotChocolate_K_2024",
       "owners": [
@@ -50923,7 +50950,8 @@
         "ItemName": "Gingerbread",
         "ItemType": "Knife",
         "Rarity": "Rare",
-        "Year": "2022"
+        "Year": "2022",
+        "Value": 1
       },
       "name": "Gingerbread_K_2022",
       "owners": [
@@ -51042,7 +51070,8 @@
         "ItemName": "Leaves",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Leaves_K_2025",
       "owners": [
@@ -51161,7 +51190,8 @@
         "ItemName": "Nightstar",
         "ItemType": "Knife",
         "Rarity": "Legendary",
-        "Year": "2024"
+        "Year": "2024",
+        "Value": 1
       },
       "name": "Constellation_K_2024",
       "owners": [
@@ -51400,7 +51430,8 @@
         "ItemName": "Turtles",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Turtles_K_2026",
       "owners": [
@@ -52497,7 +52528,8 @@
         "ItemName": "Bubbles",
         "ItemType": "Knife",
         "Rarity": "Legendary",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Bubbles_K_2026",
       "owners": [
@@ -53581,7 +53613,8 @@
         "ItemName": "Aquarium",
         "ItemType": "Knife",
         "Rarity": "Legendary",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Aquarium_K_2025",
       "owners": [
@@ -54367,7 +54400,8 @@
         "ItemName": "Skyline",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Skyline_K_2025",
       "owners": [
@@ -55394,7 +55428,8 @@
         "ItemName": "Ghastly",
         "ItemType": "Knife",
         "Rarity": "Rare",
-        "Year": "2023"
+        "Year": "2023",
+        "Value": 1
       },
       "name": "Ghastly_K_2023",
       "owners": [
@@ -55512,7 +55547,8 @@
         "ItemName": "Wavy",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Wavy_K_2024",
       "owners": [
@@ -55630,7 +55666,8 @@
         "ItemName": "Palms",
         "ItemType": "Knife",
         "Rarity": "Legendary",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Palms_K_2024",
       "owners": [
@@ -55751,7 +55788,8 @@
         "ItemName": "Retro",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Retro_K_2025",
       "owners": [
@@ -56290,7 +56328,8 @@
         "ItemName": "Strawberries",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Strawberries_K_2026",
       "owners": [
@@ -57035,7 +57074,8 @@
         "ItemName": "Gingercookie",
         "ItemType": "Knife",
         "Rarity": "Rare",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Gingercookie_K_2025",
       "owners": [
@@ -57709,7 +57749,8 @@
         "ItemName": "Snowman",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Year": "2021"
+        "Year": "2021",
+        "Value": 1
       },
       "name": "Snowman_K_2021",
       "owners": [
@@ -57828,7 +57869,8 @@
         "ItemName": "Bones",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Year": "2024"
+        "Year": "2024",
+        "Value": 210
       },
       "name": "Bones_K_2024",
       "owners": [
@@ -58067,7 +58109,8 @@
         "ItemName": "Cupid",
         "ItemType": "Knife",
         "Rarity": "Legendary",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Cupid_K_2026",
       "owners": [
@@ -59187,7 +59230,8 @@
         "ItemName": "Stickers",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "StickersH_K_2025",
       "owners": [
@@ -60800,7 +60844,8 @@
         "ItemName": "Sand",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Sand_K_2026",
       "owners": [
@@ -60921,7 +60966,8 @@
         "ItemName": "Starry",
         "ItemType": "Knife",
         "Rarity": "Uncommon",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 5
       },
       "name": "Starry_K_2026",
       "owners": [
@@ -61023,7 +61069,8 @@
         "ItemName": "Plaid",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Plaid_G_2026",
       "owners": [
@@ -61126,7 +61173,8 @@
         "ItemName": "Heartbreak",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Heartbreak_G_2026",
       "owners": [
@@ -61263,7 +61311,8 @@
         "ItemName": "Strawberries",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Strawberries_G_2026",
       "owners": [
@@ -61670,7 +61719,8 @@
         "ItemName": "Sunny",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Sunny_G_2025",
       "owners": [
@@ -62007,7 +62057,8 @@
         "ItemName": "Striped",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Striped_G_2025",
       "owners": [
@@ -62108,7 +62159,8 @@
         "ItemName": "Paws",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Paws_G_2026",
       "owners": [
@@ -62512,6 +62564,9 @@
             "Weapon_Gun"
           ]
         }
+      },
+      "meta": {
+        "Value": 1
       }
     },
     "6600918074|114741314080418||": {
@@ -62692,7 +62747,8 @@
         "ItemName": "Forest",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Year": "2024"
+        "Year": "2024",
+        "Value": 1
       },
       "name": "Forest_G_2024",
       "owners": [
@@ -63135,7 +63191,8 @@
         "ItemName": "Stickers",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "StickersX_G_2025",
       "owners": [
@@ -63235,7 +63292,8 @@
         "ItemName": "Butterflies",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Butterflies_G_2025",
       "owners": [
@@ -63426,7 +63484,8 @@
         "ItemName": "Duckies",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Duckies_G_2026",
       "owners": [
@@ -63773,7 +63832,8 @@
         "ItemName": "Stickers",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2024"
+        "Year": "2024",
+        "Value": 1
       },
       "name": "Stickers_X_G_2024",
       "owners": [
@@ -63874,7 +63934,8 @@
         "ItemName": "Stickers",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Stickers_G_2025",
       "owners": [
@@ -64010,7 +64071,8 @@
         "ItemName": "Neon",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Neon_G_2025",
       "owners": [
@@ -64382,7 +64444,8 @@
         "ItemName": "Cherries",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Cherries_G_2026",
       "owners": [
@@ -64783,7 +64846,8 @@
         "ItemName": "Floral",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Floral_G_2026",
       "owners": [
@@ -65168,7 +65232,8 @@
         "ItemName": "Frozen",
         "ItemType": "Gun",
         "Rarity": "Legendary",
-        "Year": "2025"
+        "Year": "2025",
+        "Value": 1
       },
       "name": "Frozen_G_2025",
       "owners": [
@@ -65502,7 +65567,10 @@
         "vavara727"
       ],
       "seen": 1787411678,
-      "sig": "6600918074|91632676208966||"
+      "sig": "6600918074|91632676208966||",
+      "meta": {
+        "Value": 1
+      }
     },
     "6769675268|73593137081664||": {
       "display": {
@@ -66316,7 +66384,8 @@
         "ItemName": "Tourist",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Year": "2026"
+        "Year": "2026",
+        "Value": 1
       },
       "name": "Tourist_K_2026",
       "owners": [
@@ -68840,7 +68909,8 @@
         "ItemName": "Gingerbread",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Year": "2022"
+        "Year": "2022",
+        "Value": 1
       },
       "name": "Gingerbread_G_2022",
       "owners": [
@@ -68958,7 +69028,8 @@
         "ItemName": "Chromatic",
         "ItemType": "Gun",
         "Rarity": "Legendary",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Chromatic_G_2023",
       "owners": [
@@ -69075,7 +69146,8 @@
         "ItemID": 196752718,
         "ItemName": "Imbued",
         "ItemType": "Gun",
-        "Rarity": "Rare"
+        "Rarity": "Rare",
+        "Value": 1
       },
       "name": "Imbued",
       "owners": [
@@ -69192,7 +69264,8 @@
         "ItemID": 196752926,
         "ItemName": "Viper",
         "ItemType": "Gun",
-        "Rarity": "Legendary"
+        "Rarity": "Legendary",
+        "Value": 1
       },
       "name": "Viper",
       "owners": [
@@ -69309,7 +69382,8 @@
         "ItemID": 196752499,
         "ItemName": "Cold",
         "ItemType": "Gun",
-        "Rarity": "Common"
+        "Rarity": "Common",
+        "Value": 1
       },
       "name": "Cold",
       "owners": [
@@ -69426,7 +69500,8 @@
         "ItemID": 203808108,
         "ItemName": "Sketch",
         "ItemType": "Gun",
-        "Rarity": "Uncommon"
+        "Rarity": "Uncommon",
+        "Value": 1
       },
       "name": "Sketch",
       "owners": [
@@ -69790,7 +69865,8 @@
         "ItemID": 196752683,
         "ItemName": "Galactic",
         "ItemType": "Gun",
-        "Rarity": "Rare"
+        "Rarity": "Rare",
+        "Value": 1
       },
       "name": "Galactic",
       "owners": [
@@ -70134,7 +70210,8 @@
         "ItemID": 238546100,
         "ItemName": "HL2",
         "ItemType": "Gun",
-        "Rarity": "Common"
+        "Rarity": "Common",
+        "Value": 1
       },
       "name": "HL2",
       "owners": [
@@ -70251,7 +70328,8 @@
         "ItemID": 238546356,
         "ItemName": "Wooden",
         "ItemType": "Gun",
-        "Rarity": "Uncommon"
+        "Rarity": "Uncommon",
+        "Value": 1
       },
       "name": "Wooden",
       "owners": [
@@ -70369,7 +70447,8 @@
         "ItemName": "Palms",
         "ItemType": "Gun",
         "Rarity": "Legendary",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Palms_G_2024",
       "owners": [
@@ -70490,7 +70569,8 @@
         "ItemName": "Floatie",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Floatie_G_2024",
       "owners": [
@@ -70643,7 +70723,8 @@
         "ItemName": "Floral",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Floral_G_2024",
       "owners": [
@@ -70984,7 +71065,8 @@
         "ItemName": "Sandy",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Sandy_G_2024",
       "owners": [
@@ -71324,7 +71406,8 @@
         "ItemID": 203819271,
         "ItemName": "Hacker",
         "ItemType": "Gun",
-        "Rarity": "Rare"
+        "Rarity": "Rare",
+        "Value": 1
       },
       "name": "Hacker",
       "owners": [
@@ -71441,7 +71524,8 @@
         "ItemID": 203810176,
         "ItemName": "Predator",
         "ItemType": "Gun",
-        "Rarity": "Legendary"
+        "Rarity": "Legendary",
+        "Value": 1
       },
       "name": "Predator",
       "owners": [
@@ -71560,7 +71644,8 @@
         "ItemID": 238546660,
         "ItemName": "Universe",
         "ItemType": "Gun",
-        "Rarity": "Legendary"
+        "Rarity": "Legendary",
+        "Value": 1
       },
       "name": "Universe",
       "owners": [
@@ -71750,7 +71835,8 @@
         "ItemName": "Holly",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Year": "2018"
+        "Year": "2018",
+        "Value": 1
       },
       "name": "Holly_G_2018",
       "owners": [
@@ -72095,7 +72181,8 @@
         "ItemName": "Pirate",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Pirate",
       "owners": [
@@ -72214,7 +72301,8 @@
         "ItemName": "Monster",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Year": "2019"
+        "Year": "2019",
+        "Value": 1
       },
       "name": "Monster",
       "owners": [
@@ -72401,7 +72489,8 @@
         "ItemName": "Splash",
         "ItemType": "Gun",
         "Rarity": "Legendary",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Splash_G",
       "owners": [
@@ -72747,7 +72836,8 @@
         "ItemName": "Nightfire",
         "ItemType": "Gun",
         "Rarity": "Rare",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Nightfire",
       "owners": [
@@ -72917,7 +73007,8 @@
         "ItemName": "Biogun",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Biogun",
       "owners": [
@@ -73261,7 +73352,8 @@
         "ItemName": "Clown",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Clown_G",
       "owners": [
@@ -73450,7 +73542,8 @@
         "ItemName": "Clown",
         "ItemType": "Gun",
         "Rarity": "Uncommon",
-        "Year": "2024"
+        "Year": "2024",
+        "Value": 1
       },
       "name": "Clown_G_2024",
       "owners": [
@@ -73859,7 +73952,8 @@
         "ItemName": "Default Gun",
         "ItemType": "Gun",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "DefaultGun",
       "owners": [
@@ -76327,7 +76421,10 @@
         "klixsksx"
       ],
       "seen": 1787411678,
-      "sig": "8310908064|8231066536||"
+      "sig": "8310908064|8231066536||",
+      "meta": {
+        "Value": 1
+      }
     },
     "8310911339|8320249073|8320260092|": {
       "display": {
@@ -77807,7 +77904,8 @@
         "ItemName": "Winter's Edge",
         "ItemType": "Knife",
         "Rarity": "Godly",
-        "Year": "2017"
+        "Year": "2017",
+        "Value": 12
       },
       "name": "WintersEdge",
       "owners": [
@@ -79042,7 +79140,8 @@
         "ItemName": "Aurora",
         "ItemType": "Knife",
         "Rarity": "Rare",
-        "Year": "2019"
+        "Year": "2019",
+        "Value": 1
       },
       "name": "Aurora_K_2019",
       "owners": [
@@ -79160,7 +79259,8 @@
         "ItemName": "Lovely",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Lovely",
       "owners": [
@@ -79398,7 +79498,8 @@
         "ItemName": "Leaf",
         "ItemType": "Knife",
         "Rarity": "Common",
-        "Season": 1
+        "Season": 1,
+        "Value": 1
       },
       "name": "Leaf",
       "owners": [
