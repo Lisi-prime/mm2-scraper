@@ -67,12 +67,15 @@ def scrape_category(category):
         page_html = None
         try:
             if cffi_requests:
-                try:
-                    resp = cffi_requests.get(url, headers=HEADERS, impersonate="chrome120", timeout=15)
-                    if resp.status_code == 200:
-                        page_html = resp.text
-                except Exception as e:
-                    print(f"[curl_cffi] Warning {url}: {e}")
+                for imp in ["chrome120", "chrome124", "safari15_5"]:
+                    try:
+                        resp = cffi_requests.get(url, impersonate=imp, timeout=12)
+                        print(f"[curl_cffi:{imp}] {url} -> HTTP {resp.status_code}")
+                        if resp.status_code == 200 and len(resp.text) > 5000:
+                            page_html = resp.text
+                            break
+                    except Exception as e:
+                        print(f"[curl_cffi:{imp}] Warning {url}: {e}")
 
             if not page_html:
                 req = urllib.request.Request(url, headers=HEADERS)
