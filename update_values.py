@@ -31,6 +31,11 @@ CATEGORIES = [
 DEFAULT_REPO = "Lisi-prime/mm2_skin"
 DEFAULT_TOKEN = "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"
 
+try:
+    from curl_cffi import requests as cffi_requests
+except ImportError:
+    cffi_requests = None
+
 class PreservingRedirectHandler(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         new_req = super().redirect_request(req, fp, code, msg, headers, newurl)
@@ -51,15 +56,30 @@ def scrape_category(category):
         f"https://supremevaluelist.com/mm2/{category}"
     ]
     for url in urls:
-        req = urllib.request.Request(url, headers=HEADERS)
-        try:
-            with opener.open(req, timeout=14) as response:
-                page_html = response.read().decode("utf-8", errors="ignore")
-                pattern = re.compile(
-                    r"data-name=['\"]([^'\"]+)['\"].*?Value\s*-\s*<b class=['\"]itemvalue[^'\"]*['\"]>([^<]+)</b>",
-                    re.DOTALL
-                )
-                matches = pattern.findall(page_html)
+        page_html = None
+        if cffi_requests:
+            try:
+                resp = cffi_requests.get(url, headers=HEADERS, impersonate="chrome120", timeout=15)
+                if resp.status_code == 200:
+                    page_html = resp.text
+            except Exception as e:
+                print(f"[curl_cffi] Warning {url}: {e}")
+
+        if not page_html:
+            req = urllib.request.Request(url, headers=HEADERS)
+            try:
+                with opener.open(req, timeout=14) as response:
+                    page_html = response.read().decode("utf-8", errors="ignore")
+            except Exception as e:
+                print(f"[urllib] Warning {url}: {e}")
+
+        if page_html:
+            pattern = re.compile(
+                r"data-name=['\"]([^'\"]+)['\"].*?Value\s*-\s*<b class=['\"]itemvalue[^'\"]*['\"]>([^<]+)</b>",
+                re.DOTALL
+            )
+            matches = pattern.findall(page_html)
+            if matches:
                 results = {}
                 for name, val_str in matches:
                     name_clean = clean_item_name(name)
