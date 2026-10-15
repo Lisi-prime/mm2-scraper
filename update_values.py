@@ -34,7 +34,15 @@ DEFAULT_TOKEN = "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"
 try:
     from curl_cffi import requests as cffi_requests
 except ImportError:
-    cffi_requests = None
+    print("[Values System] curl_cffi not found, installing via pip...")
+    try:
+        import subprocess
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "curl_cffi", "--quiet"])
+        from curl_cffi import requests as cffi_requests
+        print("[Values System] curl_cffi successfully installed!")
+    except Exception as e:
+        print(f"[Values System] Could not install curl_cffi: {e}")
+        cffi_requests = None
 
 class PreservingRedirectHandler(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -57,77 +65,78 @@ def scrape_category(category):
     ]
     for url in urls:
         page_html = None
-        if cffi_requests:
-            try:
-                resp = cffi_requests.get(url, headers=HEADERS, impersonate="chrome120", timeout=15)
-                if resp.status_code == 200:
-                    page_html = resp.text
-            except Exception as e:
-                print(f"[curl_cffi] Warning {url}: {e}")
+        try:
+            if cffi_requests:
+                try:
+                    resp = cffi_requests.get(url, headers=HEADERS, impersonate="chrome120", timeout=15)
+                    if resp.status_code == 200:
+                        page_html = resp.text
+                except Exception as e:
+                    print(f"[curl_cffi] Warning {url}: {e}")
 
-        if not page_html:
-            req = urllib.request.Request(url, headers=HEADERS)
-            try:
-                with opener.open(req, timeout=14) as response:
-                    page_html = response.read().decode("utf-8", errors="ignore")
-            except Exception as e:
-                print(f"[urllib] Warning {url}: {e}")
+            if not page_html:
+                req = urllib.request.Request(url, headers=HEADERS)
+                try:
+                    with opener.open(req, timeout=14) as response:
+                        page_html = response.read().decode("utf-8", errors="ignore")
+                except Exception as e:
+                    print(f"[urllib] Warning {url}: {e}")
 
-        if page_html:
-            pattern = re.compile(
-                r"data-name=['\"]([^'\"]+)['\"].*?Value\s*-\s*<b class=['\"]itemvalue[^'\"]*['\"]>([^<]+)</b>",
-                re.DOTALL
-            )
-            matches = pattern.findall(page_html)
-            if matches:
-                results = {}
-                for name, val_str in matches:
-                    name_clean = clean_item_name(name)
-                    if name_clean in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
-                        continue
-                    
-                    raw_val = html.unescape(val_str).strip()
-                    val_num_str = raw_val.replace(",", "")
-                    try:
-                        num_val = float(val_num_str)
-                        if num_val == int(num_val):
-                            num_val = int(num_val)
-                        final_val = num_val
-                    except ValueError:
-                        final_val = raw_val
-                    
-                    results[name_clean] = final_val
+            if page_html:
+                pattern = re.compile(
+                    r"data-name=['\"]([^'\"]+)['\"].*?Value\s*-\s*<b class=['\"]itemvalue[^'\"]*['\"]>([^<]+)</b>",
+                    re.DOTALL
+                )
+                matches = pattern.findall(page_html)
+                if matches:
+                    results = {}
+                    for name, val_str in matches:
+                        name_clean = clean_item_name(name)
+                        if name_clean in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
+                            continue
+                        
+                        raw_val = html.unescape(val_str).strip()
+                        val_num_str = raw_val.replace(",", "")
+                        try:
+                            num_val = float(val_num_str)
+                            if num_val == int(num_val):
+                                num_val = int(num_val)
+                            final_val = num_val
+                        except ValueError:
+                            final_val = raw_val
+                        
+                        results[name_clean] = final_val
 
-                    # Add convenient aliases
-                    if "Chroma " in name_clean:
-                        suffix = name_clean.replace("Chroma ", "") + "Chroma"
-                        results[suffix] = final_val
-                    if name_clean == "Battle Axe II":
-                        results["BattleAxe2"] = final_val
-                        results["BattleAxe II"] = final_val
-                    elif name_clean == "Elderwood Blade":
-                        results["ElderwoodBlade"] = final_val
-                    elif name_clean == "Elderwood Revolver":
-                        results["ElderwoodRevolver"] = final_val
-                    elif name_clean == "Elderwood Scythe":
-                        results["ElderwoodScythe"] = final_val
-                    elif name_clean == "Heart Wand":
-                        results["HeartWand"] = final_val
-                    elif name_clean == "Traveler's Gun":
-                        results["Travelers Gun"] = final_val
-                    elif name_clean == "Traveler's Axe":
-                        results["Travelers Axe"] = final_val
-                    elif name_clean == "Vampire's Gun":
-                        results["Vampires Gun"] = final_val
-                    elif name_clean == "Vampire's Axe":
-                        results["Vampires Axe"] = final_val
+                        # Add convenient aliases
+                        if "Chroma " in name_clean:
+                            suffix = name_clean.replace("Chroma ", "") + "Chroma"
+                            results[suffix] = final_val
+                        if name_clean == "Battle Axe II":
+                            results["BattleAxe2"] = final_val
+                            results["BattleAxe II"] = final_val
+                        elif name_clean == "Elderwood Blade":
+                            results["ElderwoodBlade"] = final_val
+                        elif name_clean == "Elderwood Revolver":
+                            results["ElderwoodRevolver"] = final_val
+                        elif name_clean == "Elderwood Scythe":
+                            results["ElderwoodScythe"] = final_val
+                        elif name_clean == "Heart Wand":
+                            results["HeartWand"] = final_val
+                        elif name_clean == "Traveler's Gun":
+                            results["Travelers Gun"] = final_val
+                        elif name_clean == "Traveler's Axe":
+                            results["Travelers Axe"] = final_val
+                        elif name_clean == "Vampire's Gun":
+                            results["Vampires Gun"] = final_val
+                        elif name_clean == "Vampire's Axe":
+                            results["Vampires Axe"] = final_val
 
-                if "Batwing" in results:
-                    results["Batwing"] = 42
+                    if "Batwing" in results:
+                        results["Batwing"] = 42
 
-                if len(results) > 0:
-                    print(f"[Scraper] {category}: {len(results)} items scraped from {url}.")
-                    return results
+                    if len(results) > 0:
+                        print(f"[Scraper] {category}: {len(results)} items scraped from {url}.")
+                        return results
         except Exception as e:
             print(f"[Scraper] Warning {url}: {e}")
     return {}
