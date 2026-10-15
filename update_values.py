@@ -10,8 +10,9 @@ import urllib.error
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://supremevalues.com/",
 }
 
 CATEGORIES = [
@@ -30,70 +31,86 @@ CATEGORIES = [
 DEFAULT_REPO = "Lisi-prime/mm2_skin"
 DEFAULT_TOKEN = "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"
 
+class PreservingRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        new_req = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if new_req:
+            for k, v in HEADERS.items():
+                new_req.headers[k] = v
+        return new_req
+
+opener = urllib.request.build_opener(PreservingRedirectHandler)
+
 def clean_item_name(name):
     return html.unescape(name).strip()
 
 def scrape_category(category):
-    url = f"https://supremevaluelist.com/mm2/{category}"
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=14) as response:
-            page_html = response.read().decode("utf-8", errors="ignore")
-            pattern = re.compile(
-                r"data-name=['\"]([^'\"]+)['\"].*?Value\s*-\s*<b class=['\"]itemvalue[^'\"]*['\"]>([^<]+)</b>",
-                re.DOTALL
-            )
-            matches = pattern.findall(page_html)
-            results = {}
-            for name, val_str in matches:
-                name_clean = clean_item_name(name)
-                if name_clean in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
-                    continue
-                
-                raw_val = html.unescape(val_str).strip()
-                val_num_str = raw_val.replace(",", "")
-                try:
-                    num_val = float(val_num_str)
-                    if num_val == int(num_val):
-                        num_val = int(num_val)
-                    final_val = num_val
-                except ValueError:
-                    final_val = raw_val
-                
-                results[name_clean] = final_val
+    # Try supremevalues.com first, then fallback to supremevaluelist.com
+    urls = [
+        f"https://supremevalues.com/mm2/{category}",
+        f"https://supremevaluelist.com/mm2/{category}"
+    ]
+    for url in urls:
+        req = urllib.request.Request(url, headers=HEADERS)
+        try:
+            with opener.open(req, timeout=14) as response:
+                page_html = response.read().decode("utf-8", errors="ignore")
+                pattern = re.compile(
+                    r"data-name=['\"]([^'\"]+)['\"].*?Value\s*-\s*<b class=['\"]itemvalue[^'\"]*['\"]>([^<]+)</b>",
+                    re.DOTALL
+                )
+                matches = pattern.findall(page_html)
+                results = {}
+                for name, val_str in matches:
+                    name_clean = clean_item_name(name)
+                    if name_clean in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
+                        continue
+                    
+                    raw_val = html.unescape(val_str).strip()
+                    val_num_str = raw_val.replace(",", "")
+                    try:
+                        num_val = float(val_num_str)
+                        if num_val == int(num_val):
+                            num_val = int(num_val)
+                        final_val = num_val
+                    except ValueError:
+                        final_val = raw_val
+                    
+                    results[name_clean] = final_val
 
-                # Add convenient aliases
-                if "Chroma " in name_clean:
-                    suffix = name_clean.replace("Chroma ", "") + "Chroma"
-                    results[suffix] = final_val
-                if name_clean == "Battle Axe II":
-                    results["BattleAxe2"] = final_val
-                    results["BattleAxe II"] = final_val
-                elif name_clean == "Elderwood Blade":
-                    results["ElderwoodBlade"] = final_val
-                elif name_clean == "Elderwood Revolver":
-                    results["ElderwoodRevolver"] = final_val
-                elif name_clean == "Elderwood Scythe":
-                    results["ElderwoodScythe"] = final_val
-                elif name_clean == "Heart Wand":
-                    results["HeartWand"] = final_val
-                elif name_clean == "Traveler's Gun":
-                    results["Travelers Gun"] = final_val
-                elif name_clean == "Traveler's Axe":
-                    results["Travelers Axe"] = final_val
-                elif name_clean == "Vampire's Gun":
-                    results["Vampires Gun"] = final_val
-                elif name_clean == "Vampire's Axe":
-                    results["Vampires Axe"] = final_val
+                    # Add convenient aliases
+                    if "Chroma " in name_clean:
+                        suffix = name_clean.replace("Chroma ", "") + "Chroma"
+                        results[suffix] = final_val
+                    if name_clean == "Battle Axe II":
+                        results["BattleAxe2"] = final_val
+                        results["BattleAxe II"] = final_val
+                    elif name_clean == "Elderwood Blade":
+                        results["ElderwoodBlade"] = final_val
+                    elif name_clean == "Elderwood Revolver":
+                        results["ElderwoodRevolver"] = final_val
+                    elif name_clean == "Elderwood Scythe":
+                        results["ElderwoodScythe"] = final_val
+                    elif name_clean == "Heart Wand":
+                        results["HeartWand"] = final_val
+                    elif name_clean == "Traveler's Gun":
+                        results["Travelers Gun"] = final_val
+                    elif name_clean == "Traveler's Axe":
+                        results["Travelers Axe"] = final_val
+                    elif name_clean == "Vampire's Gun":
+                        results["Vampires Gun"] = final_val
+                    elif name_clean == "Vampire's Axe":
+                        results["Vampires Axe"] = final_val
 
-            if "Batwing" in results:
-                results["Batwing"] = 42
+                if "Batwing" in results:
+                    results["Batwing"] = 42
 
-            print(f"[Scraper] {category}: {len(results)} items scraped.")
-            return results
-    except Exception as e:
-        print(f"[Scraper] Failed to fetch {category}: {e}")
-        return {}
+                if len(results) > 0:
+                    print(f"[Scraper] {category}: {len(results)} items scraped from {url}.")
+                    return results
+        except Exception as e:
+            print(f"[Scraper] Warning {url}: {e}")
+    return {}
 
 def update_remote_github(token, repo, file_path, content_bytes, branch="main"):
     api_url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
@@ -193,6 +210,7 @@ def main():
     skins_path = os.path.join(base_dir, "skins.json")
     accurate_json = os.path.join(base_dir, "accurate_supreme_values.json")
     
+    # 1. Base values from accurate_supreme_values.json or existing values.json
     combined = {}
     if os.path.exists(accurate_json):
         try:
@@ -201,12 +219,34 @@ def main():
         except Exception:
             pass
 
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                d = json.load(f)
+                prev_vals = d.get("values", d)
+                if isinstance(prev_vals, dict) and len(prev_vals) > 50:
+                    for k, v in prev_vals.items():
+                        if k not in combined:
+                            combined[k] = v
+        except Exception:
+            pass
+
+    print(f"[Values System] Initial base catalog size: {len(combined)} items.")
+
+    # 2. Live scrape all categories
     scraped_total = 0
+    scraped_data = {}
     for cat in CATEGORIES:
         items = scrape_category(cat)
         scraped_total += len(items)
-        combined.update(items)
+        scraped_data.update(items)
         time.sleep(0.3)
+
+    if scraped_total > 50:
+        combined.update(scraped_data)
+        print(f"[Values System] Scrape successful: {scraped_total} items updated.")
+    else:
+        print(f"[Values System] Warning: Live scrape returned {scraped_total} items. Retaining previous catalog of {len(combined)} items.")
 
     combined["Batwing"] = 42
     for bad in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
@@ -227,7 +267,12 @@ def main():
         if base_name not in combined:
             combined[base_name] = val_list[0]
 
-    print(f"[Values System] Scraped {scraped_total} items. Total catalog: {len(combined)} items.")
+    print(f"[Values System] Total verified catalog: {len(combined)} items.")
+
+    # Protection: Never overwrite with less than 100 items!
+    if len(combined) < 100:
+        print("[Values System] Error: Catalog has fewer than 100 items. Aborting to protect existing files.")
+        return
 
     payload = {
         "updated_at": int(time.time()),
