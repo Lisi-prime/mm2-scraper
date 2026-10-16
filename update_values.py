@@ -297,7 +297,55 @@ def main():
 
     for base_name, val_list in base_candidates.items():
         if base_name not in combined:
-            combined[base_name] = val_list[0]
+            # Prefer tiered common/uncommon/rare strings over raw high collectible numbers for base names
+            preferred = None
+            for v in val_list:
+                if isinstance(v, str) and ("T1" in v or "Common" in v or "Rare" in v or "Uncommon" in v):
+                    preferred = v
+                    break
+            combined[base_name] = preferred if preferred is not None else val_list[0]
+
+    def build_item_entries(combined_dict):
+        entries = []
+        for raw_name, val in combined_dict.items():
+            if raw_name in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
+                continue
+            item_type = None
+            rarity = None
+            m_type = re.search(r"\((Gun|Knife|Pet)\)", raw_name, re.IGNORECASE)
+            if m_type:
+                item_type = m_type.group(1).capitalize()
+            elif raw_name.lower().endswith("gun") or "revolver" in raw_name.lower() or "luger" in raw_name.lower():
+                item_type = "Gun"
+            elif raw_name.lower().endswith("knife") or raw_name.lower().endswith("blade") or raw_name.lower().endswith("dagger"):
+                item_type = "Knife"
+
+            m_rarity = re.search(r"\[(Godly|Ancient|Vintage|Legendary|Rare|Uncommon|Common|Unique)\]", raw_name, re.IGNORECASE)
+            if m_rarity:
+                rarity = m_rarity.group(1).capitalize()
+
+            clean_name = re.sub(r"\s*\(.*?\)", "", raw_name)
+            clean_name = re.sub(r"\s*\[.*?\]", "", clean_name).strip()
+
+            if not rarity and isinstance(val, str):
+                val_lower = val.lower()
+                if "rare" in val_lower:
+                    rarity = "Rare"
+                elif "uncommon" in val_lower:
+                    rarity = "Uncommon"
+                elif "common" in val_lower:
+                    rarity = "Common"
+                elif "legendary" in val_lower:
+                    rarity = "Legendary"
+
+            entries.append({
+                "name": clean_name or raw_name,
+                "raw": raw_name,
+                "type": item_type,
+                "rarity": rarity,
+                "value": val
+            })
+        return entries
 
     print(f"[Values System] Total verified catalog: {len(combined)} items.")
 
@@ -311,7 +359,8 @@ def main():
         "updated_str": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
         "source": "Supreme Values",
         "count": len(combined),
-        "values": combined
+        "values": combined,
+        "entries": build_item_entries(combined)
     }
     for k, v in combined.items():
         payload[k] = v
