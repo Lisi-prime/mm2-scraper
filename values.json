@@ -1,6 +1,6 @@
 {
-  "updated_at": 1792183423,
-  "updated_str": "2026-10-16 20:43:43 UTC",
+  "updated_at": 1792183552,
+  "updated_str": "2026-10-16 20:45:52 UTC",
   "source": "Supreme Values",
   "count": 1032,
   "values": {
@@ -8,31 +8,31 @@
     "Evergun": 3450,
     "Evergreen": 2700,
     "Constellation": 2600,
-    "Alienbeam": 2000,
-    "Raygun": 1975,
+    "Alienbeam": 1975,
+    "Raygun": 1950,
     "Vampire's Gun": 1900,
     "Turkey": 1850,
     "Darkshot": 1800,
     "Darksword": 1775,
     "Blossom": "x4 T1 Legendaries",
-    "Sakura": 1230,
-    "Sunrise": 850,
+    "Sakura": 1250,
+    "Sunrise": 875,
     "Bauble": 675,
     "Snowcannon": 675,
-    "Soul": 665,
-    "Spirit": 655,
+    "Soul": 670,
+    "Spirit": 660,
     "Sunset": "x3 T1 Rares",
     "Rainbow Gun": 405,
-    "Xenoknife": 410,
-    "Xenoshot": 410,
+    "Xenoknife": 405,
+    "Xenoshot": 405,
     "Flora": 400,
     "Rainbow": 400,
     "Bloom": 395,
     "Batwing": 42,
     "Black Luger": 1000000,
     "Heart Wand": 340,
-    "Blizzard": 275,
-    "Snowstorm": 275,
+    "Blizzard": 280,
+    "Snowstorm": 280,
     "Ocean": 245,
     "Flowerwood Gun": 240,
     "Waves": "x2 T1 Rares",
@@ -131,10 +131,10 @@
     "Seer": 3,
     "Orange Seer": 2,
     "Yellow Seer": 2,
-    "Gingerscope": 15000,
-    "Traveler's Axe": 7000,
-    "Celestial": 2050,
-    "Vampire's Axe": 1450,
+    "Gingerscope": 15250,
+    "Traveler's Axe": 7100,
+    "Celestial": 2100,
+    "Vampire's Axe": 1500,
     "Harvester": 250,
     "Icepiercer": 160,
     "Icebreaker": 65,
@@ -153,16 +153,16 @@
     "Golden": 10,
     "Splitter": 3,
     "Chroma Traveler's Gun": 140000,
-    "Chroma Evergun": 52000,
-    "Chroma Evergreen": 38000,
+    "Chroma Evergun": 53000,
+    "Chroma Evergreen": 39000,
     "Chroma Bauble": 29000,
     "Chroma Constellation": 27000,
     "Chroma Vampire's Gun": 24500,
     "Chroma Alienbeam": 24000,
-    "Chroma Raygun": 14250,
-    "Chroma Sunrise": 10000,
+    "Chroma Raygun": 14500,
+    "Chroma Sunrise": 10250,
     "Chroma Snowcannon": 7750,
-    "Chroma Sunset": 6250,
+    "Chroma Sunset": 6500,
     "Chroma Blizzard": 5500,
     "Chroma Snowstorm": 4250,
     "Chroma Heart Wand": 3500,
@@ -200,7 +200,7 @@
     "Chroma Fire Dog": 3,
     "Chroma Fire Fox": 3,
     "Chroma Fire Pig": 3,
-    "Corrupt": 330,
+    "Corrupt": 340,
     "Latte (Gun)": 140,
     "Latte (Knife)": 140,
     "Spectral (Knife)": 50,
@@ -976,9 +976,9 @@
     "Strawberries": "x2 T1 Commons",
     "Striped": "x2 T1 Commons",
     "Travelers Gun": 5200,
-    "Travelers Axe": 7000,
+    "Travelers Axe": 7100,
     "Vampires Gun": 1900,
-    "Vampires Axe": 1450,
+    "Vampires Axe": 1500,
     "BattleAxe2": 45,
     "BattleAxe II": 45,
     "ElderwoodBlade": 33,
@@ -1071,14 +1071,14 @@
       "raw": "Alienbeam",
       "type": null,
       "rarity": null,
-      "value": 2000
+      "value": 1975
     },
     {
       "name": "Raygun",
       "raw": "Raygun",
       "type": "Gun",
       "rarity": null,
-      "value": 1975
+      "value": 1950
     },
     {
       "name": "Vampire's Gun",
@@ -1120,14 +1120,14 @@
       "raw": "Sakura",
       "type": null,
       "rarity": null,
-      "value": 1230
+      "value": 1250
     },
     {
       "name": "Sunrise",
       "raw": "Sunrise",
       "type": null,
       "rarity": null,
-      "value": 850
+      "value": 875
     },
     {
       "name": "Bauble",
@@ -1148,14 +1148,14 @@
       "raw": "Soul",
       "type": null,
       "rarity": null,
-      "value": 665
+      "value": 670
     },
     {
       "name": "Spirit",
       "raw": "Spirit",
       "type": null,
       "rarity": null,
-      "value": 655
+      "value": 660
     },
     {
       "name": "Sunset",
@@ -1176,14 +1176,14 @@
       "raw": "Xenoknife",
       "type": "Knife",
       "rarity": null,
-      "value": 410
+      "value": 405
     },
     {
       "name": "Xenoshot",
       "raw": "Xenoshot",
       "type": null,
       "rarity": null,
-      "value": 410
+      "value": 405
     },
     {
       "name": "Flora",
@@ -1232,14 +1232,14 @@
       "raw": "Blizzard",
       "type": null,
       "rarity": null,
-      "value": 275
+      "value": 280
     },
     {
       "name": "Snowstorm",
       "raw": "Snowstorm",
       "type": null,
       "rarity": null,
-      "value": 275
+      "value": 280
     },
     {
       "name": "Ocean",
@@ -1932,28 +1932,28 @@
       "raw": "Gingerscope",
       "type": null,
       "rarity": null,
-      "value": 15000
+      "value": 15250
     },
     {
       "name": "Traveler's Axe",
       "raw": "Traveler's Axe",
       "type": null,
       "rarity": null,
-      "value": 7000
+      "value": 7100
     },
     {
       "name": "Celestial",
       "raw": "Celestial",
       "type": null,
       "rarity": null,
-      "value": 2050
+      "value": 2100
     },
     {
       "name": "Vampire's Axe",
       "raw": "Vampire's Axe",
       "type": null,
       "rarity": null,
-      "value": 1450
+      "value": 1500
     },
     {
       "name": "Harvester",
@@ -2086,14 +2086,14 @@
       "raw": "Chroma Evergun",
       "type": "Gun",
       "rarity": null,
-      "value": 52000
+      "value": 53000
     },
     {
       "name": "Chroma Evergreen",
       "raw": "Chroma Evergreen",
       "type": null,
       "rarity": null,
-      "value": 38000
+      "value": 39000
     },
     {
       "name": "Chroma Bauble",
@@ -2128,14 +2128,14 @@
       "raw": "Chroma Raygun",
       "type": "Gun",
       "rarity": null,
-      "value": 14250
+      "value": 14500
     },
     {
       "name": "Chroma Sunrise",
       "raw": "Chroma Sunrise",
       "type": null,
       "rarity": null,
-      "value": 10000
+      "value": 10250
     },
     {
       "name": "Chroma Snowcannon",
@@ -2149,7 +2149,7 @@
       "raw": "Chroma Sunset",
       "type": null,
       "rarity": null,
-      "value": 6250
+      "value": 6500
     },
     {
       "name": "Chroma Blizzard",
@@ -2415,7 +2415,7 @@
       "raw": "Corrupt",
       "type": null,
       "rarity": null,
-      "value": 330
+      "value": 340
     },
     {
       "name": "Latte",
@@ -7847,7 +7847,7 @@
       "raw": "Travelers Axe",
       "type": null,
       "rarity": null,
-      "value": 7000
+      "value": 7100
     },
     {
       "name": "Vampires Gun",
@@ -7861,7 +7861,7 @@
       "raw": "Vampires Axe",
       "type": null,
       "rarity": null,
-      "value": 1450
+      "value": 1500
     },
     {
       "name": "BattleAxe2",
@@ -8267,31 +8267,31 @@
   "Evergun": 3450,
   "Evergreen": 2700,
   "Constellation": 2600,
-  "Alienbeam": 2000,
-  "Raygun": 1975,
+  "Alienbeam": 1975,
+  "Raygun": 1950,
   "Vampire's Gun": 1900,
   "Turkey": 1850,
   "Darkshot": 1800,
   "Darksword": 1775,
   "Blossom": "x4 T1 Legendaries",
-  "Sakura": 1230,
-  "Sunrise": 850,
+  "Sakura": 1250,
+  "Sunrise": 875,
   "Bauble": 675,
   "Snowcannon": 675,
-  "Soul": 665,
-  "Spirit": 655,
+  "Soul": 670,
+  "Spirit": 660,
   "Sunset": "x3 T1 Rares",
   "Rainbow Gun": 405,
-  "Xenoknife": 410,
-  "Xenoshot": 410,
+  "Xenoknife": 405,
+  "Xenoshot": 405,
   "Flora": 400,
   "Rainbow": 400,
   "Bloom": 395,
   "Batwing": 42,
   "Black Luger": 1000000,
   "Heart Wand": 340,
-  "Blizzard": 275,
-  "Snowstorm": 275,
+  "Blizzard": 280,
+  "Snowstorm": 280,
   "Ocean": 245,
   "Flowerwood Gun": 240,
   "Waves": "x2 T1 Rares",
@@ -8390,10 +8390,10 @@
   "Seer": 3,
   "Orange Seer": 2,
   "Yellow Seer": 2,
-  "Gingerscope": 15000,
-  "Traveler's Axe": 7000,
-  "Celestial": 2050,
-  "Vampire's Axe": 1450,
+  "Gingerscope": 15250,
+  "Traveler's Axe": 7100,
+  "Celestial": 2100,
+  "Vampire's Axe": 1500,
   "Harvester": 250,
   "Icepiercer": 160,
   "Icebreaker": 65,
@@ -8412,16 +8412,16 @@
   "Golden": 10,
   "Splitter": 3,
   "Chroma Traveler's Gun": 140000,
-  "Chroma Evergun": 52000,
-  "Chroma Evergreen": 38000,
+  "Chroma Evergun": 53000,
+  "Chroma Evergreen": 39000,
   "Chroma Bauble": 29000,
   "Chroma Constellation": 27000,
   "Chroma Vampire's Gun": 24500,
   "Chroma Alienbeam": 24000,
-  "Chroma Raygun": 14250,
-  "Chroma Sunrise": 10000,
+  "Chroma Raygun": 14500,
+  "Chroma Sunrise": 10250,
   "Chroma Snowcannon": 7750,
-  "Chroma Sunset": 6250,
+  "Chroma Sunset": 6500,
   "Chroma Blizzard": 5500,
   "Chroma Snowstorm": 4250,
   "Chroma Heart Wand": 3500,
@@ -8459,7 +8459,7 @@
   "Chroma Fire Dog": 3,
   "Chroma Fire Fox": 3,
   "Chroma Fire Pig": 3,
-  "Corrupt": 330,
+  "Corrupt": 340,
   "Latte (Gun)": 140,
   "Latte (Knife)": 140,
   "Spectral (Knife)": 50,
@@ -9235,9 +9235,9 @@
   "Strawberries": "x2 T1 Commons",
   "Striped": "x2 T1 Commons",
   "Travelers Gun": 5200,
-  "Travelers Axe": 7000,
+  "Travelers Axe": 7100,
   "Vampires Gun": 1900,
-  "Vampires Axe": 1450,
+  "Vampires Axe": 1500,
   "BattleAxe2": 45,
   "BattleAxe II": 45,
   "ElderwoodBlade": 33,
