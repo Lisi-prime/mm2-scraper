@@ -1,6 +1,6 @@
 {
-  "updated_at": 1792243758,
-  "updated_str": "2026-10-17 13:29:18 UTC",
+  "updated_at": 1792274862,
+  "updated_str": "2026-10-17 22:07:42 UTC",
   "source": "Supreme Values (Official)",
   "count": 1588,
   "values": {
@@ -10,40 +10,40 @@
     "Evergun (Gun)": 3450,
     "Evergreen": 2700,
     "Evergreen (Knife)": 2700,
-    "Constellation": 2600,
-    "Constellation (Gun)": 2600,
-    "Alienbeam": 2000,
-    "Alienbeam (Knife)": 2000,
-    "Raygun": 1975,
-    "Raygun (Gun)": 1975,
+    "Constellation": 2550,
+    "Constellation (Gun)": 2550,
+    "Alienbeam": 2025,
+    "Alienbeam (Knife)": 2025,
+    "Raygun": 2000,
+    "Raygun (Gun)": 2000,
     "Vampire's Gun": 1900,
     "Vampire's Gun (Gun)": 1900,
     "Turkey": 1850,
     "Turkey (Knife)": 1850,
-    "Darkshot": 1800,
-    "Darkshot (Gun)": 1800,
-    "Darksword": 1775,
-    "Darksword (Knife)": 1775,
-    "Blossom": 1240,
-    "Blossom (Gun)": 1240,
-    "Sakura": 1230,
-    "Sakura (Knife)": 1230,
-    "Sunrise": 850,
-    "Sunrise (Gun)": 850,
+    "Darkshot": 1775,
+    "Darkshot (Gun)": 1775,
+    "Darksword": 1750,
+    "Darksword (Knife)": 1750,
+    "Blossom": 1220,
+    "Blossom (Gun)": 1220,
+    "Sakura": 1210,
+    "Sakura (Knife)": 1210,
+    "Sunrise": 825,
+    "Sunrise (Gun)": 825,
     "Bauble": 675,
     "Bauble (Gun)": 675,
     "Snowcannon": 675,
     "Snowcannon (Gun)": 675,
-    "Soul": 665,
-    "Soul (Gun)": 665,
-    "Spirit": 655,
-    "Spirit (Knife)": 655,
+    "Soul": 655,
+    "Soul (Gun)": 655,
     "Sunset": 650,
     "Sunset (Knife)": 650,
-    "Xenoknife": 410,
-    "Xenoknife (Knife)": 410,
-    "Xenoshot": 410,
-    "Xenoshot (Gun)": 410,
+    "Spirit": 645,
+    "Spirit (Knife)": 645,
+    "Xenoknife": 415,
+    "Xenoknife (Knife)": 415,
+    "Xenoshot": 415,
+    "Xenoshot (Gun)": 415,
     "Rainbow Gun": 405,
     "Rainbow Gun (Gun)": 405,
     "Flora": 400,
@@ -54,10 +54,10 @@
     "Bloom (Knife)": 395,
     "Heart Wand": 340,
     "Heart Wand (Knife)": 340,
-    "Blizzard": 275,
-    "Blizzard (Gun)": 275,
-    "Snowstorm": 275,
-    "Snowstorm (Knife)": 275,
+    "Blizzard": 265,
+    "Blizzard (Gun)": 265,
+    "Snowstorm": 265,
+    "Snowstorm (Knife)": 265,
     "Ocean": 245,
     "Ocean (Gun)": 245,
     "Flowerwood Gun": 240,
@@ -254,14 +254,14 @@
     "Orange Seer (Knife)": 2,
     "Yellow Seer": 2,
     "Yellow Seer (Knife)": 2,
-    "Gingerscope": 15000,
-    "Gingerscope (Gun)": 15000,
-    "Traveler's Axe": 7000,
-    "Traveler's Axe (Knife)": 7000,
-    "Celestial": 2050,
-    "Celestial (Knife)": 2050,
-    "Vampire's Axe": 1450,
-    "Vampire's Axe (Knife)": 1450,
+    "Gingerscope": 14750,
+    "Gingerscope (Gun)": 14750,
+    "Traveler's Axe": 7100,
+    "Traveler's Axe (Knife)": 7100,
+    "Celestial": 2000,
+    "Celestial (Knife)": 2000,
+    "Vampire's Axe": 1400,
+    "Vampire's Axe (Knife)": 1400,
     "Harvester": 250,
     "Harvester (Gun)": 250,
     "Icepiercer": 160,
@@ -300,10 +300,10 @@
     "Splitter (Knife)": 3,
     "Chroma Traveler's Gun": 140000,
     "Chroma Traveler's Gun (Gun)": 140000,
-    "Chroma Evergun": 52000,
-    "Chroma Evergun (Gun)": 52000,
-    "Chroma Evergreen": 38000,
-    "Chroma Evergreen (Knife)": 38000,
+    "Chroma Evergun": 51000,
+    "Chroma Evergun (Gun)": 51000,
+    "Chroma Evergreen": 37000,
+    "Chroma Evergreen (Knife)": 37000,
     "Chroma Bauble": 29000,
     "Chroma Bauble (Knife)": 29000,
     "Chroma Constellation": 27000,
@@ -312,14 +312,14 @@
     "Chroma Vampire's Gun (Gun)": 24500,
     "Chroma Alienbeam": 24000,
     "Chroma Alienbeam (Knife)": 24000,
-    "Chroma Raygun": 14250,
-    "Chroma Raygun (Gun)": 14250,
-    "Chroma Sunrise": 10000,
-    "Chroma Sunrise (Knife)": 10000,
+    "Chroma Raygun": 14000,
+    "Chroma Raygun (Gun)": 14000,
+    "Chroma Sunrise": 9750,
+    "Chroma Sunrise (Knife)": 9750,
     "Chroma Snowcannon": 7750,
     "Chroma Snowcannon (Knife)": 7750,
-    "Chroma Sunset": 6250,
-    "Chroma Sunset (Knife)": 6250,
+    "Chroma Sunset": 6000,
+    "Chroma Sunset (Knife)": 6000,
     "Chroma Blizzard": 5500,
     "Chroma Blizzard (Knife)": 5500,
     "Chroma Snowstorm": 4250,
@@ -338,10 +338,10 @@
     "Chroma Treat (Knife)": 1775,
     "Chroma Sweet": 1725,
     "Chroma Sweet (Knife)": 1725,
-    "Chroma Sands": 1200,
-    "Chroma Sands (Knife)": 1200,
-    "Chroma Beachy": 1150,
-    "Chroma Beachy (Knife)": 1150,
+    "Chroma Sands": 1225,
+    "Chroma Sands (Knife)": 1225,
+    "Chroma Beachy": 1175,
+    "Chroma Beachy (Knife)": 1175,
     "Chroma Darkbringer": 65,
     "Chroma Darkbringer (Knife)": 65,
     "Chroma Lightbringer": 60,
@@ -394,8 +394,8 @@
     "Chroma Fire Fox (Knife)": 3,
     "Chroma Fire Pig": 3,
     "Chroma Fire Pig (Knife)": 3,
-    "Corrupt": 330,
-    "Corrupt (Knife)": 330,
+    "Corrupt": 320,
+    "Corrupt (Knife)": 320,
     "Latte": 140,
     "Latte (Gun)": 140,
     "Latte (Knife)": 140,
@@ -1440,10 +1440,10 @@
     "Black Cat (Pet)": 75,
     "Green Pumpkin [HALLOWS2018]": 60,
     "Green Pumpkin [HALLOWS2018] (Pet)": 60,
-    "Mr. Reindeer": 55,
-    "Mr. Reindeer (Pet)": 55,
     "Piggy": 55,
     "Piggy (Pet)": 55,
+    "Mr. Reindeer": 50,
+    "Mr. Reindeer (Pet)": 50,
     "Pumpkin (Pet)": "x1 T1 Common",
     "Red Pumpkin [HALLOWS2020]": 20,
     "Red Pumpkin [HALLOWS2020] (Pet)": 20,
@@ -1583,9 +1583,9 @@
     "Candies (Misc)": "x1 T1 Common",
     "Batwing [Ancient]": 42,
     "Travelers Gun": 5200,
-    "Travelers Axe": 7000,
+    "Travelers Axe": 7100,
     "Vampires Gun": 1900,
-    "Vampires Axe": 1450,
+    "Vampires Axe": 1400,
     "BattleAxe2": 45,
     "BattleAxe II": 45,
     "ElderwoodBlade": 33,
@@ -1628,7 +1628,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2024",
-      "value": 2600
+      "value": 2550
     },
     {
       "name": "Alienbeam",
@@ -1637,7 +1637,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 2000
+      "value": 2025
     },
     {
       "name": "Raygun",
@@ -1646,7 +1646,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 1975
+      "value": 2000
     },
     {
       "name": "Vampire's Gun",
@@ -1673,7 +1673,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2023",
-      "value": 1800
+      "value": 1775
     },
     {
       "name": "Darksword",
@@ -1682,7 +1682,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2023",
-      "value": 1775
+      "value": 1750
     },
     {
       "name": "Blossom",
@@ -1691,7 +1691,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2023",
-      "value": 1240
+      "value": 1220
     },
     {
       "name": "Sakura",
@@ -1700,7 +1700,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2023",
-      "value": 1230
+      "value": 1210
     },
     {
       "name": "Sunrise",
@@ -1709,7 +1709,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 850
+      "value": 825
     },
     {
       "name": "Bauble",
@@ -1736,15 +1736,6 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2024",
-      "value": 665
-    },
-    {
-      "name": "Spirit",
-      "raw": "Spirit",
-      "type": "Knife",
-      "rarity": "Godly",
-      "is_chroma": false,
-      "year": "2024",
       "value": 655
     },
     {
@@ -1757,13 +1748,22 @@
       "value": 650
     },
     {
+      "name": "Spirit",
+      "raw": "Spirit",
+      "type": "Knife",
+      "rarity": "Godly",
+      "is_chroma": false,
+      "year": "2024",
+      "value": 645
+    },
+    {
       "name": "Xenoknife",
       "raw": "Xenoknife",
       "type": "Knife",
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 410
+      "value": 415
     },
     {
       "name": "Xenoshot",
@@ -1772,7 +1772,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 410
+      "value": 415
     },
     {
       "name": "Rainbow Gun",
@@ -1826,7 +1826,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 275
+      "value": 265
     },
     {
       "name": "Snowstorm",
@@ -1835,7 +1835,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 275
+      "value": 265
     },
     {
       "name": "Ocean",
@@ -2726,7 +2726,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2023",
-      "value": 15000
+      "value": 14750
     },
     {
       "name": "Traveler's Axe",
@@ -2735,7 +2735,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2023",
-      "value": 7000
+      "value": 7100
     },
     {
       "name": "Celestial",
@@ -2744,7 +2744,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2024",
-      "value": 2050
+      "value": 2000
     },
     {
       "name": "Vampire's Axe",
@@ -2753,7 +2753,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2024",
-      "value": 1450
+      "value": 1400
     },
     {
       "name": "Harvester",
@@ -2942,7 +2942,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2023",
-      "value": 52000
+      "value": 51000
     },
     {
       "name": "Chroma Evergreen",
@@ -2951,7 +2951,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2023",
-      "value": 38000
+      "value": 37000
     },
     {
       "name": "Chroma Bauble",
@@ -2996,7 +2996,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2025",
-      "value": 14250
+      "value": 14000
     },
     {
       "name": "Chroma Sunrise",
@@ -3005,7 +3005,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2025",
-      "value": 10000
+      "value": 9750
     },
     {
       "name": "Chroma Snowcannon",
@@ -3023,7 +3023,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2025",
-      "value": 6250
+      "value": 6000
     },
     {
       "name": "Chroma Blizzard",
@@ -3113,7 +3113,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2026",
-      "value": 1200
+      "value": 1225
     },
     {
       "name": "Chroma Beachy",
@@ -3122,7 +3122,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2026",
-      "value": 1150
+      "value": 1175
     },
     {
       "name": "Chroma Darkbringer",
@@ -3365,7 +3365,7 @@
       "rarity": "Unique",
       "is_chroma": false,
       "year": null,
-      "value": 330
+      "value": 320
     },
     {
       "name": "Latte",
@@ -9137,15 +9137,6 @@
       "value": 60
     },
     {
-      "name": "Mr. Reindeer",
-      "raw": "Mr. Reindeer",
-      "type": "Pet",
-      "rarity": "Common",
-      "is_chroma": false,
-      "year": "2020",
-      "value": 55
-    },
-    {
       "name": "Piggy",
       "raw": "Piggy",
       "type": "Pet",
@@ -9153,6 +9144,15 @@
       "is_chroma": false,
       "year": null,
       "value": 55
+    },
+    {
+      "name": "Mr. Reindeer",
+      "raw": "Mr. Reindeer",
+      "type": "Pet",
+      "rarity": "Common",
+      "is_chroma": false,
+      "year": "2020",
+      "value": 50
     },
     {
       "name": "Pumpkin",
@@ -9800,40 +9800,40 @@
   "Evergun (Gun)": 3450,
   "Evergreen": 2700,
   "Evergreen (Knife)": 2700,
-  "Constellation": 2600,
-  "Constellation (Gun)": 2600,
-  "Alienbeam": 2000,
-  "Alienbeam (Knife)": 2000,
-  "Raygun": 1975,
-  "Raygun (Gun)": 1975,
+  "Constellation": 2550,
+  "Constellation (Gun)": 2550,
+  "Alienbeam": 2025,
+  "Alienbeam (Knife)": 2025,
+  "Raygun": 2000,
+  "Raygun (Gun)": 2000,
   "Vampire's Gun": 1900,
   "Vampire's Gun (Gun)": 1900,
   "Turkey": 1850,
   "Turkey (Knife)": 1850,
-  "Darkshot": 1800,
-  "Darkshot (Gun)": 1800,
-  "Darksword": 1775,
-  "Darksword (Knife)": 1775,
-  "Blossom": 1240,
-  "Blossom (Gun)": 1240,
-  "Sakura": 1230,
-  "Sakura (Knife)": 1230,
-  "Sunrise": 850,
-  "Sunrise (Gun)": 850,
+  "Darkshot": 1775,
+  "Darkshot (Gun)": 1775,
+  "Darksword": 1750,
+  "Darksword (Knife)": 1750,
+  "Blossom": 1220,
+  "Blossom (Gun)": 1220,
+  "Sakura": 1210,
+  "Sakura (Knife)": 1210,
+  "Sunrise": 825,
+  "Sunrise (Gun)": 825,
   "Bauble": 675,
   "Bauble (Gun)": 675,
   "Snowcannon": 675,
   "Snowcannon (Gun)": 675,
-  "Soul": 665,
-  "Soul (Gun)": 665,
-  "Spirit": 655,
-  "Spirit (Knife)": 655,
+  "Soul": 655,
+  "Soul (Gun)": 655,
   "Sunset": 650,
   "Sunset (Knife)": 650,
-  "Xenoknife": 410,
-  "Xenoknife (Knife)": 410,
-  "Xenoshot": 410,
-  "Xenoshot (Gun)": 410,
+  "Spirit": 645,
+  "Spirit (Knife)": 645,
+  "Xenoknife": 415,
+  "Xenoknife (Knife)": 415,
+  "Xenoshot": 415,
+  "Xenoshot (Gun)": 415,
   "Rainbow Gun": 405,
   "Rainbow Gun (Gun)": 405,
   "Flora": 400,
@@ -9844,10 +9844,10 @@
   "Bloom (Knife)": 395,
   "Heart Wand": 340,
   "Heart Wand (Knife)": 340,
-  "Blizzard": 275,
-  "Blizzard (Gun)": 275,
-  "Snowstorm": 275,
-  "Snowstorm (Knife)": 275,
+  "Blizzard": 265,
+  "Blizzard (Gun)": 265,
+  "Snowstorm": 265,
+  "Snowstorm (Knife)": 265,
   "Ocean": 245,
   "Ocean (Gun)": 245,
   "Flowerwood Gun": 240,
@@ -10044,14 +10044,14 @@
   "Orange Seer (Knife)": 2,
   "Yellow Seer": 2,
   "Yellow Seer (Knife)": 2,
-  "Gingerscope": 15000,
-  "Gingerscope (Gun)": 15000,
-  "Traveler's Axe": 7000,
-  "Traveler's Axe (Knife)": 7000,
-  "Celestial": 2050,
-  "Celestial (Knife)": 2050,
-  "Vampire's Axe": 1450,
-  "Vampire's Axe (Knife)": 1450,
+  "Gingerscope": 14750,
+  "Gingerscope (Gun)": 14750,
+  "Traveler's Axe": 7100,
+  "Traveler's Axe (Knife)": 7100,
+  "Celestial": 2000,
+  "Celestial (Knife)": 2000,
+  "Vampire's Axe": 1400,
+  "Vampire's Axe (Knife)": 1400,
   "Harvester": 250,
   "Harvester (Gun)": 250,
   "Icepiercer": 160,
@@ -10090,10 +10090,10 @@
   "Splitter (Knife)": 3,
   "Chroma Traveler's Gun": 140000,
   "Chroma Traveler's Gun (Gun)": 140000,
-  "Chroma Evergun": 52000,
-  "Chroma Evergun (Gun)": 52000,
-  "Chroma Evergreen": 38000,
-  "Chroma Evergreen (Knife)": 38000,
+  "Chroma Evergun": 51000,
+  "Chroma Evergun (Gun)": 51000,
+  "Chroma Evergreen": 37000,
+  "Chroma Evergreen (Knife)": 37000,
   "Chroma Bauble": 29000,
   "Chroma Bauble (Knife)": 29000,
   "Chroma Constellation": 27000,
@@ -10102,14 +10102,14 @@
   "Chroma Vampire's Gun (Gun)": 24500,
   "Chroma Alienbeam": 24000,
   "Chroma Alienbeam (Knife)": 24000,
-  "Chroma Raygun": 14250,
-  "Chroma Raygun (Gun)": 14250,
-  "Chroma Sunrise": 10000,
-  "Chroma Sunrise (Knife)": 10000,
+  "Chroma Raygun": 14000,
+  "Chroma Raygun (Gun)": 14000,
+  "Chroma Sunrise": 9750,
+  "Chroma Sunrise (Knife)": 9750,
   "Chroma Snowcannon": 7750,
   "Chroma Snowcannon (Knife)": 7750,
-  "Chroma Sunset": 6250,
-  "Chroma Sunset (Knife)": 6250,
+  "Chroma Sunset": 6000,
+  "Chroma Sunset (Knife)": 6000,
   "Chroma Blizzard": 5500,
   "Chroma Blizzard (Knife)": 5500,
   "Chroma Snowstorm": 4250,
@@ -10128,10 +10128,10 @@
   "Chroma Treat (Knife)": 1775,
   "Chroma Sweet": 1725,
   "Chroma Sweet (Knife)": 1725,
-  "Chroma Sands": 1200,
-  "Chroma Sands (Knife)": 1200,
-  "Chroma Beachy": 1150,
-  "Chroma Beachy (Knife)": 1150,
+  "Chroma Sands": 1225,
+  "Chroma Sands (Knife)": 1225,
+  "Chroma Beachy": 1175,
+  "Chroma Beachy (Knife)": 1175,
   "Chroma Darkbringer": 65,
   "Chroma Darkbringer (Knife)": 65,
   "Chroma Lightbringer": 60,
@@ -10184,8 +10184,8 @@
   "Chroma Fire Fox (Knife)": 3,
   "Chroma Fire Pig": 3,
   "Chroma Fire Pig (Knife)": 3,
-  "Corrupt": 330,
-  "Corrupt (Knife)": 330,
+  "Corrupt": 320,
+  "Corrupt (Knife)": 320,
   "Latte": 140,
   "Latte (Gun)": 140,
   "Latte (Knife)": 140,
@@ -11230,10 +11230,10 @@
   "Black Cat (Pet)": 75,
   "Green Pumpkin [HALLOWS2018]": 60,
   "Green Pumpkin [HALLOWS2018] (Pet)": 60,
-  "Mr. Reindeer": 55,
-  "Mr. Reindeer (Pet)": 55,
   "Piggy": 55,
   "Piggy (Pet)": 55,
+  "Mr. Reindeer": 50,
+  "Mr. Reindeer (Pet)": 50,
   "Pumpkin (Pet)": "x1 T1 Common",
   "Red Pumpkin [HALLOWS2020]": 20,
   "Red Pumpkin [HALLOWS2020] (Pet)": 20,
@@ -11373,9 +11373,9 @@
   "Candies (Misc)": "x1 T1 Common",
   "Batwing [Ancient]": 42,
   "Travelers Gun": 5200,
-  "Travelers Axe": 7000,
+  "Travelers Axe": 7100,
   "Vampires Gun": 1900,
-  "Vampires Axe": 1450,
+  "Vampires Axe": 1400,
   "BattleAxe2": 45,
   "BattleAxe II": 45,
   "ElderwoodBlade": 33,
