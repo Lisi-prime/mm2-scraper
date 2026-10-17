@@ -112,6 +112,11 @@ def scrape_category(category):
                 soup = BeautifulSoup(page_html, "html.parser")
                 results = []
                 for col in soup.find_all("div", class_="itemcolumn"):
+                    # Ignore hidden easter-eggs / unreleased placeholders on Supreme (e.g. hidden Batwing 1M, Black Luger 1M)
+                    style_str = col.get("style", "").replace(" ", "").lower()
+                    if "display:none" in style_str:
+                        continue
+
                     btn = col.find("button", attrs={"data-name": True})
                     if not btn:
                         continue
@@ -356,11 +361,10 @@ def main():
             if t:
                 combined_values[f"Chroma {clean_name} ({t})"] = val
 
-    # Fix Batwing base key to 42 (Ancient standard weapon) rather than 1M trophy
+    # Fix Batwing base key to 42 (Ancient standard weapon)
     combined_values["Batwing"] = 42
     combined_values["Batwing (Knife)"] = 42
     combined_values["Batwing [Ancient]"] = 42
-    combined_values["Batwing [Godly]"] = 1000000
 
     # Add standard MM2 alternative spellings without clutter
     common_aliases = {
