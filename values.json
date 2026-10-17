@@ -1,38 +1,38 @@
 {
-  "updated_at": 1792240695,
-  "updated_str": "2026-10-17 12:38:15 UTC",
+  "updated_at": 1792240757,
+  "updated_str": "2026-10-17 12:39:17 UTC",
   "source": "Supreme Values",
-  "count": 3050,
+  "count": 3221,
   "values": {
     "Traveler's Gun": 5200,
     "Evergun": 3450,
     "Evergreen": 2700,
     "Constellation": 2600,
-    "Alienbeam": 1975,
-    "Raygun": 1950,
+    "Alienbeam": 2000,
+    "Raygun": 1975,
     "Vampire's Gun": 1900,
     "Turkey": 1850,
     "Darkshot": 1800,
     "Darksword": 1775,
     "Blossom": "x4 T1 Legendaries",
-    "Sakura": 1250,
-    "Sunrise": 875,
+    "Sakura": 1230,
+    "Sunrise": 850,
     "Bauble": 675,
     "Snowcannon": 675,
-    "Soul": 670,
-    "Spirit": 660,
+    "Soul": 665,
+    "Spirit": 655,
     "Sunset": "x3 T1 Rares",
     "Rainbow Gun": 405,
-    "Xenoknife": 405,
-    "Xenoshot": 405,
+    "Xenoknife": 410,
+    "Xenoshot": 410,
     "Flora": 400,
     "Rainbow": 400,
     "Bloom": 395,
     "Batwing": 42,
     "Black Luger": 1000000,
     "Heart Wand": 340,
-    "Blizzard": 280,
-    "Snowstorm": 280,
+    "Blizzard": 275,
+    "Snowstorm": 275,
     "Ocean": 245,
     "Flowerwood Gun": 240,
     "Waves": "x2 T1 Rares",
@@ -131,10 +131,10 @@
     "Seer": 3,
     "Orange Seer": 2,
     "Yellow Seer": 2,
-    "Gingerscope": 15250,
-    "Traveler's Axe": 7100,
-    "Celestial": 2100,
-    "Vampire's Axe": 1500,
+    "Gingerscope": 15000,
+    "Traveler's Axe": 7000,
+    "Celestial": 2050,
+    "Vampire's Axe": 1450,
     "Harvester": 250,
     "Icepiercer": 160,
     "Icebreaker": 65,
@@ -153,16 +153,16 @@
     "Golden": 10,
     "Splitter": 3,
     "Chroma Traveler's Gun": 140000,
-    "Chroma Evergun": 53000,
-    "Chroma Evergreen": 39000,
+    "Chroma Evergun": 52000,
+    "Chroma Evergreen": 38000,
     "Chroma Bauble": 29000,
     "Chroma Constellation": 27000,
     "Chroma Vampire's Gun": 24500,
     "Chroma Alienbeam": 24000,
-    "Chroma Raygun": 14500,
-    "Chroma Sunrise": 10250,
+    "Chroma Raygun": 14250,
+    "Chroma Sunrise": 10000,
     "Chroma Snowcannon": 7750,
-    "Chroma Sunset": 6500,
+    "Chroma Sunset": 6250,
     "Chroma Blizzard": 5500,
     "Chroma Snowstorm": 4250,
     "Chroma Heart Wand": 3500,
@@ -200,7 +200,7 @@
     "Chroma Fire Dog": 3,
     "Chroma Fire Fox": 3,
     "Chroma Fire Pig": 3,
-    "Corrupt": 340,
+    "Corrupt": 330,
     "Latte (Gun)": 140,
     "Latte (Knife)": 140,
     "Spectral (Knife)": 50,
@@ -976,9 +976,9 @@
     "Strawberries": "x2 T1 Commons",
     "Striped": "x2 T1 Commons",
     "Travelers Gun": 5200,
-    "Travelers Axe": 7100,
+    "Travelers Axe": 7000,
     "Vampires Gun": 1900,
-    "Vampires Axe": 1500,
+    "Vampires Axe": 1450,
     "BattleAxe2": 45,
     "BattleAxe II": 45,
     "ElderwoodBlade": 33,
@@ -3053,7 +3053,178 @@
     "Fire FoxChroma [Godly]": 3,
     "Fire PigChroma (Pet)": 3,
     "Fire PigChroma (Pet) [Godly]": 3,
-    "Fire PigChroma [Godly]": 3
+    "Fire PigChroma [Godly]": 3,
+    "Blossom (Gun)": "x4 T1 Legendaries",
+    "Blossom (Gun) [Godly]": "x4 T1 Legendaries",
+    "Blossom [Godly]": "x4 T1 Legendaries",
+    "Sunset (Knife)": "x3 T1 Rares",
+    "Sunset (Knife) [Godly]": "x3 T1 Rares",
+    "Sunset [Godly]": "x3 T1 Rares",
+    "Waves (Knife) [Godly]": "x2 T1 Rares",
+    "Waves [Godly]": "x2 T1 Rares",
+    "Bat (Knife)": "x2 T1 Uncommons",
+    "Bat (Knife) [Godly]": "x2 T1 Uncommons",
+    "Bat [Godly]": "x2 T1 Uncommons",
+    "Ornament (Knife) [Godly]": "x4 T1 Legendaries",
+    "Ornament [Godly]": "x4 T1 Legendaries",
+    "Candleflame (Knife)": "x1 T1 Legendary",
+    "Candleflame (Knife) [Godly]": "x1 T1 Legendary",
+    "Candleflame [Godly]": "x1 T1 Legendary",
+    "Makeshift (Gun)": 35,
+    "Makeshift (Gun) [Godly]": 35,
+    "Makeshift [Godly]": 35,
+    "Laser (Gun)": 10,
+    "Laser (Gun) [Godly]": 10,
+    "Laser [Godly]": 10,
+    "Spider (Knife) [Godly]": "x2 T1 Commons",
+    "Spider [Godly]": "x2 T1 Commons",
+    "Snowflake (Knife) [Godly]": "x3 T1 Uncommons",
+    "Snowflake [Godly]": "x3 T1 Uncommons",
+    "Peppermint (Knife) [Godly]": "x2 T1 Commons",
+    "Peppermint [Godly]": "x2 T1 Commons",
+    "Ghost (Knife) [Vintage]": 2,
+    "Ghost [Vintage]": 2,
+    "Shadow (Knife)": 10,
+    "Shadow (Knife) [Vintage]": 10,
+    "Shadow [Vintage]": 10,
+    "Phaser (Gun)": 10,
+    "Phaser (Gun) [Vintage]": 10,
+    "Phaser [Vintage]": 10,
+    "Golden (Gun)": 10,
+    "Golden (Gun) [Vintage]": 10,
+    "Golden [Vintage]": 10,
+    "Chroma Sunset (Knife)": 6250,
+    "Chroma Sunset (Knife) [Godly]": 6250,
+    "Chroma Sunset [Godly]": 6250,
+    "Chroma Ornament (Knife) [Godly]": 1825,
+    "Chroma Ornament [Godly]": 1825,
+    "Chroma Candleflame (Knife)": 40,
+    "Chroma Candleflame (Knife) [Godly]": 40,
+    "Chroma Candleflame [Godly]": 40,
+    "Chroma Laser (Gun)": 40,
+    "Chroma Laser (Gun) [Godly]": 40,
+    "Chroma Laser [Godly]": 40,
+    "Latte (Gun) [Legendary]": 140,
+    "Traveler (Gun) [Legendary]": 50,
+    "Arctic (Gun) [Legendary]": 10,
+    "Ginger (Gun) [Legendary]": "x4 T1 Legendaries",
+    "Skulls (Knife) [Legendary]": 15,
+    "Skulls [Legendary]": 15,
+    "Frostfade (Gun) [Legendary]": 2,
+    "Chromatic (Gun) [Legendary]": 1,
+    "Cursed (Gun) [Legendary]": "x4 T1 Legendaries",
+    "Predator (Gun) [Legendary]": "x4 T1 Legendaries",
+    "Ripper (Gun) [Legendary]": "x4 T1 Legendaries",
+    "Tree (Gun) [Legendary]": "x2 T1 Rares",
+    "Tree [Legendary]": "x2 T1 Rares",
+    "Aquarium (Gun) [Legendary]": "x3 T1 Legendaries",
+    "Cane (Knife) [Rare]": "x2 T1 Rares",
+    "Cane [Rare]": "x2 T1 Rares",
+    "Silent Night (Gun) [Rare]": 50,
+    "Starry (Gun) [Rare]": 5,
+    "Starry [Rare]": 5,
+    "Watcher (Gun) [Rare]": "x3 T1 Commons",
+    "Toxic (Gun) [Rare]": 5,
+    "Candy Swirl (Gun) [Rare]": 2,
+    "Bats (Knife) [Rare]": "x2 T1 Commons",
+    "Bats [Rare]": "x2 T1 Commons",
+    "Gingerbread (Gun) [Rare]": "x2 T1 Uncommons",
+    "Gingerbread [Rare]": "x2 T1 Uncommons",
+    "Monster (Gun)": "x3 T1 Uncommons",
+    "Monster (Gun) [Rare]": "x3 T1 Uncommons",
+    "Monster [Rare]": "x3 T1 Uncommons",
+    "Mummy (Gun)": "x3 T1 Uncommons",
+    "Mummy (Gun) [Rare]": "x3 T1 Uncommons",
+    "Mummy [Rare]": "x3 T1 Uncommons",
+    "Frostflame (Gun) [Rare]": "x1 T1 Legendary",
+    "Bones (Knife) [Rare]": "x4 T1 Legendaries",
+    "Bones [Rare]": "x4 T1 Legendaries",
+    "Ghosts (Gun) [Rare]": "x3 T1 Rares",
+    "Ghosts [Rare]": "x3 T1 Rares",
+    "Gingercookie (Gun) [Rare]": "x3 T1 Rares",
+    "Pop Art (Gun) [Rare]": "x3 T1 Rares",
+    "Brains (Knife)": "x3 T1 Uncommons",
+    "Brains (Knife) [Uncommon]": "x3 T1 Uncommons",
+    "Sweater (Gun)": "x2 T1 Uncommons",
+    "Sweater (Gun) [Uncommon]": "x2 T1 Uncommons",
+    "Wrap (Gun) [Uncommon]": 12,
+    "Snowman (Gun)": "x2 T1 Commons",
+    "Snowman (Gun) [Uncommon]": "x2 T1 Commons",
+    "Snowman [Uncommon]": "x2 T1 Commons",
+    "Hazard (Gun) [Uncommon]": 5,
+    "Webs (Knife)": "x2 T1 Uncommons",
+    "Webs (Knife) [Uncommon]": "x2 T1 Uncommons",
+    "Webs [Uncommon]": "x2 T1 Uncommons",
+    "Potion (Gun) [Uncommon]": 2,
+    "Lights (Gun) [Uncommon]": "x2 T1 Commons",
+    "Lights [Uncommon]": "x2 T1 Commons",
+    "Holly (Gun) [Uncommon]": 1,
+    "Wraiths (Gun) [Uncommon]": "x1 T1 Legendary",
+    "Mistletoe (Gun) [Uncommon]": "x3 T1 Rares",
+    "Love (Gun) [Uncommon]": "x2 T1 Rares",
+    "Love [Uncommon]": "x2 T1 Rares",
+    "Canes (Gun) [Uncommon]": "x1 T1 Rare",
+    "Melon (Knife)": "x4 T1 Commons",
+    "Melon (Knife) [Uncommon]": "x4 T1 Commons",
+    "Stockings (Gun) [Uncommon]": "x2 T1 Commons",
+    "Clown (Knife) [Unique]": "x1 T1 Common",
+    "Lava (Gun) [Uncommon]": "x3 T1 Uncommons",
+    "Pumpkin (Pet) [Legendary]": "x2 T1 Uncommons",
+    "Pumpkin [Legendary]": "x2 T1 Uncommons",
+    "Soda (Gun) [Uncommon]": "x4 T1 Commons",
+    "Leaves (Gun)": "x2 T1 Commons",
+    "Leaves (Gun) [Uncommon]": "x2 T1 Commons",
+    "Leaves [Uncommon]": "x2 T1 Commons",
+    "Doge (Knife)": "x4 T1 Commons",
+    "Doge (Knife) [Uncommon]": "x4 T1 Commons",
+    "Adurite (Knife) [Uncommon]": "x4 T1 Commons",
+    "Bluesteel (Knife) [Uncommon]": "x4 T1 Commons",
+    "Camo (Gun) [Uncommon]": "x4 T1 Commons",
+    "Webbed (Gun) [Common]": 25,
+    "Elf (Pet) [Uncommon]": 25,
+    "Elf [Uncommon]": 25,
+    "Coal (Gun)": "x2 T1 Commons",
+    "Coal (Gun) [Common]": "x2 T1 Commons",
+    "Candy Corn (Gun)": "x2 T1 Commons",
+    "Candy Corn (Gun) [Common]": "x2 T1 Commons",
+    "Apocalypse (Gun) [Common]": 3,
+    "Haunted (Gun) [Common]": "x2 T1 Commons",
+    "Bunny (Knife)": "x4 T1 Legendaries",
+    "Bunny (Knife) [Common]": "x4 T1 Legendaries",
+    "Candied (Gun) [Common]": "x2 T1 Uncommons",
+    "Fragile (Gun) [Common]": "x2 T1 Uncommons",
+    "Cat (Gun)": "x1 T1 Common",
+    "Cat (Gun) [Common]": "x1 T1 Common",
+    "Reindeer (Knife)": 3,
+    "Reindeer (Knife) [Common]": 3,
+    "Carved (Gun) [Common]": "x3 T1 Commons",
+    "Stickers (Gun)": "x2 T1 Commons",
+    "Stickers (Gun) [Common]": "x2 T1 Commons",
+    "Wavy (Gun) [Common]": "x3 T1 Commons",
+    "Clownfish (Gun) [Common]": "x3 T1 Commons",
+    "Igloo (Gun) [Common]": "x3 T1 Commons",
+    "UFOs (Gun) [Common]": "x3 T1 Commons",
+    "Snowball (Gun) [Common]": "x2 T1 Commons",
+    "Starfish (Gun) [Common]": "x2 T1 Commons",
+    "Strawberries (Gun) [Common]": "x2 T1 Commons",
+    "Striped (Gun) [Common]": "x2 T1 Commons",
+    "Blue Pumpkin (Pet) [Uncommon]": 1,
+    "Blue Pumpkin [Uncommon]": 1,
+    "Red Pumpkin (Pet) [Legendary]": 3,
+    "Red Pumpkin [Legendary]": 3,
+    "Green Pumpkin (Pet) [Rare]": 3,
+    "Green Pumpkin [Rare]": 3,
+    "SunsetChroma (Knife)": 6250,
+    "SunsetChroma (Knife) [Godly]": 6250,
+    "SunsetChroma [Godly]": 6250,
+    "OrnamentChroma (Knife) [Godly]": 1825,
+    "OrnamentChroma [Godly]": 1825,
+    "CandleflameChroma (Knife)": 40,
+    "CandleflameChroma (Knife) [Godly]": 40,
+    "CandleflameChroma [Godly]": 40,
+    "LaserChroma (Gun)": 40,
+    "LaserChroma (Gun) [Godly]": 40,
+    "LaserChroma [Godly]": 40
   },
   "entries": [
     {
@@ -3099,7 +3270,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 1975
+      "value": 2000
     },
     {
       "name": "Raygun",
@@ -3108,7 +3279,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 1950
+      "value": 1975
     },
     {
       "name": "Vampire's Gun",
@@ -3149,10 +3320,10 @@
     {
       "name": "Blossom",
       "raw": "Blossom",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": "x4 T1 Legendaries"
     },
     {
@@ -3162,7 +3333,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": null,
-      "value": 1250
+      "value": 1230
     },
     {
       "name": "Sunrise",
@@ -3171,7 +3342,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 875
+      "value": 850
     },
     {
       "name": "Bauble",
@@ -3198,7 +3369,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2024",
-      "value": 670
+      "value": 665
     },
     {
       "name": "Spirit",
@@ -3207,15 +3378,15 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2024",
-      "value": 660
+      "value": 655
     },
     {
       "name": "Sunset",
       "raw": "Sunset",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2025",
       "value": "x3 T1 Rares"
     },
     {
@@ -3234,7 +3405,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 405
+      "value": 410
     },
     {
       "name": "Xenoshot",
@@ -3243,7 +3414,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 405
+      "value": 410
     },
     {
       "name": "Flora",
@@ -3306,7 +3477,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 280
+      "value": 275
     },
     {
       "name": "Snowstorm",
@@ -3315,7 +3486,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2025",
-      "value": 280
+      "value": 275
     },
     {
       "name": "Ocean",
@@ -3339,7 +3510,7 @@
       "name": "Waves",
       "raw": "Waves",
       "type": "Knife",
-      "rarity": "Rare",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -3419,10 +3590,10 @@
     {
       "name": "Bat",
       "raw": "Bat",
-      "type": "Pet",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": null,
+      "year": "2022",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -3483,9 +3654,9 @@
       "name": "Ornament",
       "raw": "Ornament",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2015",
+      "year": "2025",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -3518,10 +3689,10 @@
     {
       "name": "Candleflame",
       "raw": "Candleflame",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2021",
       "value": 33
     },
     {
@@ -3563,8 +3734,8 @@
     {
       "name": "Makeshift",
       "raw": "Makeshift",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": "2022",
       "value": 33
@@ -3608,10 +3779,10 @@
     {
       "name": "Laser",
       "raw": "Laser",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
@@ -3924,9 +4095,9 @@
       "name": "Spider",
       "raw": "Spider",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": 10
     },
     {
@@ -4113,9 +4284,9 @@
       "name": "Snowflake",
       "raw": "Snowflake",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x2 T1 Rares"
     },
     {
@@ -4131,9 +4302,9 @@
       "name": "Peppermint",
       "raw": "Peppermint",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2020",
       "value": 4
     },
     {
@@ -4206,7 +4377,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2023",
-      "value": 15250
+      "value": 15000
     },
     {
       "name": "Traveler's Axe",
@@ -4215,7 +4386,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2023",
-      "value": 7100
+      "value": 7000
     },
     {
       "name": "Celestial",
@@ -4224,7 +4395,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2024",
-      "value": 2100
+      "value": 2050
     },
     {
       "name": "Vampire's Axe",
@@ -4233,7 +4404,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2024",
-      "value": 1500
+      "value": 1450
     },
     {
       "name": "Harvester",
@@ -4319,10 +4490,10 @@
     {
       "name": "Ghost",
       "raw": "Ghost",
-      "type": "Gun",
-      "rarity": "Uncommon",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
@@ -4346,19 +4517,19 @@
     {
       "name": "Shadow",
       "raw": "Shadow",
-      "type": "Gun",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Phaser",
       "raw": "Phaser",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
@@ -4373,10 +4544,10 @@
     {
       "name": "Golden",
       "raw": "Golden",
-      "type": "Knife",
-      "rarity": "Legendary",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
@@ -4404,7 +4575,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2023",
-      "value": 53000
+      "value": 52000
     },
     {
       "name": "Chroma Evergreen",
@@ -4413,7 +4584,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2023",
-      "value": 39000
+      "value": 38000
     },
     {
       "name": "Chroma Bauble",
@@ -4458,7 +4629,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2025",
-      "value": 14500
+      "value": 14250
     },
     {
       "name": "Chroma Sunrise",
@@ -4467,7 +4638,7 @@
       "rarity": "Godly",
       "is_chroma": true,
       "year": "2025",
-      "value": 10250
+      "value": 10000
     },
     {
       "name": "Chroma Snowcannon",
@@ -4481,11 +4652,11 @@
     {
       "name": "Chroma Sunset",
       "raw": "Chroma Sunset",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
-      "value": 6500
+      "year": "2025",
+      "value": 6250
     },
     {
       "name": "Chroma Blizzard",
@@ -4545,9 +4716,9 @@
       "name": "Chroma Ornament",
       "raw": "Chroma Ornament",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
@@ -4616,19 +4787,19 @@
     {
       "name": "Chroma Candleflame",
       "raw": "Chroma Candleflame",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "Chroma Laser",
       "raw": "Chroma Laser",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
@@ -4827,12 +4998,12 @@
       "rarity": "Unique",
       "is_chroma": false,
       "year": null,
-      "value": 340
+      "value": 330
     },
     {
       "name": "Latte",
       "raw": "Latte (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -4841,7 +5012,7 @@
     {
       "name": "Latte",
       "raw": "Latte (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -4859,7 +5030,7 @@
     {
       "name": "Traveler",
       "raw": "Traveler (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -4922,7 +5093,7 @@
     {
       "name": "Arctic",
       "raw": "Arctic (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2022",
@@ -4967,16 +5138,16 @@
     {
       "name": "Ghost",
       "raw": "Ghost (Knife)",
-      "type": "Gun",
-      "rarity": "Uncommon",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 5
     },
     {
       "name": "Ginger",
       "raw": "Ginger (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2018",
@@ -4995,9 +5166,9 @@
       "name": "Skulls",
       "raw": "Skulls",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2019",
       "value": 15
     },
     {
@@ -5021,7 +5192,7 @@
     {
       "name": "Traveler",
       "raw": "Traveler (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -5093,7 +5264,7 @@
     {
       "name": "Frostfade",
       "raw": "Frostfade (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -5111,16 +5282,16 @@
     {
       "name": "Ghost",
       "raw": "Ghost (Gun)",
-      "type": "Gun",
-      "rarity": "Uncommon",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 2
     },
     {
       "name": "Chromatic",
       "raw": "Chromatic (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": true,
       "year": null,
@@ -5156,7 +5327,7 @@
     {
       "name": "Arctic",
       "raw": "Arctic (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2022",
@@ -5165,7 +5336,7 @@
     {
       "name": "Chromatic",
       "raw": "Chromatic (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": true,
       "year": null,
@@ -5174,7 +5345,7 @@
     {
       "name": "Cursed",
       "raw": "Cursed (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2024",
@@ -5228,7 +5399,7 @@
     {
       "name": "Predator",
       "raw": "Predator (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -5237,7 +5408,7 @@
     {
       "name": "Ripper",
       "raw": "Ripper (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2020",
@@ -5255,19 +5426,19 @@
     {
       "name": "Tree",
       "raw": "Tree (Gun)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
       "name": "Tree",
       "raw": "Tree (Knife)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x3 T1 Rares"
     },
     {
@@ -5291,7 +5462,7 @@
     {
       "name": "Aquarium",
       "raw": "Aquarium (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2025",
@@ -5300,7 +5471,7 @@
     {
       "name": "Cursed",
       "raw": "Cursed (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2024",
@@ -5309,7 +5480,7 @@
     {
       "name": "Frostfade",
       "raw": "Frostfade (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -5372,7 +5543,7 @@
     {
       "name": "Ginger",
       "raw": "Ginger (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2018",
@@ -5381,7 +5552,7 @@
     {
       "name": "Ripper",
       "raw": "Ripper (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2020",
@@ -5390,7 +5561,7 @@
     {
       "name": "Aquarium",
       "raw": "Aquarium (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2025",
@@ -5417,7 +5588,7 @@
     {
       "name": "Predator",
       "raw": "Predator (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -5517,9 +5688,9 @@
       "name": "Cane",
       "raw": "Cane (Knife) [XMAS2018]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": 525
     },
     {
@@ -5543,7 +5714,7 @@
     {
       "name": "Silent Night",
       "raw": "Silent Night (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2020",
@@ -5552,8 +5723,8 @@
     {
       "name": "Makeshift",
       "raw": "Makeshift (Knife)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": "2022",
       "value": 35
@@ -5570,10 +5741,10 @@
     {
       "name": "Starry",
       "raw": "Starry (Gun)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2021",
       "value": 22
     },
     {
@@ -5588,7 +5759,7 @@
     {
       "name": "Watcher",
       "raw": "Watcher (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2021",
@@ -5600,13 +5771,13 @@
       "type": "Knife",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2017",
       "value": 13
     },
     {
       "name": "Silent Night",
       "raw": "Silent Night (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2020",
@@ -5651,7 +5822,7 @@
     {
       "name": "Toxic",
       "raw": "Toxic (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2018",
@@ -5699,13 +5870,13 @@
       "type": "Knife",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2017",
       "value": 3
     },
     {
       "name": "Candy Swirl",
       "raw": "Candy Swirl (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2019",
@@ -5724,9 +5895,9 @@
       "name": "Bats",
       "raw": "Bats",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": 2
     },
     {
@@ -5750,7 +5921,7 @@
     {
       "name": "Toxic",
       "raw": "Toxic (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2018",
@@ -5768,25 +5939,25 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": 1
     },
     {
       "name": "Monster",
       "raw": "Monster",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Candy Swirl",
       "raw": "Candy Swirl (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2019",
@@ -5804,46 +5975,46 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Gun)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Starry",
       "raw": "Starry (Knife)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2021",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Cane",
       "raw": "Cane (Gun) [XMAS2015]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Cane",
       "raw": "Cane (Knife) [XMAS2015]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Mummy",
       "raw": "Mummy",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -5859,9 +6030,9 @@
       "name": "Cane",
       "raw": "Cane (Gun) [XMAS2018]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x3 T1 Legendaries"
     },
     {
@@ -5870,13 +6041,13 @@
       "type": "Knife",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2017",
       "value": "x3 T1 Legendaries"
     },
     {
       "name": "Watcher",
       "raw": "Watcher (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2021",
@@ -5969,16 +6140,16 @@
       "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2023",
       "value": "x1 T1 Legendary"
     },
     {
       "name": "Candleflame",
       "raw": "Candleflame (Gun)",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2021",
       "value": "x1 T1 Legendary"
     },
     {
@@ -5993,7 +6164,7 @@
     {
       "name": "Frostflame",
       "raw": "Frostflame (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2024",
@@ -6002,10 +6173,10 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Knife)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": "x1 T1 Legendary"
     },
     {
@@ -6056,10 +6227,10 @@
     {
       "name": "Tree",
       "raw": "Tree (2023)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x3 T1 Rares"
     },
     {
@@ -6075,9 +6246,9 @@
       "name": "Bones",
       "raw": "Bones (Knife)",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -6092,7 +6263,7 @@
     {
       "name": "Frostflame",
       "raw": "Frostflame (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2024",
@@ -6101,16 +6272,16 @@
     {
       "name": "Ghosts",
       "raw": "Ghosts (Gun)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x3 T1 Rares"
     },
     {
       "name": "Gingercookie",
       "raw": "Gingercookie (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -6128,7 +6299,7 @@
     {
       "name": "Pop Art",
       "raw": "Pop Art (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -6245,7 +6416,7 @@
     {
       "name": "Gingercookie",
       "raw": "Gingercookie (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -6266,13 +6437,13 @@
       "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2023",
       "value": "x2 T1 Rares"
     },
     {
       "name": "Pop Art",
       "raw": "Pop Art (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -6534,18 +6705,18 @@
       "name": "Bones",
       "raw": "Bones",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Brains",
       "raw": "Brains",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2019",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -6560,16 +6731,16 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Knife) [XMAS2019]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": 85
     },
     {
       "name": "Sweater",
       "raw": "Sweater (Knife) [XMAS2018]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -6579,9 +6750,9 @@
       "name": "Snowflake",
       "raw": "Snowflake (Knife) [XMAS2018]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": 55
     },
     {
@@ -6596,10 +6767,10 @@
     {
       "name": "Mummy",
       "raw": "Mummy (2017)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": 25
     },
     {
@@ -6623,7 +6794,7 @@
     {
       "name": "Wrap",
       "raw": "Wrap (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2020",
@@ -6632,7 +6803,7 @@
     {
       "name": "Wrap",
       "raw": "Wrap (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2020",
@@ -6641,10 +6812,10 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Knife) [XMAS2020]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": 10
     },
     {
@@ -6671,22 +6842,22 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2021",
       "value": 10
     },
     {
       "name": "Snowman",
       "raw": "Snowman (Gun) [XMAS2021]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": 5
     },
     {
       "name": "Hazard",
       "raw": "Hazard (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -6698,16 +6869,16 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2021",
       "value": 5
     },
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Gun) [XMAS2020]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": 3
     },
     {
@@ -6722,10 +6893,10 @@
     {
       "name": "Webs",
       "raw": "Webs",
-      "type": "Gun",
-      "rarity": "Common",
+      "type": "Knife",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -6734,13 +6905,13 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2021",
       "value": 3
     },
     {
       "name": "Potion",
       "raw": "Potion (2017)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -6749,10 +6920,10 @@
     {
       "name": "Tree",
       "raw": "Tree (2021)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": 2
     },
     {
@@ -6794,25 +6965,25 @@
     {
       "name": "Lights",
       "raw": "Lights (Gun)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2019",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Mummy",
       "raw": "Mummy (Gun) [HALLOWS2018]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": 2
     },
     {
       "name": "Potion",
       "raw": "Potion (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -6821,7 +6992,7 @@
     {
       "name": "Potion",
       "raw": "Potion (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -6839,16 +7010,16 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Gun) [XMAS2019]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": 1
     },
     {
       "name": "Holly",
       "raw": "Holly (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -6857,19 +7028,19 @@
     {
       "name": "Lights",
       "raw": "Lights (Knife)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2019",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Mummy",
       "raw": "Mummy (Knife) [HALLOWS2018]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": 1
     },
     {
@@ -6878,7 +7049,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2021",
       "value": 1
     },
     {
@@ -6929,19 +7100,19 @@
     {
       "name": "Snowman",
       "raw": "Snowman (Gun) [XMAS2015]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Snowman",
       "raw": "Snowman (Knife) [XMAS2015]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -6950,7 +7121,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -6959,7 +7130,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -6993,15 +7164,15 @@
       "name": "Snowflake",
       "raw": "Snowflake (Knife) [XMAS2022]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x1 T1 Legendary"
     },
     {
       "name": "Wraiths",
       "raw": "Wraiths (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2021",
@@ -7010,7 +7181,7 @@
     {
       "name": "Mistletoe",
       "raw": "Mistletoe (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -7019,7 +7190,7 @@
     {
       "name": "Hazard",
       "raw": "Hazard (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -7037,8 +7208,8 @@
     {
       "name": "Love",
       "raw": "Love (Gun)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -7055,7 +7226,7 @@
     {
       "name": "Canes",
       "raw": "Canes (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2023",
@@ -7100,7 +7271,7 @@
     {
       "name": "Melon",
       "raw": "Melon [SUMMER2023]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7109,28 +7280,28 @@
     {
       "name": "Mummy",
       "raw": "Mummy (Knife) [HALLOWS2020]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": "x1 T1 Rare"
     },
     {
       "name": "Snowflake",
       "raw": "Snowflake (Gun) [XMAS2018]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x1 T1 Rare"
     },
     {
       "name": "Snowman",
       "raw": "Snowman (Knife) [XMAS2021]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x1 T1 Rare"
     },
     {
@@ -7139,7 +7310,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": "x1 T1 Rare"
     },
     {
@@ -7154,7 +7325,7 @@
     {
       "name": "Holly",
       "raw": "Holly (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -7163,7 +7334,7 @@
     {
       "name": "Stockings",
       "raw": "Stockings (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -7172,10 +7343,10 @@
     {
       "name": "Brains",
       "raw": "Brains (2022)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -7208,7 +7379,7 @@
     {
       "name": "Clown",
       "raw": "Clown (Gun)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Unique",
       "is_chroma": false,
       "year": "",
@@ -7235,10 +7406,10 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Gun) [XMAS2021]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -7253,10 +7424,10 @@
     {
       "name": "Mummy",
       "raw": "Mummy (Gun) [HALLOWS2020]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -7272,15 +7443,15 @@
       "name": "Snowflake",
       "raw": "Snowflake (Gun) [XMAS2022]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Sweater",
       "raw": "Sweater (Gun) [XMAS2018]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7298,7 +7469,7 @@
     {
       "name": "Wraiths",
       "raw": "Wraiths (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2021",
@@ -7316,7 +7487,7 @@
     {
       "name": "Sweater",
       "raw": "Sweater",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7325,10 +7496,10 @@
     {
       "name": "Tree",
       "raw": "Tree (2017)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -7379,10 +7550,10 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Gun) [XMAS2025]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -7397,7 +7568,7 @@
     {
       "name": "Lava",
       "raw": "Lava (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7415,7 +7586,7 @@
     {
       "name": "Mistletoe",
       "raw": "Mistletoe (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -7461,15 +7632,15 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (2025)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Soda",
       "raw": "Soda (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7478,7 +7649,7 @@
     {
       "name": "Stockings",
       "raw": "Stockings (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -7487,7 +7658,7 @@
     {
       "name": "Sweater",
       "raw": "Sweater (Knife) [XMAS2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7505,7 +7676,7 @@
     {
       "name": "Canes",
       "raw": "Canes (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2023",
@@ -7532,10 +7703,10 @@
     {
       "name": "Snowman",
       "raw": "Snowman (2023)",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -7559,10 +7730,10 @@
     {
       "name": "Ghosts",
       "raw": "Ghosts (Knife)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -7578,9 +7749,9 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (Knife)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -7604,10 +7775,10 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Knife) [XMAS2025]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -7622,7 +7793,7 @@
     {
       "name": "Lava",
       "raw": "Lava (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7631,10 +7802,10 @@
     {
       "name": "Leaves",
       "raw": "Leaves",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2024",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -7685,16 +7856,16 @@
     {
       "name": "Snowman",
       "raw": "Snowman (2024)",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Soda",
       "raw": "Soda (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7703,16 +7874,16 @@
     {
       "name": "Starry",
       "raw": "Starry",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2021",
       "value": 5
     },
     {
       "name": "Sweater",
       "raw": "Sweater (Gun) [XMAS2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -7751,7 +7922,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -7766,7 +7937,7 @@
     {
       "name": "Doge",
       "raw": "Doge",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7784,7 +7955,7 @@
     {
       "name": "Adurite",
       "raw": "Adurite (Gun)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7793,7 +7964,7 @@
     {
       "name": "Adurite",
       "raw": "Adurite (Knife)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7820,7 +7991,7 @@
     {
       "name": "Bluesteel",
       "raw": "Bluesteel (Gun)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7829,7 +8000,7 @@
     {
       "name": "Bluesteel",
       "raw": "Bluesteel (Knife)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7847,7 +8018,7 @@
     {
       "name": "Camo",
       "raw": "Camo (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7856,7 +8027,7 @@
     {
       "name": "Camo",
       "raw": "Camo (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -7946,7 +8117,7 @@
     {
       "name": "Melon",
       "raw": "Melon",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -8000,7 +8171,7 @@
     {
       "name": "Soda",
       "raw": "Soda",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -8082,9 +8253,9 @@
       "name": "Bats",
       "raw": "Bats (Knife) [HALLOWS2018]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": 240
     },
     {
@@ -8147,7 +8318,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": 30
     },
     {
@@ -8162,16 +8333,16 @@
     {
       "name": "Snowman",
       "raw": "Snowman (Gun) [XMAS2018]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": 25
     },
     {
       "name": "Webbed",
       "raw": "Webbed (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2019",
@@ -8199,9 +8370,9 @@
       "name": "Elf",
       "raw": "Elf (2018)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": 20
     },
     {
@@ -8252,7 +8423,7 @@
     {
       "name": "Coal",
       "raw": "Coal (Knife) [XMAS2018]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -8262,15 +8433,15 @@
       "name": "Elf",
       "raw": "Elf (Knife)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": 15
     },
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (2019)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -8280,9 +8451,9 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (2019)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -8423,7 +8594,7 @@
     {
       "name": "Apocalypse",
       "raw": "Apocalypse (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -8433,9 +8604,9 @@
       "name": "Bats",
       "raw": "Bats (2020)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": 3
     },
     {
@@ -8444,7 +8615,7 @@
       "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2022",
+      "year": null,
       "value": 3
     },
     {
@@ -8523,9 +8694,9 @@
       "name": "Bats",
       "raw": "Bats (Gun) [HALLOWS2018]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": 1
     },
     {
@@ -8549,19 +8720,19 @@
     {
       "name": "Haunted",
       "raw": "Haunted (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2018",
       "value": 1
     },
     {
       "name": "Haunted",
       "raw": "Haunted (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2018",
       "value": 1
     },
     {
@@ -8585,7 +8756,7 @@
     {
       "name": "Apocalypse",
       "raw": "Apocalypse (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -8606,13 +8777,13 @@
       "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2022",
+      "year": null,
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Webbed",
       "raw": "Webbed (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2019",
@@ -8630,10 +8801,10 @@
     {
       "name": "Bunny",
       "raw": "Bunny",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2016",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -8658,9 +8829,9 @@
       "name": "Elf",
       "raw": "Elf (Gun)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -8822,7 +8993,7 @@
       "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2022",
+      "year": null,
       "value": "x3 T1 Legendaries"
     },
     {
@@ -8831,7 +9002,7 @@
       "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2023",
       "value": "x3 T1 Legendaries"
     },
     {
@@ -8892,9 +9063,9 @@
       "name": "Cane",
       "raw": "Cane (Gun)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
@@ -8918,7 +9089,7 @@
     {
       "name": "Coal",
       "raw": "Coal (Knife) [XMAS2021]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -8936,8 +9107,8 @@
     {
       "name": "Love",
       "raw": "Love (2023)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
       "value": "x3 T1 Uncommons"
@@ -8954,7 +9125,7 @@
     {
       "name": "Candied",
       "raw": "Candied (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -8981,16 +9152,16 @@
     {
       "name": "Snowman",
       "raw": "Snowman (Gun) [XMAS2022]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Fragile",
       "raw": "Fragile (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -8999,7 +9170,7 @@
     {
       "name": "Fragile",
       "raw": "Fragile (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -9026,7 +9197,7 @@
     {
       "name": "Stockings",
       "raw": "Stockings",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -9062,7 +9233,7 @@
     {
       "name": "Coal",
       "raw": "Coal (Gun) [XMAS2018]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -9071,19 +9242,19 @@
     {
       "name": "Ghosts",
       "raw": "Ghosts (2023)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x1 T1 Uncommon"
     },
     {
       "name": "Pumpkin",
       "raw": "Pumpkin (2023)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x1 T1 Uncommon"
     },
     {
@@ -9098,16 +9269,16 @@
     {
       "name": "Cat",
       "raw": "Cat",
-      "type": "Pet",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2021",
       "value": "x1 T1 Common"
     },
     {
       "name": "Coal",
       "raw": "Coal (Gun) [XMAS2022]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -9152,16 +9323,16 @@
     {
       "name": "Reindeer",
       "raw": "Reindeer [XMAS2025]",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2025",
       "value": "x1 T1 Uncommon"
     },
     {
       "name": "Candied",
       "raw": "Candied (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -9179,7 +9350,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Gun) [HALLOWS2022]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9188,7 +9359,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Knife) [HALLOWS2020]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9198,15 +9369,15 @@
       "name": "Cane",
       "raw": "Cane (Knife)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x3 T1 Commons"
     },
     {
       "name": "Carved",
       "raw": "Carved (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2020",
@@ -9215,7 +9386,7 @@
     {
       "name": "Coal",
       "raw": "Coal",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -9224,7 +9395,7 @@
     {
       "name": "Coal",
       "raw": "Coal (Gun) [XMAS2021]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -9252,9 +9423,9 @@
       "name": "Elf",
       "raw": "Elf (2017)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": "x3 T1 Commons"
     },
     {
@@ -9296,10 +9467,10 @@
     {
       "name": "Snowman",
       "raw": "Snowman (Knife) [XMAS2018]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x3 T1 Commons"
     },
     {
@@ -9308,31 +9479,31 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": "x3 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [SUMMER2023]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x3 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [XMAS2022]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x3 T1 Commons"
     },
     {
       "name": "Wavy",
       "raw": "Wavy (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -9342,9 +9513,9 @@
       "name": "Bats",
       "raw": "Bats (Gun) [HALLOWS2024]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": "x3 T1 Commons"
     },
     {
@@ -9359,7 +9530,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Gun) [HALLOWS2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9368,7 +9539,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Knife) [HALLOWS2024]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9404,7 +9575,7 @@
     {
       "name": "Clownfish",
       "raw": "Clownfish (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -9422,10 +9593,10 @@
     {
       "name": "Haunted",
       "raw": "Haunted (2025)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2018",
       "value": "x3 T1 Commons"
     },
     {
@@ -9440,7 +9611,7 @@
     {
       "name": "Igloo",
       "raw": "Igloo (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2024",
@@ -9449,7 +9620,7 @@
     {
       "name": "UFOs",
       "raw": "UFOs (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9458,7 +9629,7 @@
     {
       "name": "Wavy",
       "raw": "Wavy (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -9467,7 +9638,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Gun) [HALLOWS2020]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9476,7 +9647,7 @@
     {
       "name": "Carved",
       "raw": "Carved (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2020",
@@ -9485,7 +9656,7 @@
     {
       "name": "Coal",
       "raw": "Coal (Knife) [XMAS2022]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -9503,16 +9674,16 @@
     {
       "name": "Haunted",
       "raw": "Haunted",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2018",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Knife) [HALLOWS2022]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9530,46 +9701,46 @@
     {
       "name": "Snowman",
       "raw": "Snowman (Knife) [XMAS2022]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [HALLOWS2021]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [XMAS2021]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [HALLOWS2021]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [XMAS2021]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
@@ -9585,9 +9756,9 @@
       "name": "Bats",
       "raw": "Bats (Knife) [HALLOWS2024]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": "x2 T1 Commons"
     },
     {
@@ -9602,7 +9773,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Gun) [HALLOWS2024]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9611,7 +9782,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Knife) [HALLOWS2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9629,7 +9800,7 @@
     {
       "name": "Clownfish",
       "raw": "Clownfish (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -9666,9 +9837,9 @@
       "name": "Elf",
       "raw": "Elf (2023)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": "x2 T1 Commons"
     },
     {
@@ -9683,10 +9854,10 @@
     {
       "name": "Ghosts",
       "raw": "Ghosts (2024)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x2 T1 Commons"
     },
     {
@@ -9701,7 +9872,7 @@
     {
       "name": "Igloo",
       "raw": "Igloo (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2024",
@@ -9710,37 +9881,37 @@
     {
       "name": "Leaves",
       "raw": "Leaves [HALLOWS2023]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Leaves",
       "raw": "Leaves [SUMMER2025]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Peppermint",
       "raw": "Peppermint (Gun)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2020",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Peppermint",
       "raw": "Peppermint (Knife)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2020",
       "value": "x2 T1 Commons"
     },
     {
@@ -9755,10 +9926,10 @@
     {
       "name": "Reindeer",
       "raw": "Reindeer",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2025",
       "value": 3
     },
     {
@@ -9791,7 +9962,7 @@
     {
       "name": "Snowball",
       "raw": "Snowball (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9800,7 +9971,7 @@
     {
       "name": "Snowball",
       "raw": "Snowball (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9819,15 +9990,15 @@
       "name": "Spider",
       "raw": "Spider (2023)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Starfish",
       "raw": "Starfish (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -9836,7 +10007,7 @@
     {
       "name": "Starfish",
       "raw": "Starfish (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -9845,124 +10016,124 @@
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [HALLOWS2024]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [SUMMER2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [XMAS2022]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [XMAS2024]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Gun) [XMAS2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [HALLOWS2024]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [SUMMER2023]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [SUMMER2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [XMAS2024]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [XMAS2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers [HALLOWS2022]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers [HALLOWS2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers [THANKSGIVING2025]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stockings",
       "raw": "Stockings (2024)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -9971,7 +10142,7 @@
     {
       "name": "Strawberries",
       "raw": "Strawberries (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2026",
@@ -9980,7 +10151,7 @@
     {
       "name": "Strawberries",
       "raw": "Strawberries (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2026",
@@ -9989,7 +10160,7 @@
     {
       "name": "Striped",
       "raw": "Striped (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -9998,7 +10169,7 @@
     {
       "name": "Striped",
       "raw": "Striped (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -10016,7 +10187,7 @@
     {
       "name": "UFOs",
       "raw": "UFOs (Gun)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -10052,7 +10223,7 @@
     {
       "name": "Clown",
       "raw": "Clown (Knife)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Unique",
       "is_chroma": false,
       "year": "",
@@ -10295,8 +10466,8 @@
     {
       "name": "Love",
       "raw": "Love (Knife)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
       "value": "x1 T1 Common"
@@ -10449,18 +10620,18 @@
       "name": "Elf",
       "raw": "Elf (2019)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": 625
     },
     {
       "name": "Blue Pumpkin",
       "raw": "Blue Pumpkin [HALLOWS2018]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 220
     },
     {
@@ -10476,9 +10647,9 @@
       "name": "Red Pumpkin",
       "raw": "Red Pumpkin [HALLOWS2018]",
       "type": "Pet",
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2021",
       "value": 120
     },
     {
@@ -10494,9 +10665,9 @@
       "name": "Green Pumpkin",
       "raw": "Green Pumpkin [HALLOWS2018]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 60
     },
     {
@@ -10521,27 +10692,27 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (2017)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": 50
     },
     {
       "name": "Elf",
       "raw": "Elf",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": 25
     },
     {
       "name": "Red Pumpkin",
       "raw": "Red Pumpkin [HALLOWS2020]",
       "type": "Pet",
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2021",
       "value": 20
     },
     {
@@ -10557,9 +10728,9 @@
       "name": "Red Pumpkin",
       "raw": "Red Pumpkin [HALLOWS2021]",
       "type": "Pet",
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2021",
       "value": 17
     },
     {
@@ -10575,27 +10746,27 @@
       "name": "Green Pumpkin",
       "raw": "Green Pumpkin [HALLOWS2020]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 12
     },
     {
       "name": "Green Pumpkin",
       "raw": "Green Pumpkin [HALLOWS2021]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 10
     },
     {
       "name": "Blue Pumpkin",
       "raw": "Blue Pumpkin [HALLOWS2020]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 7
     },
     {
@@ -10656,9 +10827,9 @@
       "name": "Green Pumpkin",
       "raw": "Green Pumpkin [HALLOWS2019]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 3
     },
     {
@@ -10710,9 +10881,9 @@
       "name": "Red Pumpkin",
       "raw": "Red Pumpkin [HALLOWS2019]",
       "type": "Pet",
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2021",
       "value": 3
     },
     {
@@ -10782,9 +10953,9 @@
       "name": "Blue Pumpkin",
       "raw": "Blue Pumpkin [HALLOWS2019]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 1
     },
     {
@@ -10890,9 +11061,9 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (2018)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x2 T1 Legendaries"
     },
     {
@@ -11025,9 +11196,9 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (2020)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x2 T1 Commons"
     },
     {
@@ -11043,15 +11214,15 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (2021)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x1 T1 Common"
     },
     {
       "name": "Latte",
       "raw": "Latte",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -11069,7 +11240,7 @@
     {
       "name": "Traveler",
       "raw": "Traveler",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -11087,7 +11258,7 @@
     {
       "name": "Arctic",
       "raw": "Arctic",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2022",
@@ -11105,7 +11276,7 @@
     {
       "name": "Ginger",
       "raw": "Ginger",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2018",
@@ -11123,7 +11294,7 @@
     {
       "name": "Frostfade",
       "raw": "Frostfade",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -11132,7 +11303,7 @@
     {
       "name": "Chromatic",
       "raw": "Chromatic",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": true,
       "year": null,
@@ -11141,7 +11312,7 @@
     {
       "name": "Cursed",
       "raw": "Cursed",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2024",
@@ -11168,7 +11339,7 @@
     {
       "name": "Predator",
       "raw": "Predator",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -11177,7 +11348,7 @@
     {
       "name": "Ripper",
       "raw": "Ripper",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2020",
@@ -11186,16 +11357,16 @@
     {
       "name": "Tree",
       "raw": "Tree",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
       "name": "Aquarium",
       "raw": "Aquarium",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2025",
@@ -11222,7 +11393,7 @@
     {
       "name": "Silent Night",
       "raw": "Silent Night",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2020",
@@ -11231,7 +11402,7 @@
     {
       "name": "Watcher",
       "raw": "Watcher",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2021",
@@ -11249,7 +11420,7 @@
     {
       "name": "Toxic",
       "raw": "Toxic",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2018",
@@ -11285,7 +11456,7 @@
     {
       "name": "Candy Swirl",
       "raw": "Candy Swirl",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2019",
@@ -11303,7 +11474,7 @@
     {
       "name": "Frostflame",
       "raw": "Frostflame",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2024",
@@ -11321,16 +11492,16 @@
     {
       "name": "Ghosts",
       "raw": "Ghosts",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x3 T1 Rares"
     },
     {
       "name": "Gingercookie",
       "raw": "Gingercookie",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -11348,7 +11519,7 @@
     {
       "name": "Pop Art",
       "raw": "Pop Art",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -11384,7 +11555,7 @@
     {
       "name": "Wrap",
       "raw": "Wrap",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2020",
@@ -11411,7 +11582,7 @@
     {
       "name": "Hazard",
       "raw": "Hazard",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -11429,16 +11600,16 @@
     {
       "name": "Lights",
       "raw": "Lights",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2019",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Potion",
       "raw": "Potion",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -11456,7 +11627,7 @@
     {
       "name": "Holly",
       "raw": "Holly",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -11465,7 +11636,7 @@
     {
       "name": "Wraiths",
       "raw": "Wraiths",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2021",
@@ -11474,7 +11645,7 @@
     {
       "name": "Mistletoe",
       "raw": "Mistletoe",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -11483,8 +11654,8 @@
     {
       "name": "Love",
       "raw": "Love",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -11492,7 +11663,7 @@
     {
       "name": "Canes",
       "raw": "Canes",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2023",
@@ -11501,7 +11672,7 @@
     {
       "name": "Clown",
       "raw": "Clown",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Unique",
       "is_chroma": false,
       "year": "",
@@ -11510,7 +11681,7 @@
     {
       "name": "Lava",
       "raw": "Lava",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -11529,15 +11700,15 @@
       "name": "Pumpkin",
       "raw": "Pumpkin",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Adurite",
       "raw": "Adurite",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -11546,7 +11717,7 @@
     {
       "name": "Bluesteel",
       "raw": "Bluesteel",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -11555,7 +11726,7 @@
     {
       "name": "Camo",
       "raw": "Camo",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -11594,13 +11765,13 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": 30
     },
     {
       "name": "Webbed",
       "raw": "Webbed",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2019",
@@ -11609,7 +11780,7 @@
     {
       "name": "Apocalypse",
       "raw": "Apocalypse",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -11655,15 +11826,15 @@
       "name": "Cane",
       "raw": "Cane",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
       "name": "Candied",
       "raw": "Candied",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -11690,7 +11861,7 @@
     {
       "name": "Fragile",
       "raw": "Fragile",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -11717,7 +11888,7 @@
     {
       "name": "Carved",
       "raw": "Carved",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2020",
@@ -11726,7 +11897,7 @@
     {
       "name": "Wavy",
       "raw": "Wavy",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -11735,7 +11906,7 @@
     {
       "name": "Clownfish",
       "raw": "Clownfish",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -11744,7 +11915,7 @@
     {
       "name": "Igloo",
       "raw": "Igloo",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2024",
@@ -11753,7 +11924,7 @@
     {
       "name": "UFOs",
       "raw": "UFOs",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -11762,7 +11933,7 @@
     {
       "name": "Snowball",
       "raw": "Snowball",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -11771,7 +11942,7 @@
     {
       "name": "Starfish",
       "raw": "Starfish",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -11780,7 +11951,7 @@
     {
       "name": "Strawberries",
       "raw": "Strawberries",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2026",
@@ -11789,7 +11960,7 @@
     {
       "name": "Striped",
       "raw": "Striped",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -11811,7 +11982,7 @@
       "rarity": "Ancient",
       "is_chroma": false,
       "year": "2023",
-      "value": 7100
+      "value": 7000
     },
     {
       "name": "Vampires Gun",
@@ -11829,7 +12000,7 @@
       "rarity": "Godly",
       "is_chroma": false,
       "year": "2024",
-      "value": 1500
+      "value": 1450
     },
     {
       "name": "BattleAxe2",
@@ -12005,10 +12176,10 @@
     {
       "name": "SunsetChroma",
       "raw": "SunsetChroma",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": "2025",
       "value": 6250
     },
     {
@@ -12069,9 +12240,9 @@
       "name": "OrnamentChroma",
       "raw": "OrnamentChroma",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
@@ -12140,19 +12311,19 @@
     {
       "name": "CandleflameChroma",
       "raw": "CandleflameChroma",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "LaserChroma",
       "raw": "LaserChroma",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
@@ -12617,28 +12788,28 @@
     {
       "name": "Blossom",
       "raw": "Blossom (Knife)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Blossom",
       "raw": "Blossom (Knife) [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Blossom",
       "raw": "Blossom [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": "x4 T1 Legendaries"
     },
     {
@@ -12806,28 +12977,28 @@
     {
       "name": "Sunset",
       "raw": "Sunset (Gun)",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2025",
       "value": "x3 T1 Rares"
     },
     {
       "name": "Sunset",
       "raw": "Sunset (Gun) [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2025",
       "value": "x3 T1 Rares"
     },
     {
       "name": "Sunset",
       "raw": "Sunset [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2025",
       "value": "x3 T1 Rares"
     },
     {
@@ -13176,7 +13347,7 @@
       "name": "Waves",
       "raw": "Waves (Knife)",
       "type": "Knife",
-      "rarity": "Rare",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -13185,7 +13356,7 @@
       "name": "Waves",
       "raw": "Waves (Knife) [Rare]",
       "type": "Knife",
-      "rarity": "Rare",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -13194,7 +13365,7 @@
       "name": "Waves",
       "raw": "Waves [Rare]",
       "type": "Knife",
-      "rarity": "Rare",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -13418,28 +13589,28 @@
     {
       "name": "Bat",
       "raw": "Bat (Pet)",
-      "type": "Pet",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": null,
+      "year": "2022",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Bat",
       "raw": "Bat (Pet) [Legendary]",
-      "type": "Pet",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": null,
+      "year": "2022",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Bat",
       "raw": "Bat [Legendary]",
-      "type": "Pet",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": null,
+      "year": "2022",
       "value": "x2 T1 Uncommons"
     },
     {
@@ -13608,27 +13779,27 @@
       "name": "Ornament",
       "raw": "Ornament (Knife)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2015",
+      "year": "2025",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Ornament",
       "raw": "Ornament (Knife) [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2015",
+      "year": "2025",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Ornament",
       "raw": "Ornament [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2015",
+      "year": "2025",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -13715,19 +13886,19 @@
     {
       "name": "Candleflame",
       "raw": "Candleflame (Gun) [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2021",
       "value": "x1 T1 Legendary"
     },
     {
       "name": "Candleflame",
       "raw": "Candleflame [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2021",
       "value": "x1 T1 Legendary"
     },
     {
@@ -13841,8 +14012,8 @@
     {
       "name": "Makeshift",
       "raw": "Makeshift (Knife) [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": "2022",
       "value": 35
@@ -13850,8 +14021,8 @@
     {
       "name": "Makeshift",
       "raw": "Makeshift [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
       "year": "2022",
       "value": 35
@@ -13967,28 +14138,28 @@
     {
       "name": "Laser",
       "raw": "Laser (Knife)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Laser",
       "raw": "Laser (Knife) [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Laser",
       "raw": "Laser [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
@@ -14913,27 +15084,27 @@
       "name": "Spider",
       "raw": "Spider (Knife)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Spider",
       "raw": "Spider (Knife) [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Spider",
       "raw": "Spider [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
@@ -15480,27 +15651,27 @@
       "name": "Snowflake",
       "raw": "Snowflake (Knife)",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Snowflake",
       "raw": "Snowflake (Knife) [Uncommon]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Snowflake",
       "raw": "Snowflake [Uncommon]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -15534,18 +15705,18 @@
       "name": "Peppermint",
       "raw": "Peppermint (Knife) [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2020",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Peppermint",
       "raw": "Peppermint [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2020",
       "value": "x2 T1 Commons"
     },
     {
@@ -16091,19 +16262,19 @@
     {
       "name": "Ghost",
       "raw": "Ghost (Gun) [Uncommon]",
-      "type": "Gun",
-      "rarity": "Uncommon",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 2
     },
     {
       "name": "Ghost",
       "raw": "Ghost [Uncommon]",
-      "type": "Gun",
-      "rarity": "Uncommon",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 2
     },
     {
@@ -16163,55 +16334,55 @@
     {
       "name": "Shadow",
       "raw": "Shadow (Gun)",
-      "type": "Gun",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Shadow",
       "raw": "Shadow (Gun) [Legendary]",
-      "type": "Gun",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Shadow",
       "raw": "Shadow [Legendary]",
-      "type": "Gun",
-      "rarity": "Legendary",
+      "type": "Knife",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Phaser",
       "raw": "Phaser (Knife)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Phaser",
       "raw": "Phaser (Knife) [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Phaser",
       "raw": "Phaser [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
@@ -16244,28 +16415,28 @@
     {
       "name": "Golden",
       "raw": "Golden (Knife)",
-      "type": "Knife",
-      "rarity": "Legendary",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Golden",
       "raw": "Golden (Knife) [Legendary]",
-      "type": "Knife",
-      "rarity": "Legendary",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
       "name": "Golden",
       "raw": "Golden [Legendary]",
-      "type": "Knife",
-      "rarity": "Legendary",
+      "type": "Gun",
+      "rarity": "Vintage",
       "is_chroma": false,
-      "year": "2026",
+      "year": null,
       "value": 10
     },
     {
@@ -16568,28 +16739,28 @@
     {
       "name": "Chroma Sunset",
       "raw": "Chroma Sunset (Gun)",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": "2025",
       "value": 6250
     },
     {
       "name": "Chroma Sunset",
       "raw": "Chroma Sunset (Gun) [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": "2025",
       "value": 6250
     },
     {
       "name": "Chroma Sunset",
       "raw": "Chroma Sunset [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": "2025",
       "value": 6250
     },
     {
@@ -16758,27 +16929,27 @@
       "name": "Chroma Ornament",
       "raw": "Chroma Ornament (Knife)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
       "name": "Chroma Ornament",
       "raw": "Chroma Ornament (Knife) [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
       "name": "Chroma Ornament",
       "raw": "Chroma Ornament [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
@@ -16973,55 +17144,55 @@
     {
       "name": "Chroma Candleflame",
       "raw": "Chroma Candleflame (Gun)",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "Chroma Candleflame",
       "raw": "Chroma Candleflame (Gun) [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "Chroma Candleflame",
       "raw": "Chroma Candleflame [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "Chroma Laser",
       "raw": "Chroma Laser (Knife)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
       "name": "Chroma Laser",
       "raw": "Chroma Laser (Knife) [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
       "name": "Chroma Laser",
       "raw": "Chroma Laser [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
@@ -17621,7 +17792,7 @@
     {
       "name": "Latte",
       "raw": "Latte (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -17630,7 +17801,7 @@
     {
       "name": "Latte",
       "raw": "Latte [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -17657,7 +17828,7 @@
     {
       "name": "Traveler",
       "raw": "Traveler (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -17666,7 +17837,7 @@
     {
       "name": "Traveler",
       "raw": "Traveler [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -17819,7 +17990,7 @@
     {
       "name": "Arctic",
       "raw": "Arctic (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2022",
@@ -17828,7 +17999,7 @@
     {
       "name": "Arctic",
       "raw": "Arctic [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2022",
@@ -17936,7 +18107,7 @@
     {
       "name": "Ginger",
       "raw": "Ginger (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2018",
@@ -17945,7 +18116,7 @@
     {
       "name": "Ginger",
       "raw": "Ginger [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2018",
@@ -17982,27 +18153,27 @@
       "name": "Skulls",
       "raw": "Skulls (Knife)",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2019",
       "value": 15
     },
     {
       "name": "Skulls",
       "raw": "Skulls (Knife) [Uncommon]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2019",
       "value": 15
     },
     {
       "name": "Skulls",
       "raw": "Skulls [Uncommon]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2019",
       "value": 15
     },
     {
@@ -18161,7 +18332,7 @@
     {
       "name": "Frostfade",
       "raw": "Frostfade (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -18170,7 +18341,7 @@
     {
       "name": "Frostfade",
       "raw": "Frostfade [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2023",
@@ -18206,7 +18377,7 @@
     {
       "name": "Chromatic",
       "raw": "Chromatic (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": true,
       "year": null,
@@ -18215,7 +18386,7 @@
     {
       "name": "Chromatic",
       "raw": "Chromatic [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": true,
       "year": null,
@@ -18278,7 +18449,7 @@
     {
       "name": "Cursed",
       "raw": "Cursed (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2024",
@@ -18287,7 +18458,7 @@
     {
       "name": "Cursed",
       "raw": "Cursed [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2024",
@@ -18386,7 +18557,7 @@
     {
       "name": "Predator",
       "raw": "Predator (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -18395,7 +18566,7 @@
     {
       "name": "Predator",
       "raw": "Predator [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": null,
@@ -18404,7 +18575,7 @@
     {
       "name": "Ripper",
       "raw": "Ripper (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2020",
@@ -18413,7 +18584,7 @@
     {
       "name": "Ripper",
       "raw": "Ripper [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2020",
@@ -18449,19 +18620,19 @@
     {
       "name": "Tree",
       "raw": "Tree (Knife) [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
       "name": "Tree",
       "raw": "Tree [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
@@ -18521,7 +18692,7 @@
     {
       "name": "Aquarium",
       "raw": "Aquarium (Knife) [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2025",
@@ -18530,7 +18701,7 @@
     {
       "name": "Aquarium",
       "raw": "Aquarium [Legendary]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Legendary",
       "is_chroma": false,
       "year": "2025",
@@ -18900,18 +19071,18 @@
       "name": "Cane",
       "raw": "Cane (Knife) [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
       "name": "Cane",
       "raw": "Cane [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2015",
       "value": "x2 T1 Rares"
     },
     {
@@ -18971,7 +19142,7 @@
     {
       "name": "Silent Night",
       "raw": "Silent Night (Knife) [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2020",
@@ -18980,7 +19151,7 @@
     {
       "name": "Silent Night",
       "raw": "Silent Night [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2020",
@@ -19007,19 +19178,19 @@
     {
       "name": "Starry",
       "raw": "Starry (Knife) [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2021",
       "value": 5
     },
     {
       "name": "Starry",
       "raw": "Starry [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2026",
+      "year": "2021",
       "value": 5
     },
     {
@@ -19052,7 +19223,7 @@
     {
       "name": "Watcher",
       "raw": "Watcher (Knife) [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2021",
@@ -19061,7 +19232,7 @@
     {
       "name": "Watcher",
       "raw": "Watcher [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2021",
@@ -19073,7 +19244,7 @@
       "type": "Knife",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2017",
       "value": "x3 T1 Legendaries"
     },
     {
@@ -19082,7 +19253,7 @@
       "type": "Knife",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2017",
       "value": "x3 T1 Legendaries"
     },
     {
@@ -19169,7 +19340,7 @@
     {
       "name": "Toxic",
       "raw": "Toxic (Knife) [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2018",
@@ -19178,7 +19349,7 @@
     {
       "name": "Toxic",
       "raw": "Toxic [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2018",
@@ -19268,7 +19439,7 @@
     {
       "name": "Candy Swirl",
       "raw": "Candy Swirl (Knife) [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2019",
@@ -19277,7 +19448,7 @@
     {
       "name": "Candy Swirl",
       "raw": "Candy Swirl [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2019",
@@ -19314,27 +19485,27 @@
       "name": "Bats",
       "raw": "Bats (Knife)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Bats",
       "raw": "Bats (Knife) [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Bats",
       "raw": "Bats [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2016",
       "value": "x2 T1 Commons"
     },
     {
@@ -19421,73 +19592,73 @@
     {
       "name": "Gingerbread",
       "raw": "Gingerbread (Knife) [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Gingerbread",
       "raw": "Gingerbread [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2022",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Monster",
       "raw": "Monster (Knife)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Monster",
       "raw": "Monster (Knife) [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Monster",
       "raw": "Monster [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Mummy",
       "raw": "Mummy (Knife)",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Mummy",
       "raw": "Mummy (Knife) [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Mummy",
       "raw": "Mummy [Uncommon]",
-      "type": "Knife",
-      "rarity": "Uncommon",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2020",
+      "year": "2015",
       "value": "x3 T1 Uncommons"
     },
     {
@@ -19676,7 +19847,7 @@
       "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2023",
       "value": "x3 T1 Legendaries"
     },
     {
@@ -19685,7 +19856,7 @@
       "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2023",
       "value": "x3 T1 Legendaries"
     },
     {
@@ -19694,7 +19865,7 @@
       "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2023",
       "value": "x3 T1 Legendaries"
     },
     {
@@ -19727,7 +19898,7 @@
     {
       "name": "Frostflame",
       "raw": "Frostflame (Knife) [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2024",
@@ -19736,7 +19907,7 @@
     {
       "name": "Frostflame",
       "raw": "Frostflame [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2024",
@@ -19872,18 +20043,18 @@
       "name": "Bones",
       "raw": "Bones (Knife) [Uncommon]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Bones",
       "raw": "Bones [Uncommon]",
       "type": "Knife",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -19916,25 +20087,25 @@
     {
       "name": "Ghosts",
       "raw": "Ghosts (Knife) [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x3 T1 Rares"
     },
     {
       "name": "Ghosts",
       "raw": "Ghosts [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2020",
       "value": "x3 T1 Rares"
     },
     {
       "name": "Gingercookie",
       "raw": "Gingercookie (Knife) [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -19943,7 +20114,7 @@
     {
       "name": "Gingercookie",
       "raw": "Gingercookie [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -19970,7 +20141,7 @@
     {
       "name": "Pop Art",
       "raw": "Pop Art (Knife) [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -19979,7 +20150,7 @@
     {
       "name": "Pop Art",
       "raw": "Pop Art [Rare]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Rare",
       "is_chroma": false,
       "year": "2025",
@@ -20906,34 +21077,34 @@
     {
       "name": "Brains",
       "raw": "Brains (Gun)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Brains",
       "raw": "Brains (Gun) [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Brains",
       "raw": "Brains [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2019",
       "value": "x3 T1 Uncommons"
     },
     {
       "name": "Sweater",
       "raw": "Sweater (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -20942,7 +21113,7 @@
     {
       "name": "Sweater",
       "raw": "Sweater (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -20951,7 +21122,7 @@
     {
       "name": "Sweater",
       "raw": "Sweater [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -21014,7 +21185,7 @@
     {
       "name": "Wrap",
       "raw": "Wrap (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2020",
@@ -21023,7 +21194,7 @@
     {
       "name": "Wrap",
       "raw": "Wrap [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2020",
@@ -21071,7 +21242,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2021",
       "value": 1
     },
     {
@@ -21080,40 +21251,40 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2023",
+      "year": "2021",
       "value": 1
     },
     {
       "name": "Snowman",
       "raw": "Snowman (Pet)",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Snowman",
       "raw": "Snowman (Pet) [Common]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Snowman",
       "raw": "Snowman [Common]",
-      "type": "Pet",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2015",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Hazard",
       "raw": "Hazard (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -21122,7 +21293,7 @@
     {
       "name": "Hazard",
       "raw": "Hazard [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -21158,34 +21329,34 @@
     {
       "name": "Webs",
       "raw": "Webs (Gun)",
-      "type": "Gun",
-      "rarity": "Common",
+      "type": "Knife",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Webs",
       "raw": "Webs (Gun) [Common]",
-      "type": "Gun",
-      "rarity": "Common",
+      "type": "Knife",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Webs",
       "raw": "Webs [Common]",
-      "type": "Gun",
-      "rarity": "Common",
+      "type": "Knife",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2022",
+      "year": "2017",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Potion",
       "raw": "Potion (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -21194,7 +21365,7 @@
     {
       "name": "Potion",
       "raw": "Potion [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -21302,19 +21473,19 @@
     {
       "name": "Lights",
       "raw": "Lights (Knife) [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2019",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Lights",
       "raw": "Lights [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2019",
       "value": "x2 T1 Commons"
     },
     {
@@ -21338,7 +21509,7 @@
     {
       "name": "Holly",
       "raw": "Holly (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -21347,7 +21518,7 @@
     {
       "name": "Holly",
       "raw": "Holly [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2018",
@@ -21440,7 +21611,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": 30
     },
     {
@@ -21449,7 +21620,7 @@
       "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2024",
+      "year": "2015",
       "value": 30
     },
     {
@@ -21509,7 +21680,7 @@
     {
       "name": "Wraiths",
       "raw": "Wraiths (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2021",
@@ -21518,7 +21689,7 @@
     {
       "name": "Wraiths",
       "raw": "Wraiths [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2021",
@@ -21527,7 +21698,7 @@
     {
       "name": "Mistletoe",
       "raw": "Mistletoe (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -21536,7 +21707,7 @@
     {
       "name": "Mistletoe",
       "raw": "Mistletoe [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -21572,8 +21743,8 @@
     {
       "name": "Love",
       "raw": "Love (Knife) [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -21581,8 +21752,8 @@
     {
       "name": "Love",
       "raw": "Love [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
       "value": "x2 T1 Rares"
@@ -21617,7 +21788,7 @@
     {
       "name": "Canes",
       "raw": "Canes (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2023",
@@ -21626,7 +21797,7 @@
     {
       "name": "Canes",
       "raw": "Canes [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2023",
@@ -21716,7 +21887,7 @@
     {
       "name": "Melon",
       "raw": "Melon (Gun)",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -21725,7 +21896,7 @@
     {
       "name": "Melon",
       "raw": "Melon (Gun) [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -21734,7 +21905,7 @@
     {
       "name": "Melon",
       "raw": "Melon [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -21770,7 +21941,7 @@
     {
       "name": "Stockings",
       "raw": "Stockings (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -21779,7 +21950,7 @@
     {
       "name": "Stockings",
       "raw": "Stockings [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2022",
@@ -21806,7 +21977,7 @@
     {
       "name": "Clown",
       "raw": "Clown (Gun) [Unique]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Unique",
       "is_chroma": false,
       "year": "",
@@ -21815,7 +21986,7 @@
     {
       "name": "Clown",
       "raw": "Clown [Unique]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Unique",
       "is_chroma": false,
       "year": "",
@@ -22067,7 +22238,7 @@
     {
       "name": "Lava",
       "raw": "Lava (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -22076,7 +22247,7 @@
     {
       "name": "Lava",
       "raw": "Lava [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -22221,33 +22392,33 @@
       "name": "Pumpkin",
       "raw": "Pumpkin (Pet)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Pumpkin",
       "raw": "Pumpkin (Pet) [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Pumpkin",
       "raw": "Pumpkin [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2020",
       "value": "x2 T1 Uncommons"
     },
     {
       "name": "Soda",
       "raw": "Soda (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -22256,7 +22427,7 @@
     {
       "name": "Soda",
       "raw": "Soda [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": "2025",
@@ -22445,28 +22616,28 @@
     {
       "name": "Leaves",
       "raw": "Leaves (Knife)",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Leaves",
       "raw": "Leaves (Knife) [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Leaves",
       "raw": "Leaves [Common]",
-      "type": "Knife",
-      "rarity": "Common",
+      "type": "Gun",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2025",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
@@ -22652,7 +22823,7 @@
     {
       "name": "Doge",
       "raw": "Doge (Pet)",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22661,7 +22832,7 @@
     {
       "name": "Doge",
       "raw": "Doge (Pet) [Uncommon]",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22670,7 +22841,7 @@
     {
       "name": "Doge",
       "raw": "Doge [Uncommon]",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22706,7 +22877,7 @@
     {
       "name": "Adurite",
       "raw": "Adurite (Gun) [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22715,7 +22886,7 @@
     {
       "name": "Adurite",
       "raw": "Adurite [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22778,7 +22949,7 @@
     {
       "name": "Bluesteel",
       "raw": "Bluesteel (Gun) [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22787,7 +22958,7 @@
     {
       "name": "Bluesteel",
       "raw": "Bluesteel [Uncommon]",
-      "type": "Gun",
+      "type": "Knife",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22823,7 +22994,7 @@
     {
       "name": "Camo",
       "raw": "Camo (Knife) [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -22832,7 +23003,7 @@
     {
       "name": "Camo",
       "raw": "Camo [Uncommon]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Uncommon",
       "is_chroma": false,
       "year": null,
@@ -23570,7 +23741,7 @@
     {
       "name": "Webbed",
       "raw": "Webbed (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2019",
@@ -23579,7 +23750,7 @@
     {
       "name": "Webbed",
       "raw": "Webbed [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2019",
@@ -23643,27 +23814,27 @@
       "name": "Elf",
       "raw": "Elf (Pet)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": 25
     },
     {
       "name": "Elf",
       "raw": "Elf (Pet) [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": 25
     },
     {
       "name": "Elf",
       "raw": "Elf [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": null,
+      "year": "2019",
       "value": 25
     },
     {
@@ -23804,7 +23975,7 @@
     {
       "name": "Coal",
       "raw": "Coal (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -23813,7 +23984,7 @@
     {
       "name": "Coal",
       "raw": "Coal (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -23822,7 +23993,7 @@
     {
       "name": "Coal",
       "raw": "Coal [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -23831,7 +24002,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -23840,7 +24011,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -23849,7 +24020,7 @@
     {
       "name": "Candy Corn",
       "raw": "Candy Corn [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -24263,7 +24434,7 @@
     {
       "name": "Apocalypse",
       "raw": "Apocalypse (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -24272,7 +24443,7 @@
     {
       "name": "Apocalypse",
       "raw": "Apocalypse [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -24284,7 +24455,7 @@
       "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2022",
+      "year": null,
       "value": "x3 T1 Legendaries"
     },
     {
@@ -24293,7 +24464,7 @@
       "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2022",
+      "year": null,
       "value": "x3 T1 Legendaries"
     },
     {
@@ -24533,19 +24704,19 @@
     {
       "name": "Haunted",
       "raw": "Haunted (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2018",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Haunted",
       "raw": "Haunted [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2018",
       "value": "x2 T1 Commons"
     },
     {
@@ -24596,28 +24767,28 @@
     {
       "name": "Bunny",
       "raw": "Bunny (Pet)",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2016",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Bunny",
       "raw": "Bunny (Pet) [Common]",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2016",
       "value": "x4 T1 Legendaries"
     },
     {
       "name": "Bunny",
       "raw": "Bunny [Common]",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2016",
       "value": "x4 T1 Legendaries"
     },
     {
@@ -25226,7 +25397,7 @@
     {
       "name": "Candied",
       "raw": "Candied (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -25235,7 +25406,7 @@
     {
       "name": "Candied",
       "raw": "Candied [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2022",
@@ -25280,7 +25451,7 @@
     {
       "name": "Fragile",
       "raw": "Fragile (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -25289,7 +25460,7 @@
     {
       "name": "Fragile",
       "raw": "Fragile [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -25388,28 +25559,28 @@
     {
       "name": "Cat",
       "raw": "Cat (Pet)",
-      "type": "Pet",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2021",
       "value": "x1 T1 Common"
     },
     {
       "name": "Cat",
       "raw": "Cat (Pet) [Common]",
-      "type": "Pet",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2021",
       "value": "x1 T1 Common"
     },
     {
       "name": "Cat",
       "raw": "Cat [Common]",
-      "type": "Pet",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2021",
       "value": "x1 T1 Common"
     },
     {
@@ -25469,28 +25640,28 @@
     {
       "name": "Reindeer",
       "raw": "Reindeer (Pet)",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2025",
       "value": 3
     },
     {
       "name": "Reindeer",
       "raw": "Reindeer (Pet) [Common]",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2025",
       "value": 3
     },
     {
       "name": "Reindeer",
       "raw": "Reindeer [Common]",
-      "type": "Pet",
+      "type": "Knife",
       "rarity": "Common",
       "is_chroma": false,
-      "year": null,
+      "year": "2025",
       "value": 3
     },
     {
@@ -25523,7 +25694,7 @@
     {
       "name": "Carved",
       "raw": "Carved (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2020",
@@ -25532,7 +25703,7 @@
     {
       "name": "Carved",
       "raw": "Carved [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2020",
@@ -25568,34 +25739,34 @@
     {
       "name": "Stickers",
       "raw": "Stickers (Knife)",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Stickers",
       "raw": "Stickers [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
-      "year": "2021",
+      "year": "2024",
       "value": "x2 T1 Commons"
     },
     {
       "name": "Wavy",
       "raw": "Wavy (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -25604,7 +25775,7 @@
     {
       "name": "Wavy",
       "raw": "Wavy [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -25721,7 +25892,7 @@
     {
       "name": "Clownfish",
       "raw": "Clownfish (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -25730,7 +25901,7 @@
     {
       "name": "Clownfish",
       "raw": "Clownfish [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -25766,7 +25937,7 @@
     {
       "name": "Igloo",
       "raw": "Igloo (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2024",
@@ -25775,7 +25946,7 @@
     {
       "name": "Igloo",
       "raw": "Igloo [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2024",
@@ -25784,7 +25955,7 @@
     {
       "name": "UFOs",
       "raw": "UFOs (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -25793,7 +25964,7 @@
     {
       "name": "UFOs",
       "raw": "UFOs [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -26144,7 +26315,7 @@
     {
       "name": "Snowball",
       "raw": "Snowball (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -26153,7 +26324,7 @@
     {
       "name": "Snowball",
       "raw": "Snowball [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -26189,7 +26360,7 @@
     {
       "name": "Starfish",
       "raw": "Starfish (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -26198,7 +26369,7 @@
     {
       "name": "Starfish",
       "raw": "Starfish [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": null,
@@ -26207,7 +26378,7 @@
     {
       "name": "Strawberries",
       "raw": "Strawberries (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2026",
@@ -26216,7 +26387,7 @@
     {
       "name": "Strawberries",
       "raw": "Strawberries [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2026",
@@ -26225,7 +26396,7 @@
     {
       "name": "Striped",
       "raw": "Striped (Knife) [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -26234,7 +26405,7 @@
     {
       "name": "Striped",
       "raw": "Striped [Common]",
-      "type": "Knife",
+      "type": "Gun",
       "rarity": "Common",
       "is_chroma": false,
       "year": "2025",
@@ -27432,27 +27603,27 @@
       "name": "Blue Pumpkin",
       "raw": "Blue Pumpkin (Pet)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 1
     },
     {
       "name": "Blue Pumpkin",
       "raw": "Blue Pumpkin (Pet) [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 1
     },
     {
       "name": "Blue Pumpkin",
       "raw": "Blue Pumpkin [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 1
     },
     {
@@ -27486,27 +27657,27 @@
       "name": "Red Pumpkin",
       "raw": "Red Pumpkin (Pet)",
       "type": "Pet",
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2021",
       "value": 3
     },
     {
       "name": "Red Pumpkin",
       "raw": "Red Pumpkin (Pet) [Rare]",
       "type": "Pet",
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2021",
       "value": 3
     },
     {
       "name": "Red Pumpkin",
       "raw": "Red Pumpkin [Rare]",
       "type": "Pet",
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "is_chroma": false,
-      "year": "2019",
+      "year": "2021",
       "value": 3
     },
     {
@@ -27540,27 +27711,27 @@
       "name": "Green Pumpkin",
       "raw": "Green Pumpkin (Pet)",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 3
     },
     {
       "name": "Green Pumpkin",
       "raw": "Green Pumpkin (Pet) [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 3
     },
     {
       "name": "Green Pumpkin",
       "raw": "Green Pumpkin [Common]",
       "type": "Pet",
-      "rarity": "Common",
+      "rarity": "Rare",
       "is_chroma": false,
-      "year": "2018",
+      "year": "2019",
       "value": 3
     },
     {
@@ -29483,28 +29654,28 @@
     {
       "name": "SunsetChroma",
       "raw": "SunsetChroma (Gun)",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": "2025",
       "value": 6250
     },
     {
       "name": "SunsetChroma",
       "raw": "SunsetChroma (Gun) [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": "2025",
       "value": 6250
     },
     {
       "name": "SunsetChroma",
       "raw": "SunsetChroma [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": "2025",
       "value": 6250
     },
     {
@@ -29673,27 +29844,27 @@
       "name": "OrnamentChroma",
       "raw": "OrnamentChroma (Knife)",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
       "name": "OrnamentChroma",
       "raw": "OrnamentChroma (Knife) [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
       "name": "OrnamentChroma",
       "raw": "OrnamentChroma [Common]",
       "type": "Knife",
-      "rarity": "Common",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2015",
+      "year": "2025",
       "value": 1825
     },
     {
@@ -29888,55 +30059,55 @@
     {
       "name": "CandleflameChroma",
       "raw": "CandleflameChroma (Gun)",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "CandleflameChroma",
       "raw": "CandleflameChroma (Gun) [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "CandleflameChroma",
       "raw": "CandleflameChroma [Rare]",
-      "type": "Gun",
-      "rarity": "Rare",
+      "type": "Knife",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2024",
+      "year": "2021",
       "value": 40
     },
     {
       "name": "LaserChroma",
       "raw": "LaserChroma (Knife)",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
       "name": "LaserChroma",
       "raw": "LaserChroma (Knife) [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
       "name": "LaserChroma",
       "raw": "LaserChroma [Rare]",
-      "type": "Knife",
-      "rarity": "Rare",
+      "type": "Gun",
+      "rarity": "Godly",
       "is_chroma": true,
-      "year": "2026",
+      "year": null,
       "value": 40
     },
     {
@@ -30511,31 +30682,31 @@
   "Evergun": 3450,
   "Evergreen": 2700,
   "Constellation": 2600,
-  "Alienbeam": 1975,
-  "Raygun": 1950,
+  "Alienbeam": 2000,
+  "Raygun": 1975,
   "Vampire's Gun": 1900,
   "Turkey": 1850,
   "Darkshot": 1800,
   "Darksword": 1775,
   "Blossom": "x4 T1 Legendaries",
-  "Sakura": 1250,
-  "Sunrise": 875,
+  "Sakura": 1230,
+  "Sunrise": 850,
   "Bauble": 675,
   "Snowcannon": 675,
-  "Soul": 670,
-  "Spirit": 660,
+  "Soul": 665,
+  "Spirit": 655,
   "Sunset": "x3 T1 Rares",
   "Rainbow Gun": 405,
-  "Xenoknife": 405,
-  "Xenoshot": 405,
+  "Xenoknife": 410,
+  "Xenoshot": 410,
   "Flora": 400,
   "Rainbow": 400,
   "Bloom": 395,
   "Batwing": 42,
   "Black Luger": 1000000,
   "Heart Wand": 340,
-  "Blizzard": 280,
-  "Snowstorm": 280,
+  "Blizzard": 275,
+  "Snowstorm": 275,
   "Ocean": 245,
   "Flowerwood Gun": 240,
   "Waves": "x2 T1 Rares",
@@ -30634,10 +30805,10 @@
   "Seer": 3,
   "Orange Seer": 2,
   "Yellow Seer": 2,
-  "Gingerscope": 15250,
-  "Traveler's Axe": 7100,
-  "Celestial": 2100,
-  "Vampire's Axe": 1500,
+  "Gingerscope": 15000,
+  "Traveler's Axe": 7000,
+  "Celestial": 2050,
+  "Vampire's Axe": 1450,
   "Harvester": 250,
   "Icepiercer": 160,
   "Icebreaker": 65,
@@ -30656,16 +30827,16 @@
   "Golden": 10,
   "Splitter": 3,
   "Chroma Traveler's Gun": 140000,
-  "Chroma Evergun": 53000,
-  "Chroma Evergreen": 39000,
+  "Chroma Evergun": 52000,
+  "Chroma Evergreen": 38000,
   "Chroma Bauble": 29000,
   "Chroma Constellation": 27000,
   "Chroma Vampire's Gun": 24500,
   "Chroma Alienbeam": 24000,
-  "Chroma Raygun": 14500,
-  "Chroma Sunrise": 10250,
+  "Chroma Raygun": 14250,
+  "Chroma Sunrise": 10000,
   "Chroma Snowcannon": 7750,
-  "Chroma Sunset": 6500,
+  "Chroma Sunset": 6250,
   "Chroma Blizzard": 5500,
   "Chroma Snowstorm": 4250,
   "Chroma Heart Wand": 3500,
@@ -30703,7 +30874,7 @@
   "Chroma Fire Dog": 3,
   "Chroma Fire Fox": 3,
   "Chroma Fire Pig": 3,
-  "Corrupt": 340,
+  "Corrupt": 330,
   "Latte (Gun)": 140,
   "Latte (Knife)": 140,
   "Spectral (Knife)": 50,
@@ -31479,9 +31650,9 @@
   "Strawberries": "x2 T1 Commons",
   "Striped": "x2 T1 Commons",
   "Travelers Gun": 5200,
-  "Travelers Axe": 7100,
+  "Travelers Axe": 7000,
   "Vampires Gun": 1900,
-  "Vampires Axe": 1500,
+  "Vampires Axe": 1450,
   "BattleAxe2": 45,
   "BattleAxe II": 45,
   "ElderwoodBlade": 33,
@@ -33556,5 +33727,176 @@
   "Fire FoxChroma [Godly]": 3,
   "Fire PigChroma (Pet)": 3,
   "Fire PigChroma (Pet) [Godly]": 3,
-  "Fire PigChroma [Godly]": 3
+  "Fire PigChroma [Godly]": 3,
+  "Blossom (Gun)": "x4 T1 Legendaries",
+  "Blossom (Gun) [Godly]": "x4 T1 Legendaries",
+  "Blossom [Godly]": "x4 T1 Legendaries",
+  "Sunset (Knife)": "x3 T1 Rares",
+  "Sunset (Knife) [Godly]": "x3 T1 Rares",
+  "Sunset [Godly]": "x3 T1 Rares",
+  "Waves (Knife) [Godly]": "x2 T1 Rares",
+  "Waves [Godly]": "x2 T1 Rares",
+  "Bat (Knife)": "x2 T1 Uncommons",
+  "Bat (Knife) [Godly]": "x2 T1 Uncommons",
+  "Bat [Godly]": "x2 T1 Uncommons",
+  "Ornament (Knife) [Godly]": "x4 T1 Legendaries",
+  "Ornament [Godly]": "x4 T1 Legendaries",
+  "Candleflame (Knife)": "x1 T1 Legendary",
+  "Candleflame (Knife) [Godly]": "x1 T1 Legendary",
+  "Candleflame [Godly]": "x1 T1 Legendary",
+  "Makeshift (Gun)": 35,
+  "Makeshift (Gun) [Godly]": 35,
+  "Makeshift [Godly]": 35,
+  "Laser (Gun)": 10,
+  "Laser (Gun) [Godly]": 10,
+  "Laser [Godly]": 10,
+  "Spider (Knife) [Godly]": "x2 T1 Commons",
+  "Spider [Godly]": "x2 T1 Commons",
+  "Snowflake (Knife) [Godly]": "x3 T1 Uncommons",
+  "Snowflake [Godly]": "x3 T1 Uncommons",
+  "Peppermint (Knife) [Godly]": "x2 T1 Commons",
+  "Peppermint [Godly]": "x2 T1 Commons",
+  "Ghost (Knife) [Vintage]": 2,
+  "Ghost [Vintage]": 2,
+  "Shadow (Knife)": 10,
+  "Shadow (Knife) [Vintage]": 10,
+  "Shadow [Vintage]": 10,
+  "Phaser (Gun)": 10,
+  "Phaser (Gun) [Vintage]": 10,
+  "Phaser [Vintage]": 10,
+  "Golden (Gun)": 10,
+  "Golden (Gun) [Vintage]": 10,
+  "Golden [Vintage]": 10,
+  "Chroma Sunset (Knife)": 6250,
+  "Chroma Sunset (Knife) [Godly]": 6250,
+  "Chroma Sunset [Godly]": 6250,
+  "Chroma Ornament (Knife) [Godly]": 1825,
+  "Chroma Ornament [Godly]": 1825,
+  "Chroma Candleflame (Knife)": 40,
+  "Chroma Candleflame (Knife) [Godly]": 40,
+  "Chroma Candleflame [Godly]": 40,
+  "Chroma Laser (Gun)": 40,
+  "Chroma Laser (Gun) [Godly]": 40,
+  "Chroma Laser [Godly]": 40,
+  "Latte (Gun) [Legendary]": 140,
+  "Traveler (Gun) [Legendary]": 50,
+  "Arctic (Gun) [Legendary]": 10,
+  "Ginger (Gun) [Legendary]": "x4 T1 Legendaries",
+  "Skulls (Knife) [Legendary]": 15,
+  "Skulls [Legendary]": 15,
+  "Frostfade (Gun) [Legendary]": 2,
+  "Chromatic (Gun) [Legendary]": 1,
+  "Cursed (Gun) [Legendary]": "x4 T1 Legendaries",
+  "Predator (Gun) [Legendary]": "x4 T1 Legendaries",
+  "Ripper (Gun) [Legendary]": "x4 T1 Legendaries",
+  "Tree (Gun) [Legendary]": "x2 T1 Rares",
+  "Tree [Legendary]": "x2 T1 Rares",
+  "Aquarium (Gun) [Legendary]": "x3 T1 Legendaries",
+  "Cane (Knife) [Rare]": "x2 T1 Rares",
+  "Cane [Rare]": "x2 T1 Rares",
+  "Silent Night (Gun) [Rare]": 50,
+  "Starry (Gun) [Rare]": 5,
+  "Starry [Rare]": 5,
+  "Watcher (Gun) [Rare]": "x3 T1 Commons",
+  "Toxic (Gun) [Rare]": 5,
+  "Candy Swirl (Gun) [Rare]": 2,
+  "Bats (Knife) [Rare]": "x2 T1 Commons",
+  "Bats [Rare]": "x2 T1 Commons",
+  "Gingerbread (Gun) [Rare]": "x2 T1 Uncommons",
+  "Gingerbread [Rare]": "x2 T1 Uncommons",
+  "Monster (Gun)": "x3 T1 Uncommons",
+  "Monster (Gun) [Rare]": "x3 T1 Uncommons",
+  "Monster [Rare]": "x3 T1 Uncommons",
+  "Mummy (Gun)": "x3 T1 Uncommons",
+  "Mummy (Gun) [Rare]": "x3 T1 Uncommons",
+  "Mummy [Rare]": "x3 T1 Uncommons",
+  "Frostflame (Gun) [Rare]": "x1 T1 Legendary",
+  "Bones (Knife) [Rare]": "x4 T1 Legendaries",
+  "Bones [Rare]": "x4 T1 Legendaries",
+  "Ghosts (Gun) [Rare]": "x3 T1 Rares",
+  "Ghosts [Rare]": "x3 T1 Rares",
+  "Gingercookie (Gun) [Rare]": "x3 T1 Rares",
+  "Pop Art (Gun) [Rare]": "x3 T1 Rares",
+  "Brains (Knife)": "x3 T1 Uncommons",
+  "Brains (Knife) [Uncommon]": "x3 T1 Uncommons",
+  "Sweater (Gun)": "x2 T1 Uncommons",
+  "Sweater (Gun) [Uncommon]": "x2 T1 Uncommons",
+  "Wrap (Gun) [Uncommon]": 12,
+  "Snowman (Gun)": "x2 T1 Commons",
+  "Snowman (Gun) [Uncommon]": "x2 T1 Commons",
+  "Snowman [Uncommon]": "x2 T1 Commons",
+  "Hazard (Gun) [Uncommon]": 5,
+  "Webs (Knife)": "x2 T1 Uncommons",
+  "Webs (Knife) [Uncommon]": "x2 T1 Uncommons",
+  "Webs [Uncommon]": "x2 T1 Uncommons",
+  "Potion (Gun) [Uncommon]": 2,
+  "Lights (Gun) [Uncommon]": "x2 T1 Commons",
+  "Lights [Uncommon]": "x2 T1 Commons",
+  "Holly (Gun) [Uncommon]": 1,
+  "Wraiths (Gun) [Uncommon]": "x1 T1 Legendary",
+  "Mistletoe (Gun) [Uncommon]": "x3 T1 Rares",
+  "Love (Gun) [Uncommon]": "x2 T1 Rares",
+  "Love [Uncommon]": "x2 T1 Rares",
+  "Canes (Gun) [Uncommon]": "x1 T1 Rare",
+  "Melon (Knife)": "x4 T1 Commons",
+  "Melon (Knife) [Uncommon]": "x4 T1 Commons",
+  "Stockings (Gun) [Uncommon]": "x2 T1 Commons",
+  "Clown (Knife) [Unique]": "x1 T1 Common",
+  "Lava (Gun) [Uncommon]": "x3 T1 Uncommons",
+  "Pumpkin (Pet) [Legendary]": "x2 T1 Uncommons",
+  "Pumpkin [Legendary]": "x2 T1 Uncommons",
+  "Soda (Gun) [Uncommon]": "x4 T1 Commons",
+  "Leaves (Gun)": "x2 T1 Commons",
+  "Leaves (Gun) [Uncommon]": "x2 T1 Commons",
+  "Leaves [Uncommon]": "x2 T1 Commons",
+  "Doge (Knife)": "x4 T1 Commons",
+  "Doge (Knife) [Uncommon]": "x4 T1 Commons",
+  "Adurite (Knife) [Uncommon]": "x4 T1 Commons",
+  "Bluesteel (Knife) [Uncommon]": "x4 T1 Commons",
+  "Camo (Gun) [Uncommon]": "x4 T1 Commons",
+  "Webbed (Gun) [Common]": 25,
+  "Elf (Pet) [Uncommon]": 25,
+  "Elf [Uncommon]": 25,
+  "Coal (Gun)": "x2 T1 Commons",
+  "Coal (Gun) [Common]": "x2 T1 Commons",
+  "Candy Corn (Gun)": "x2 T1 Commons",
+  "Candy Corn (Gun) [Common]": "x2 T1 Commons",
+  "Apocalypse (Gun) [Common]": 3,
+  "Haunted (Gun) [Common]": "x2 T1 Commons",
+  "Bunny (Knife)": "x4 T1 Legendaries",
+  "Bunny (Knife) [Common]": "x4 T1 Legendaries",
+  "Candied (Gun) [Common]": "x2 T1 Uncommons",
+  "Fragile (Gun) [Common]": "x2 T1 Uncommons",
+  "Cat (Gun)": "x1 T1 Common",
+  "Cat (Gun) [Common]": "x1 T1 Common",
+  "Reindeer (Knife)": 3,
+  "Reindeer (Knife) [Common]": 3,
+  "Carved (Gun) [Common]": "x3 T1 Commons",
+  "Stickers (Gun)": "x2 T1 Commons",
+  "Stickers (Gun) [Common]": "x2 T1 Commons",
+  "Wavy (Gun) [Common]": "x3 T1 Commons",
+  "Clownfish (Gun) [Common]": "x3 T1 Commons",
+  "Igloo (Gun) [Common]": "x3 T1 Commons",
+  "UFOs (Gun) [Common]": "x3 T1 Commons",
+  "Snowball (Gun) [Common]": "x2 T1 Commons",
+  "Starfish (Gun) [Common]": "x2 T1 Commons",
+  "Strawberries (Gun) [Common]": "x2 T1 Commons",
+  "Striped (Gun) [Common]": "x2 T1 Commons",
+  "Blue Pumpkin (Pet) [Uncommon]": 1,
+  "Blue Pumpkin [Uncommon]": 1,
+  "Red Pumpkin (Pet) [Legendary]": 3,
+  "Red Pumpkin [Legendary]": 3,
+  "Green Pumpkin (Pet) [Rare]": 3,
+  "Green Pumpkin [Rare]": 3,
+  "SunsetChroma (Knife)": 6250,
+  "SunsetChroma (Knife) [Godly]": 6250,
+  "SunsetChroma [Godly]": 6250,
+  "OrnamentChroma (Knife) [Godly]": 1825,
+  "OrnamentChroma [Godly]": 1825,
+  "CandleflameChroma (Knife)": 40,
+  "CandleflameChroma (Knife) [Godly]": 40,
+  "CandleflameChroma [Godly]": 40,
+  "LaserChroma (Gun)": 40,
+  "LaserChroma (Gun) [Godly]": 40,
+  "LaserChroma [Godly]": 40
 }
