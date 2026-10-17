@@ -345,6 +345,12 @@ def main():
             if t:
                 combined_values[f"Chroma {clean_name} ({t})"] = val
 
+    # Fix Batwing base key to 42 (Ancient standard weapon) rather than 1M trophy
+    combined_values["Batwing"] = 42
+    combined_values["Batwing (Knife)"] = 42
+    combined_values["Batwing [Ancient]"] = 42
+    combined_values["Batwing [Godly]"] = 1000000
+
     # Add standard MM2 alternative spellings without clutter
     common_aliases = {
         "Travelers Gun": combined_values.get("Traveler's Gun", 5200),
