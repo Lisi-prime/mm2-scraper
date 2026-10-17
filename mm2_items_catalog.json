@@ -1,0 +1,3259 @@
+{
+  "Arctic": {
+    "year": "2022",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Coconut": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bioblade": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Flowerwood Gun": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Brush": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Circuit": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Carved": {
+    "year": "2020",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Borders": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bacon": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Butterflies": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Bunny": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Candy Corn": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Cherry": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Forest": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Carrots": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Cane": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Candy Swirl": {
+    "year": "2019",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Deathshard": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Bio": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "???": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Clockwork": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Bronze Candy": {
+    "year": "2017",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Blue Vamp's Edge": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Camo": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Flora": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Carrot": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Candleflame": {
+    "year": "2024",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Boneblade": {
+    "year": "2018",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Juice": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Corl": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Combat": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Cavern": {
+    "year": "2019",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Energized": {
+    "year": "2025",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Glitch1": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Silver Celestial": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Rupture": {
+    "year": "2015",
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Cupid": {
+    "year": "2026",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Doge": {
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "Combat II": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Aquarium": {
+    "year": "2025",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Floatie": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Euro": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Eternal III": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Bunnies": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Clownfish": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Fall Camo": {
+    "year": "2021",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Flames": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Future": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Amerilaser": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Gold Elderwood": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Beachy": {
+    "year": "2026",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Elderwood Revolver": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Bauble": {
+    "year": "2024",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Eclipse": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Coal": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Purple": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Ornament": {
+    "year": "2015",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Constellation": {
+    "year": "2024",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Red Celestial": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Cookieblade": {
+    "year": "2020",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Frostsaber": {
+    "year": "2017",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Fall": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Orange": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Eternal II": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Frostflame": {
+    "year": "2024",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Darkknife": {
+    "year": "2023",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Frostfade": {
+    "year": "2023",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Frosted": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Denis": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Frostbite": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Fragile": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Ace": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Bones": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Flowerwood": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Floral": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Blaster": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "America": {
+    "rarity": "Vintage",
+    "itemType": "Gun"
+  },
+  "Galactic": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Cats": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bats": {
+    "year": "2024",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Fireplace": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Boney": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Box of Fertilizer": {
+    "year": "2018",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Duckies": {
+    "year": "2026",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Blizzard": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Fallout": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Abduction": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Blue Seer": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Bronze Constellation": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Darksword": {
+    "year": "2023",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Green Elite": {
+    "year": "2015",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Eyes": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Bronze Hallow": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Eyeball": {
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Deep Sea": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Caution": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Dungeon": {
+    "year": "2019",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Blue Elderwood": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Frosty": {
+    "year": "2017",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Eternal": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Engraved": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Lightbringer": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Cookie": {
+    "year": "2021",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Emerald": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Decorated": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Borealis": {
+    "year": "2024",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Blue Elite": {
+    "year": "2017",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Darkshot": {
+    "year": "2023",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Asteroid": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Branches": {
+    "year": "2019",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Elf": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Elderwood Scythe": {
+    "year": "2019",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Cheddar": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Elderwood Blade": {
+    "year": "2022",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Blue Sugar": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Cheesy": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Bubbles": {
+    "year": "2026",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Silver Elderwood": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Bronze Harvester": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Egg": {
+    "year": "2016",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Candies": {
+    "year": "2017",
+    "rarity": "Halloween",
+    "itemType": "Misc"
+  },
+  "Eggblade": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Checker": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "2015": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Aqua": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Ecto": {
+    "year": "2017",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Aliens": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Eternal IV": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Biogun": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Nightsky": {
+    "year": "2024",
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Candied": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "BattleAxe II": {
+    "year": "2018",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Fang": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Clown": {
+    "year": "",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Donut": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Dolphins": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Australis": {
+    "year": "2024",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Laser": {
+    "year": "2026",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Black": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Cracks": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Broken": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Default Knife": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Default Gun": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Choco": {
+    "year": "2016",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Old Glory": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Silver Constellation": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Bluesteel": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Eternalcane": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Big Kill": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Dartbringer": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Celestial": {
+    "year": "2024",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Fade": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Elite": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Darkness": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Darkgun": {
+    "year": "2023",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Clan": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red Constellation": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Damp": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Bronze Celestial": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Cold": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Cowboy": {
+    "rarity": "Vintage",
+    "itemType": "Gun"
+  },
+  "Blue Harvester": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Blue": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Bronze Iceblaster": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Cotton Candy": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Bronze Elderwood": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Chill": {
+    "year": "2015",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Aurora": {
+    "year": "2021",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "CandyCorn": {
+    "year": "2017",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Candle": {
+    "year": "2020",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Celestial": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Adurite": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Bloom": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Fusion": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Gold Constellation": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Frozen": {
+    "year": "2025",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Bronze Vamp's Edge": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Eco": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Canes": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Blue Candy": {
+    "year": "2017",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Bronze Icebreaker": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Bit": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Soda": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Blossom": {
+    "year": "2026",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Survivor Camo": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Abstract": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Cat": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Chromatic": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Darkbringer": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Bells": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bleached": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "BattleAxe": {
+    "year": "2017",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Cherries": {
+    "year": "2026",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Cursed": {
+    "year": "2024",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Copper": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Beach": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Nightstar": {
+    "year": "2024",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "8bit": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bronze Sugar": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Blood": {
+    "rarity": "Vintage",
+    "itemType": "Knife"
+  },
+  "Cardboard": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Brains": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Chick": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Candy": {
+    "year": "2015",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Candles": {
+    "year": "2024",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Alex": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Watcher": {
+    "year": "2021",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Apocalypse": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Minty": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Gingerscythe": {
+    "year": "2023",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Infiltrator": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Hallow's Blade": {
+    "year": "2017",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Hazard": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Paws": {
+    "year": "2026",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Luger": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Nutcracker": {
+    "year": "2015",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Hearts": {
+    "year": "2026",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Logchopper": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Grave": {
+    "year": "2018",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Grind": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Midnight": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Lugercane": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Iceflake": {
+    "year": "2021",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Blue Gingerscope": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Wraiths": {
+    "year": "2021",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Nightfire": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Ghostly": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Mummy": {
+    "year": "2020",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Pea": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Ghosts": {
+    "year": "2024",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bronze Icecrusher": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Gingerscope": {
+    "year": "2023",
+    "rarity": "Ancient",
+    "itemType": "Gun"
+  },
+  "Infected": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Sugar": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Goo": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Icebeam": {
+    "year": "2021",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Lights": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Hallowscythe": {
+    "year": "2020",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Icecrusher": {
+    "year": "2022",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Hacker": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Palms": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Pool": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Makeshift": {
+    "year": "2022",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Meltdown": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Bronze Logchopper": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Penguin": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Icecrusher": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Cookiecane": {
+    "year": "2022",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Ice Camo": {
+    "year": "2021",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Heartbreak": {
+    "year": "2026",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Leaves": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bronze Minty": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Zombie Camo": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Pop Art": {
+    "year": "2025",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Bronze Icepiercer": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Polar Bear": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Ghost": {
+    "year": "2026",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Passion": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Jack": {
+    "year": "2015",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Hive": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Harvester": {
+    "year": "2021",
+    "rarity": "Ancient",
+    "itemType": "Gun"
+  },
+  "Neon": {
+    "year": "2025",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Iron": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Ornament2": {
+    "year": "2015",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Plasmabeam": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Lantern": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Painted": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Orange Seer": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Melon": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Galaxy": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Orange Marble": {
+    "year": "2016",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Brown": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Plasmablade": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Phaser": {
+    "year": "2026",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Phantom": {
+    "year": "2022",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Splitter": {
+    "rarity": "Vintage",
+    "itemType": "Knife"
+  },
+  "Ghostfire": {
+    "year": "2022",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Peppermint": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Marina": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Icedriller": {
+    "year": "2020",
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Pearlshine": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Heartblade": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Jellyfish": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Golden": {
+    "year": "2026",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Patrick": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Paper": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Gothic": {
+    "year": "2021",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Green Luger": {
+    "year": "2015",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Yellow": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Pixel": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Ghastly": {
+    "year": "2023",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Ghosty": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Gingermint": {
+    "year": "2022",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Log": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Hallowgun": {
+    "year": "2020",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Gingercookie": {
+    "year": "2025",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "News": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Nether": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Pier": {
+    "year": "2026",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Ornament1": {
+    "year": "2015",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Gingerblade": {
+    "year": "2018",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Pirate": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Lava": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Gold Iceblaster": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Kraken": {
+    "year": "2024",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Oily": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Ocean": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Gold Icepiercer": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Nuke": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Gifted": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Pool Noodle": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Igloo": {
+    "year": "2024",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Nightblade": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Glowy": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Minty": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Gift Bag": {
+    "year": "2020",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Green": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Night": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Ornaments": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Logchopper": {
+    "year": "2019",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Neopolitan": {
+    "year": "2026",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Mistletoe": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Heat": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Musical": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Gifts 2015": {
+    "year": "2015",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Heart Wand": {
+    "year": "2026",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Haunted": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Gingerscope": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Giftwrap": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Ice Dragon": {
+    "year": "2016",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Leaf": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Marble": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Graffiti": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Mummified": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red Icecrusher": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Moons": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Moonlight": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Moon": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Hunter": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Korblox": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Imbued": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Silver Logchopper": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Wrap": {
+    "year": "2020",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Molten": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Nebula": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Missing": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Iceblaster": {
+    "year": "2020",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Icepiercer": {
+    "year": "2022",
+    "rarity": "Ancient",
+    "itemType": "Gun"
+  },
+  "Gold Candy": {
+    "year": "2017",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Silver Minty": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Blue Minty": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Meadow": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Latte": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "High Tech": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Gold Gingerscythe": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Pearl": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Gingerbread": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Shiny": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Magma": {
+    "year": "2021",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Ghostblade": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Hardened": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Lucky": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Linked": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Holly": {
+    "year": "2018",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Lovely": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Love": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Logcutter": {
+    "year": "2024",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Blue Logchopper": {
+    "year": "2019",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Icecream": {
+    "year": "2026",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Overseer": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "JD": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Krypto": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Nova": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Handsaw": {
+    "year": "2015",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Gold Icebreaker": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Pink": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Gold Hallow": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Silver Icepiercer": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Ollie": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Indy": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Ginger Luger": {
+    "year": "2018",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Silver Gingerscythe": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Mystery Key": {
+    "rarity": "Common",
+    "itemType": "Misc"
+  },
+  "Icewing": {
+    "year": "2018",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Hallow's Edge": {
+    "year": "2016",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Jinglegun": {
+    "year": "2020",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Ginger": {
+    "year": "2018",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Bronze Gingerscope": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Hot Chocolate": {
+    "year": "2024",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Pine": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Jigsaw": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Gold Vamp's Edge": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Hazmat": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "HL2": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Red Icepiercer": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Bronze Gingerscythe": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Icebreaker": {
+    "year": "2020",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Gemstone": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Blue Gingerscythe": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Green Marble": {
+    "year": "2017",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Monster": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Plaid": {
+    "year": "2026",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Nik's Scythe": {
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Icicles": {
+    "year": "2018",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Hologram": {
+    "year": "2025",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Gingerheart": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Green Fire": {
+    "year": "2017",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Plasmite": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Ice": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Silver Gingerscope": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Icecracker": {
+    "year": "2020",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Gold Harvester": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Heart": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Ice Shard": {
+    "year": "2017",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Silver Icecrusher": {
+    "year": "2022",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Gifts": {
+    "year": "2024",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Robot": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Shadow": {
+    "year": "2026",
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Red Luger": {
+    "year": "2015",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Spectral": {
+    "year": "2021",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Silver Candy": {
+    "year": "2017",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Reindeer": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Scarf": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Sparkle1": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Silver Icebreaker": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Star": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Seer": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Bronze Traveler's": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Sands": {
+    "year": "2026",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Portal": {
+    "year": "2020",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Sketch": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Predator": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Strawberries": {
+    "year": "2026",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Silver Harvester": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Bronze Snowcannon": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Spring": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Synthwave": {
+    "year": "2025",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Ripper": {
+    "year": "2020",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "TNL": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Starfish": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Skeleton Key 2018": {
+    "year": "2018",
+    "rarity": "Halloween",
+    "itemType": "Misc"
+  },
+  "Blue Swirly": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Snakebite": {
+    "year": "2019",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Snowglobe": {
+    "year": "2023",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Bronze Synthwave": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Pumpking": {
+    "year": "2017",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Sleigh": {
+    "year": "2024",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Static": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Sparkle2": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Toy": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Traveler's": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Silver Sugar": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Saw": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Sparkle7": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red Hallow": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Sparkle6": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Santa's Spirit": {
+    "year": "2020",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "SharkSeeker": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Ribbons": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Slime": {
+    "year": "2018",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Etched": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Striped": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Shaded": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Snowy": {
+    "year": "2017",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Steel": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Sand": {
+    "year": "2026",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Squire": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Pumpkin Patch": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "Sweet": {
+    "year": "2026",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Slashed": {
+    "year": "2020",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Tourist": {
+    "year": "2026",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Reptile": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Sparkle5": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Red Seer": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Rainbow": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Bronze Snow Dagger": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Snowflake Key 2018": {
+    "year": "2018",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Spectre": {
+    "year": "2022",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Rune": {
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Pumpkin Pie": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Sparkle": {
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Popsicle": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Snowball": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Snowman": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Tailslide": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Traveler's Axe": {
+    "year": "2023",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Sparkle4": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Spearmint": {
+    "year": "2025",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Tree": {
+    "year": "2023",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Treats": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Gold Raygun": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Skool": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Gold Synthwave": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Red Fire": {
+    "year": "2017",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Traveler": {
+    "year": "2023",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Sweater": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Silver Snow Dagger": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Silver Traveler's": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Snowflakes": {
+    "year": "2020",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Red Traveler's": {
+    "year": "2023",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Toxic": {
+    "year": "2018",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Tiger": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Silver Snowcannon": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Sugar": {
+    "year": "2015",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Skyline": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Ritual": {
+    "year": "2024",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Swirl": {
+    "year": "2021",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Bronze Swirly": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Swirly Blade": {
+    "year": "2021",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Snow Dagger": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Pumpkin": {
+    "year": "2018",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Spectrum": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Scratch": {
+    "year": "2017",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Gold Swirly": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Swirly Gun": {
+    "year": "2021",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Swirly Axe": {
+    "year": "2021",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Blue Synthwave": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Sweetheart": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Santa's Magic": {
+    "year": "2019",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Sketchy": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Yummy": {
+    "year": "2026",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Traveler's Gun": {
+    "year": "2023",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Sun": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Sunset": {
+    "year": "2026",
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Slasher": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Sunrise": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Sunny": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Storm": {
+    "year": "2024",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Stockings": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Sparkle10": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Stickers": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red Raygun": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Stars": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Starry": {
+    "year": "2026",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Stalker": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Stainless": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Splatter": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red Icebreaker": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Skulls": {
+    "year": "2021",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Present": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Sidewinder": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Splat": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Curse": {
+    "year": "2022",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Spitfire": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Prince": {
+    "rarity": "Vintage",
+    "itemType": "Knife"
+  },
+  "RIP": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Slate": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Rainbow Gun": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Sub": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Ribbon": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Bronze Raygun": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Prismatic": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Silver Iceblaster": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Silver Hallow": {
+    "year": "2018",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Sparkle9": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Sparkle8": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Shark": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Reaver": {
+    "year": "2021",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Silver Swirly": {
+    "year": "2021",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Potion": {
+    "year": "2018",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Ghoulish": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Sparkle3": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Silent Night": {
+    "year": "2020",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Snowcannon": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Rose": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "RB Knife": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Corrupt": {
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Prism": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Batwing": {
+    "year": "2018",
+    "rarity": "Ancient",
+    "itemType": "Knife"
+  },
+  "Sandy": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Silver Raygun": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Snowflake": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Gold Snow Dagger": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Snowstorm": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Retro": {
+    "year": "2025",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Splash": {
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Space": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Santa": {
+    "year": "2019",
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Sakura": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Silver Synthwave": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Purple Seer": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Sharky": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Spider": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Raygun": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Silver Vamp's Edge": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Snowfall": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red Snowcannon": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Gold Snowcannon": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Red Snow Dagger": {
+    "year": "2025",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Treat": {
+    "year": "2026",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Glitch2": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Slimy": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Roses": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Tides": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "S1 Test Knife": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Red Iceblaster": {
+    "year": "2020",
+    "rarity": "Unique",
+    "itemType": "Gun"
+  },
+  "Web": {
+    "year": "2015",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Balloons": {
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Wraith": {
+    "year": "2022",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Webbed": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Viper": {
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Wooden": {
+    "rarity": "Uncommon",
+    "itemType": "Gun"
+  },
+  "iRevolver": {
+    "rarity": "Rare",
+    "itemType": "Gun"
+  },
+  "Watergun": {
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Box of Purple Wrapping Paper": {
+    "year": "2016",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Vampire": {
+    "year": "2022",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Vines": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Xmas": {
+    "year": "2015",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Bat": {
+    "rarity": "Legendary",
+    "itemType": "Pet"
+  },
+  "Spirit": {
+    "year": "2024",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Waves": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Vampire's Edge": {
+    "year": "2020",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Vampire's Axe": {
+    "year": "2024",
+    "rarity": "Unique",
+    "itemType": "Knife"
+  },
+  "Xbox": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Valentine": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Evergreen": {
+    "year": "2023",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Alienbeam": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Zombie": {
+    "year": "2023",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Yellow Seer": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Turtle": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Universe": {
+    "rarity": "Legendary",
+    "itemType": "Gun"
+  },
+  "Witch": {
+    "year": "2016",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Void": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Zombified": {
+    "year": "2022",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Tropical": {
+    "year": "2025",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Xeno": {
+    "year": "2025",
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Xenoknife": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Xenoshot": {
+    "year": "2025",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Box of Ultra Wrapping Paper": {
+    "year": "2017",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Wreaths": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Wrapped": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Box of Red Wrapping Paper": {
+    "year": "2016",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Witch's Brew": {
+    "year": "2024",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Box of Green Wrapping Paper": {
+    "year": "2017",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "TestItem": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Box of Blue Wrapping Paper": {
+    "year": "2017",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Box of Gold Wrapping Paper ": {
+    "year": "2016",
+    "rarity": "Christmas",
+    "itemType": "Misc"
+  },
+  "Wanwood": {
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Webs": {
+    "year": "2022",
+    "rarity": "Common",
+    "itemType": "Gun"
+  },
+  "Virtual": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Turkey": {
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Wolf": {
+    "year": "2016",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Wood": {
+    "year": "2023",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Trees": {
+    "year": "2020",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Vortex": {
+    "rarity": "Rare",
+    "itemType": "Knife"
+  },
+  "Whiteout": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Soul": {
+    "year": "2024",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Turtles": {
+    "year": "2026",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Witchbrew": {
+    "year": "2022",
+    "rarity": "Uncommon",
+    "itemType": "Knife"
+  },
+  "Winter's Edge": {
+    "year": "2017",
+    "rarity": "Godly",
+    "itemType": "Knife"
+  },
+  "Evergun": {
+    "year": "2023",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Tulip": {
+    "year": "2016",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "UFOs": {
+    "year": "2025",
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Wavy": {
+    "rarity": "Common",
+    "itemType": "Knife"
+  },
+  "Vampire's Gun": {
+    "year": "2024",
+    "rarity": "Godly",
+    "itemType": "Gun"
+  },
+  "Witched": {
+    "year": "2019",
+    "rarity": "Legendary",
+    "itemType": "Knife"
+  },
+  "Piggy": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Traveller": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Fire Dog": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Electro": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Snowbear": {
+    "year": "2021",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Fire Fox": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Carrot Bunny": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Jetstream": {
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Fire Bunny": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Dogey": {
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "Rudolph": {
+    "year": "2019",
+    "rarity": "Legendary",
+    "itemType": "Pet"
+  },
+  "Lil' Alien": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Fire Cat": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Frostbird": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Pengy": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Santa Dog": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Tankie": {
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Deathspeaker": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Elitey": {
+    "rarity": "Legendary",
+    "itemType": "Pet"
+  },
+  "Sammy": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Blue Pumpkin": {
+    "year": "2018",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Green Pumpkin": {
+    "year": "2018",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Mechbug": {
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Fire Bear": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Zombie Dog": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Skully": {
+    "year": "2021",
+    "rarity": "Legendary",
+    "itemType": "Pet"
+  },
+  "Red Pumpkin": {
+    "year": "2019",
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Ice Phoenix": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Mr. Reindeer": {
+    "year": "2020",
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Bear": {
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Fairy": {
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "Dog": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Steambird": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Badger": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Fox": {
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "Scarecrow": {
+    "year": "2020",
+    "rarity": "Rare",
+    "itemType": "Pet"
+  },
+  "Phoenix": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Purple Pumpkin": {
+    "year": "2018",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Fire Bat": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Overseer Eye": {
+    "rarity": "Legendary",
+    "itemType": "Pet"
+  },
+  "<3": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Pig": {
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "Mr. Snowman": {
+    "year": "2020",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Shadow Pumpkin": {
+    "year": "2021",
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "UFO": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Black Cat": {
+    "year": "2019",
+    "rarity": "Common",
+    "itemType": "Pet"
+  },
+  "Nobledragon": {
+    "rarity": "Legendary",
+    "itemType": "Pet"
+  },
+  "Icey": {
+    "year": "2019",
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Chilly": {
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "Skelly": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Fire Pig": {
+    "rarity": "Godly",
+    "itemType": "Pet"
+  },
+  "Seahorsey": {
+    "rarity": "Uncommon",
+    "itemType": "Pet"
+  },
+  "Vampire Bat": {
+    "year": "2019",
+    "rarity": "Legendary",
+    "itemType": "Pet"
+  },
+  "Teddy": {
+    "rarity": "Common",
+    "itemType": "Pet"
+  }
+}
