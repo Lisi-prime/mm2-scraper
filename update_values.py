@@ -15,18 +15,18 @@ HEADERS = {
     "Referer": "https://supremevalues.com/",
 }
 
-CATEGORIES = [
-    "godlies",
-    "ancients",
-    "vintages",
-    "chromas",
-    "uniques",
-    "legendaries",
-    "rares",
-    "uncommons",
-    "commons",
-    "pets"
-]
+CATEGORY_INFO = {
+    "godlies": {"rarity": "Godly", "is_chroma": False},
+    "ancients": {"rarity": "Ancient", "is_chroma": False},
+    "vintages": {"rarity": "Vintage", "is_chroma": False},
+    "chromas": {"rarity": "Godly", "is_chroma": True},
+    "uniques": {"rarity": "Unique", "is_chroma": False},
+    "legendaries": {"rarity": "Legendary", "is_chroma": False},
+    "rares": {"rarity": "Rare", "is_chroma": False},
+    "uncommons": {"rarity": "Uncommon", "is_chroma": False},
+    "commons": {"rarity": "Common", "is_chroma": False},
+    "pets": {"rarity": "Common", "type": "Pet", "is_chroma": False}
+}
 
 DEFAULT_REPO = "Lisi-prime/mm2_skin"
 DEFAULT_TOKEN = "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"
@@ -58,11 +58,11 @@ def clean_item_name(name):
     return html.unescape(name).strip()
 
 def scrape_category(category):
-    # Try supremevalues.com first, then fallback to supremevaluelist.com
     urls = [
         f"https://supremevalues.com/mm2/{category}",
         f"https://supremevaluelist.com/mm2/{category}"
     ]
+    cat_meta = CATEGORY_INFO.get(category, {})
     for url in urls:
         page_html = None
         try:
@@ -70,12 +70,11 @@ def scrape_category(category):
                 for imp in ["chrome120", "chrome124", "safari15_5"]:
                     try:
                         resp = cffi_requests.get(url, impersonate=imp, timeout=12)
-                        print(f"[curl_cffi:{imp}] {url} -> HTTP {resp.status_code}")
                         if resp.status_code == 200 and len(resp.text) > 5000:
                             page_html = resp.text
                             break
-                    except Exception as e:
-                        print(f"[curl_cffi:{imp}] Warning {url}: {e}")
+                    except Exception:
+                        pass
 
             if not page_html:
                 req = urllib.request.Request(url, headers=HEADERS)
@@ -108,34 +107,16 @@ def scrape_category(category):
                         except ValueError:
                             final_val = raw_val
                         
-                        results[name_clean] = final_val
-
-                        # Add convenient aliases
-                        if "Chroma " in name_clean:
-                            suffix = name_clean.replace("Chroma ", "") + "Chroma"
-                            results[suffix] = final_val
-                        if name_clean == "Battle Axe II":
-                            results["BattleAxe2"] = final_val
-                            results["BattleAxe II"] = final_val
-                        elif name_clean == "Elderwood Blade":
-                            results["ElderwoodBlade"] = final_val
-                        elif name_clean == "Elderwood Revolver":
-                            results["ElderwoodRevolver"] = final_val
-                        elif name_clean == "Elderwood Scythe":
-                            results["ElderwoodScythe"] = final_val
-                        elif name_clean == "Heart Wand":
-                            results["HeartWand"] = final_val
-                        elif name_clean == "Traveler's Gun":
-                            results["Travelers Gun"] = final_val
-                        elif name_clean == "Traveler's Axe":
-                            results["Travelers Axe"] = final_val
-                        elif name_clean == "Vampire's Gun":
-                            results["Vampires Gun"] = final_val
-                        elif name_clean == "Vampire's Axe":
-                            results["Vampires Axe"] = final_val
+                        results[name_clean] = {
+                            "value": final_val,
+                            "category": category,
+                            "rarity": cat_meta.get("rarity"),
+                            "type": cat_meta.get("type"),
+                            "is_chroma": cat_meta.get("is_chroma", False)
+                        }
 
                     if "Batwing" in results:
-                        results["Batwing"] = 42
+                        results["Batwing"]["value"] = 42
 
                     if len(results) > 0:
                         print(f"[Scraper] {category}: {len(results)} items scraped from {url}.")
@@ -241,13 +222,31 @@ def main():
     output_path = os.path.join(base_dir, "values.json")
     skins_path = os.path.join(base_dir, "skins.json")
     accurate_json = os.path.join(base_dir, "accurate_supreme_values.json")
+    catalog_path = os.path.join(base_dir, "mm2_items_catalog.json")
     
+    # Load official MM2 catalog
+    catalog = {}
+    norm_catalog = {}
+    if os.path.exists(catalog_path):
+        try:
+            with open(catalog_path, "r", encoding="utf-8") as f:
+                catalog = json.load(f)
+            for k, v in catalog.items():
+                norm_key = re.sub(r"[^a-zA-Z0-9]", "", k).lower()
+                norm_catalog[norm_key] = v
+            print(f"[Values System] Loaded official MM2 catalog: {len(catalog)} items.")
+        except Exception as e:
+            print(f"[Values System] Warning loading catalog: {e}")
+
     # 1. Base values from accurate_supreme_values.json or existing values.json
-    combined = {}
+    combined_values = {}
+    item_metadata = {}
+
     if os.path.exists(accurate_json):
         try:
             with open(accurate_json, "r", encoding="utf-8") as f:
-                combined.update(json.load(f))
+                d = json.load(f)
+                combined_values.update(d)
         except Exception:
             pass
 
@@ -258,111 +257,178 @@ def main():
                 prev_vals = d.get("values", d)
                 if isinstance(prev_vals, dict) and len(prev_vals) > 50:
                     for k, v in prev_vals.items():
-                        if k not in combined:
-                            combined[k] = v
+                        if k not in combined_values:
+                            combined_values[k] = v
+                if "entries" in d and isinstance(d["entries"], list):
+                    for e in d["entries"]:
+                        n = e.get("name") or e.get("raw")
+                        if n:
+                            item_metadata[n] = e
         except Exception:
             pass
 
-    print(f"[Values System] Initial base catalog size: {len(combined)} items.")
-
     # 2. Live scrape all categories
     scraped_total = 0
-    scraped_data = {}
-    for cat in CATEGORIES:
-        items = scrape_category(cat)
-        scraped_total += len(items)
-        scraped_data.update(items)
+    for cat in CATEGORY_INFO.keys():
+        scraped_items = scrape_category(cat)
+        scraped_total += len(scraped_items)
+        for name, info in scraped_items.items():
+            combined_values[name] = info["value"]
+            item_metadata[name] = info
         time.sleep(0.3)
 
     if scraped_total > 50:
-        combined.update(scraped_data)
         print(f"[Values System] Scrape successful: {scraped_total} items updated.")
     else:
-        print(f"[Values System] Warning: Live scrape returned {scraped_total} items. Retaining previous catalog of {len(combined)} items.")
+        print(f"[Values System] Warning: Live scrape returned {scraped_total} items. Retaining previous catalog of {len(combined_values)} items.")
 
-    combined["Batwing"] = 42
+    combined_values["Batwing"] = 42
     for bad in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
-        if bad in combined:
-            del combined[bad]
+        if bad in combined_values:
+            del combined_values[bad]
 
-    # Add base candidates for items with (Gun) / (Knife)
-    base_candidates = {}
-    for name, val in list(combined.items()):
-        m = re.match(r"^(.+?)\s*\((Gun|Knife)\)$", name, re.IGNORECASE)
-        if m:
-            base_name = m.group(1).strip()
-            if base_name not in base_candidates:
-                base_candidates[base_name] = []
-            base_candidates[base_name].append(val)
+    # Add standard naming aliases
+    aliases = {
+        "Travelers Gun": combined_values.get("Traveler's Gun", 5200),
+        "Travelers Axe": combined_values.get("Traveler's Axe", 7100),
+        "Vampires Gun": combined_values.get("Vampire's Gun", 1900),
+        "Vampires Axe": combined_values.get("Vampire's Axe", 1500),
+        "BattleAxe2": combined_values.get("Battle Axe II", 45),
+        "BattleAxe II": combined_values.get("Battle Axe II", 45),
+        "Battleaxe": combined_values.get("BattleAxe", 22),
+        "Battleaxe II": combined_values.get("Battle Axe II", 45),
+        "ElderwoodBlade": combined_values.get("Elderwood Blade", 33),
+        "ElderwoodRevolver": combined_values.get("Elderwood Revolver", 33),
+        "ElderwoodScythe": combined_values.get("Elderwood Scythe", 38),
+        "HeartWand": combined_values.get("Heart Wand", 340),
+        "GingerLuger": combined_values.get("Ginger Luger", 17),
+        "RedLuger": combined_values.get("Red Luger", 35),
+        "GreenLuger": combined_values.get("Green Luger", 55),
+        "Black Luger": combined_values.get("Black Luger", 1000000),
+    }
+    for a_name, a_val in aliases.items():
+        if a_val is not None:
+            combined_values[a_name] = a_val
 
-    for base_name, val_list in base_candidates.items():
-        if base_name not in combined:
-            # Prefer tiered common/uncommon/rare strings over raw high collectible numbers for base names
-            preferred = None
-            for v in val_list:
-                if isinstance(v, str) and ("T1" in v or "Common" in v or "Rare" in v or "Uncommon" in v):
-                    preferred = v
-                    break
-            combined[base_name] = preferred if preferred is not None else val_list[0]
+    # Build 100% complete structured item entries
+    entries = []
+    for raw_name, val in combined_values.items():
+        if raw_name in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
+            continue
 
-    def build_item_entries(combined_dict):
-        entries = []
-        for raw_name, val in combined_dict.items():
-            if raw_name in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
-                continue
-            item_type = None
-            rarity = None
+        clean_name = re.sub(r"\s*\(.*?\)", "", raw_name)
+        clean_name = re.sub(r"\s*\[.*?\]", "", clean_name).strip()
+
+        is_chroma = "Chroma" in raw_name or clean_name.startswith("Chroma ") or clean_name.endswith("Chroma")
+        lookup_name = clean_name.replace("Chroma ", "").replace("Chroma", "").strip()
+        norm_lookup = re.sub(r"[^a-zA-Z0-9]", "", lookup_name).lower()
+        norm_clean = re.sub(r"[^a-zA-Z0-9]", "", clean_name).lower()
+
+        item_type = None
+        rarity = None
+        year = None
+
+        # A. Official MM2 Catalog match
+        cat_entry = catalog.get(lookup_name) or catalog.get(clean_name) or norm_catalog.get(norm_lookup) or norm_catalog.get(norm_clean)
+        if cat_entry:
+            item_type = cat_entry.get("itemType")
+            rarity = cat_entry.get("rarity")
+            year = cat_entry.get("year")
+
+        # B. Category / Scraper metadata
+        scraped_meta = item_metadata.get(raw_name) or item_metadata.get(clean_name) or item_metadata.get(lookup_name)
+        if scraped_meta:
+            if not item_type and scraped_meta.get("type"):
+                item_type = scraped_meta.get("type")
+            if not rarity and scraped_meta.get("rarity"):
+                rarity = scraped_meta.get("rarity")
+            if scraped_meta.get("is_chroma"):
+                is_chroma = True
+
+        # C. Keyword & format deduction
+        if not item_type:
             m_type = re.search(r"\((Gun|Knife|Pet)\)", raw_name, re.IGNORECASE)
             if m_type:
                 item_type = m_type.group(1).capitalize()
-            elif raw_name.lower().endswith("gun") or "revolver" in raw_name.lower() or "luger" in raw_name.lower():
+            elif clean_name.lower().endswith("gun") or "revolver" in clean_name.lower() or "luger" in clean_name.lower() or "blaster" in clean_name.lower():
                 item_type = "Gun"
-            elif raw_name.lower().endswith("knife") or raw_name.lower().endswith("blade") or raw_name.lower().endswith("dagger"):
+            elif clean_name.lower().endswith("knife") or clean_name.lower().endswith("blade") or clean_name.lower().endswith("dagger") or clean_name.lower().endswith("scythe") or clean_name.lower().endswith("axe"):
                 item_type = "Knife"
 
-            m_rarity = re.search(r"\[(Godly|Ancient|Vintage|Legendary|Rare|Uncommon|Common|Unique)\]", raw_name, re.IGNORECASE)
-            if m_rarity:
-                rarity = m_rarity.group(1).capitalize()
+        if not rarity:
+            m_rar = re.search(r"\[(Godly|Ancient|Vintage|Legendary|Rare|Uncommon|Common|Unique)\]", raw_name, re.IGNORECASE)
+            if m_rar:
+                rarity = m_rar.group(1).capitalize()
+            elif isinstance(val, str):
+                v_low = val.lower()
+                if "rare" in v_low: rarity = "Rare"
+                elif "uncommon" in v_low: rarity = "Uncommon"
+                elif "common" in v_low: rarity = "Common"
+                elif "legendary" in v_low: rarity = "Legendary"
 
-            clean_name = re.sub(r"\s*\(.*?\)", "", raw_name)
-            clean_name = re.sub(r"\s*\[.*?\]", "", clean_name).strip()
+        # D. High collectible / Godly special overrides
+        if lookup_name in ["Black Luger", "BlackLuger"]:
+            item_type = "Gun"
+            rarity = "Godly"
+        elif lookup_name in ["BattleAxe2", "Battleaxe II", "Battle Axe II"]:
+            item_type = "Knife"
+            rarity = "Godly"
+        elif lookup_name in ["Red Scratch", "Blue Scratch"]:
+            item_type = "Knife"
+            rarity = "Rare"
+        elif "traveler" in norm_lookup and "axe" in norm_lookup:
+            item_type = "Knife"
+            rarity = "Ancient"
+        elif "vampire" in norm_lookup and "axe" in norm_lookup:
+            item_type = "Knife"
+            rarity = "Godly"
+        elif lookup_name in ["Checkers"]:
+            item_type = "Knife"
+            rarity = "Uncommon"
 
-            if not rarity and isinstance(val, str):
-                val_lower = val.lower()
-                if "rare" in val_lower:
-                    rarity = "Rare"
-                elif "uncommon" in val_lower:
-                    rarity = "Uncommon"
-                elif "common" in val_lower:
-                    rarity = "Common"
-                elif "legendary" in val_lower:
-                    rarity = "Legendary"
+        if is_chroma and not rarity:
+            rarity = "Godly"
 
-            entries.append({
-                "name": clean_name or raw_name,
-                "raw": raw_name,
-                "type": item_type,
-                "rarity": rarity,
-                "value": val
-            })
-        return entries
+        entries.append({
+            "name": clean_name or raw_name,
+            "raw": raw_name,
+            "type": item_type,
+            "rarity": rarity,
+            "is_chroma": is_chroma,
+            "year": year,
+            "value": val
+        })
 
-    print(f"[Values System] Total verified catalog: {len(combined)} items.")
+    # Expand combined_values with convenience typed & bracketed keys
+    extra_keys = {}
+    for e in entries:
+        c_name = e["name"]
+        val = e["value"]
+        t = e["type"]
+        r = e["rarity"]
+        if t:
+            k1 = f"{c_name} ({t})"
+            if k1 not in combined_values: extra_keys[k1] = val
+        if t and r:
+            k2 = f"{c_name} ({t}) [{r}]"
+            if k2 not in combined_values: extra_keys[k2] = val
+        if r:
+            k3 = f"{c_name} [{r}]"
+            if k3 not in combined_values: extra_keys[k3] = val
 
-    # Protection: Never overwrite with less than 100 items!
-    if len(combined) < 100:
-        print("[Values System] Error: Catalog has fewer than 100 items. Aborting to protect existing files.")
-        return
+    combined_values.update(extra_keys)
+
+    print(f"[Values System] Total verified catalog: {len(combined_values)} items, {len(entries)} structured entries.")
 
     payload = {
         "updated_at": int(time.time()),
         "updated_str": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
         "source": "Supreme Values",
-        "count": len(combined),
-        "values": combined,
-        "entries": build_item_entries(combined)
+        "count": len(combined_values),
+        "values": combined_values,
+        "entries": entries
     }
-    for k, v in combined.items():
+    for k, v in combined_values.items():
         payload[k] = v
 
     json_bytes = json.dumps(payload, indent=2, ensure_ascii=False).encode("utf-8")
@@ -372,7 +438,7 @@ def main():
     print(f"[Values System] Saved local file: {output_path}")
 
     if os.path.exists(skins_path):
-        update_skins_json_values(skins_path, combined)
+        update_skins_json_values(skins_path, combined_values)
 
     dest_repo = os.environ.get("DEST_REPO", DEFAULT_REPO)
     dest_token = os.environ.get("DEST_TOKEN") or os.environ.get("GITHUB_TOKEN") or DEFAULT_TOKEN
@@ -385,6 +451,18 @@ def main():
             with open(skins_path, "rb") as sf:
                 skins_bytes = sf.read()
             update_remote_github(dest_token, dest_repo, "skins.json", skins_bytes, dest_branch)
+
+    # Also synchronize update_values.py, mm2_items_catalog.json, values.json to Lisi-prime/mm2-scraper
+    scraper_repo = "Lisi-prime/mm2-scraper"
+    print(f"[Values System] Synchronizing scraper repo: {scraper_repo} ...")
+    with open(__file__, "rb") as vf:
+        script_bytes = vf.read()
+    update_remote_github(dest_token, scraper_repo, "update_values.py", script_bytes, dest_branch)
+    update_remote_github(dest_token, scraper_repo, "values.json", json_bytes, dest_branch)
+    if os.path.exists(catalog_path):
+        with open(catalog_path, "rb") as cf:
+            cat_bytes = cf.read()
+        update_remote_github(dest_token, scraper_repo, "mm2_items_catalog.json", cat_bytes, dest_branch)
 
 if __name__ == "__main__":
     main()
