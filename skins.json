@@ -57750,7 +57750,7 @@
         "ItemType": "Knife",
         "Rarity": "Uncommon",
         "Year": "2021",
-        "Value": 0
+        "Value": 5
       },
       "name": "Snowman_K_2021",
       "owners": [
@@ -59231,7 +59231,7 @@
         "ItemType": "Knife",
         "Rarity": "Common",
         "Year": "2025",
-        "Value": 0
+        "Value": "x3 T1 Commons"
       },
       "name": "StickersH_K_2025",
       "owners": [
@@ -63192,7 +63192,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Year": "2025",
-        "Value": 0
+        "Value": "x3 T1 Commons"
       },
       "name": "StickersX_G_2025",
       "owners": [
@@ -63833,7 +63833,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Year": "2024",
-        "Value": 0
+        "Value": "x3 T1 Commons"
       },
       "name": "Stickers_X_G_2024",
       "owners": [
@@ -63935,7 +63935,7 @@
         "ItemType": "Gun",
         "Rarity": "Common",
         "Year": "2025",
-        "Value": 0
+        "Value": "x3 T1 Commons"
       },
       "name": "Stickers_G_2025",
       "owners": [
