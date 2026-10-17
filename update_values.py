@@ -273,6 +273,11 @@ def main():
 
     print(f"[Values System] Total raw scraped items from Supreme: {len(scraped_raw_items)}.")
 
+    if len(scraped_raw_items) < 300:
+        print(f"[Values System] CRITICAL ERROR: Scraped only {len(scraped_raw_items)} items (< 300).")
+        print("[Values System] Likely network issue or Cloudflare block. REFUSING to overwrite database!")
+        sys.exit(1)
+
     # 2. Build complete, verified items and resolve exact Type, Rarity, Chroma, Year
     entries = []
     combined_values = {}
