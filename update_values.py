@@ -148,42 +148,53 @@ def scrape_category(category):
             print(f"[Scraper] Warning {url}: {e}")
     return []
 
-def update_remote_github(token, repo, file_path, content_bytes, branch="main"):
+def update_remote_github(token, repo, file_path, content_bytes, branch="main", retries=2):
     api_url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json",
         "User-Agent": "MM2-Value-Scraper",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"
     }
-    sha = None
-    try:
-        check_req = urllib.request.Request(f"{api_url}?ref={branch}", headers=headers)
-        with urllib.request.urlopen(check_req) as resp:
-            info = json.loads(resp.read().decode("utf-8"))
-            sha = info.get("sha")
-    except urllib.error.HTTPError as e:
-        if e.code != 404:
-            print(f"[GitHub API] Warning checking sha: {e}")
-    except Exception as e:
-        print(f"[GitHub API] Check error: {e}")
+    for attempt in range(retries + 1):
+        sha = None
+        try:
+            check_req = urllib.request.Request(f"{api_url}?ref={branch}&_={int(time.time()*1000)}", headers=headers)
+            with urllib.request.urlopen(check_req) as resp:
+                info = json.loads(resp.read().decode("utf-8"))
+                sha = info.get("sha")
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                print(f"[GitHub API] Warning checking sha ({file_path}): {e}")
+        except Exception as e:
+            print(f"[GitHub API] Check error ({file_path}): {e}")
 
-    payload = {
-        "message": f"Auto-update Supreme Values ({file_path} at {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())})",
-        "content": base64.b64encode(content_bytes).decode("ascii"),
-        "branch": branch
-    }
-    if sha:
-        payload["sha"] = sha
+        payload = {
+            "message": f"Auto-update Supreme Values ({file_path} at {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())})",
+            "content": base64.b64encode(content_bytes).decode("ascii"),
+            "branch": branch
+        }
+        if sha:
+            payload["sha"] = sha
 
-    data_json = json.dumps(payload).encode("utf-8")
-    put_req = urllib.request.Request(api_url, data=data_json, headers=headers, method="PUT")
-    try:
-        with urllib.request.urlopen(put_req) as resp:
-            if resp.status in (200, 201):
-                print(f"[GitHub API] Successfully pushed {file_path} to {repo} (HTTP {resp.status})")
-                return True
-    except Exception as e:
-        print(f"[GitHub API] Error pushing {file_path} to {repo}: {e}")
+        data_json = json.dumps(payload).encode("utf-8")
+        put_req = urllib.request.Request(api_url, data=data_json, headers=headers, method="PUT")
+        try:
+            with urllib.request.urlopen(put_req) as resp:
+                if resp.status in (200, 201):
+                    print(f"[GitHub API] Successfully pushed {file_path} to {repo} (HTTP {resp.status})")
+                    return True
+        except urllib.error.HTTPError as e:
+            if e.code == 409 and attempt < retries:
+                print(f"[GitHub API] 409 Conflict pushing {file_path} to {repo}, retrying in 2s...")
+                time.sleep(2)
+                continue
+            print(f"[GitHub API] Error pushing {file_path} to {repo}: {e}")
+            return False
+        except Exception as e:
+            print(f"[GitHub API] Error pushing {file_path} to {repo}: {e}")
+            return False
     return False
 
 def update_skins_json_values(skins_json_path, prices_dict):
