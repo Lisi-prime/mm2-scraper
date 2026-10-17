@@ -287,6 +287,29 @@ def main():
         if bad in combined_values:
             del combined_values[bad]
 
+    # Verified authentic Supreme Values for Vintages & High tier items
+    vintages_explicit = {
+        "Cowboy": (4, "Gun", "Vintage"),
+        "Golden": (4, "Gun", "Vintage"),
+        "Splitter": (3, "Knife", "Vintage"),
+        "Phaser": (5, "Gun", "Vintage"),
+        "Prince": (6, "Knife", "Vintage"),
+        "Shadow": (6, "Knife", "Vintage"),
+        "America": (7, "Gun", "Vintage"),
+        "Blood": (8, "Knife", "Vintage"),
+        "Ghost": (8, "Knife", "Vintage"),
+        "Laser": (8, "Gun", "Vintage"),
+    }
+    for v_name, (v_val, v_type, v_rar) in vintages_explicit.items():
+        combined_values[v_name] = v_val
+        item_metadata[v_name] = {
+            "value": v_val,
+            "type": v_type,
+            "rarity": v_rar,
+            "category": "vintages",
+            "is_chroma": False
+        }
+
     # Add standard naming aliases
     aliases = {
         "Travelers Gun": combined_values.get("Traveler's Gun", 5200),
@@ -309,6 +332,17 @@ def main():
     for a_name, a_val in aliases.items():
         if a_val is not None:
             combined_values[a_name] = a_val
+
+    # Normalize combined_values so stale bracketed keys never pollute fresh scrape
+    clean_combined = {}
+    for k, v in combined_values.items():
+        c_k = re.sub(r"\s*\(.*?\)", "", k)
+        c_k = re.sub(r"\s*\[.*?\]", "", c_k).strip()
+        if c_k not in clean_combined or k == c_k:
+            clean_combined[c_k] = v
+    for v_name, (v_val, v_type, v_rar) in vintages_explicit.items():
+        clean_combined[v_name] = v_val
+    combined_values = clean_combined
 
     # Build 100% complete structured item entries
     entries = []
@@ -407,14 +441,18 @@ def main():
         t = e["type"]
         r = e["rarity"]
         if t:
-            k1 = f"{c_name} ({t})"
-            if k1 not in combined_values: extra_keys[k1] = val
-        if t and r:
-            k2 = f"{c_name} ({t}) [{r}]"
-            if k2 not in combined_values: extra_keys[k2] = val
+            extra_keys[f"{c_name} ({t})"] = val
         if r:
-            k3 = f"{c_name} [{r}]"
-            if k3 not in combined_values: extra_keys[k3] = val
+            extra_keys[f"{c_name} [{r}]"] = val
+        if t and r:
+            extra_keys[f"{c_name} ({t}) [{r}]"] = val
+
+    # Force explicit vintage keys
+    for v_name, (v_val, v_type, v_rar) in vintages_explicit.items():
+        extra_keys[v_name] = v_val
+        extra_keys[f"{v_name} ({v_type})"] = v_val
+        extra_keys[f"{v_name} [{v_rar}]"] = v_val
+        extra_keys[f"{v_name} ({v_type}) [{v_rar}]"] = v_val
 
     combined_values.update(extra_keys)
 
