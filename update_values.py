@@ -452,17 +452,18 @@ def main():
                 skins_bytes = sf.read()
             update_remote_github(dest_token, dest_repo, "skins.json", skins_bytes, dest_branch)
 
-    # Also synchronize update_values.py, mm2_items_catalog.json, values.json to Lisi-prime/mm2-scraper
-    scraper_repo = "Lisi-prime/mm2-scraper"
-    print(f"[Values System] Synchronizing scraper repo: {scraper_repo} ...")
-    with open(__file__, "rb") as vf:
-        script_bytes = vf.read()
-    update_remote_github(dest_token, scraper_repo, "update_values.py", script_bytes, dest_branch)
-    update_remote_github(dest_token, scraper_repo, "values.json", json_bytes, dest_branch)
-    if os.path.exists(catalog_path):
-        with open(catalog_path, "rb") as cf:
-            cat_bytes = cf.read()
-        update_remote_github(dest_token, scraper_repo, "mm2_items_catalog.json", cat_bytes, dest_branch)
+    # Also synchronize update_values.py, mm2_items_catalog.json, values.json to Lisi-prime/mm2-scraper (when running locally)
+    if not os.environ.get("GITHUB_ACTIONS"):
+        scraper_repo = "Lisi-prime/mm2-scraper"
+        print(f"[Values System] Synchronizing scraper repo: {scraper_repo} ...")
+        with open(__file__, "rb") as vf:
+            script_bytes = vf.read()
+        update_remote_github(dest_token, scraper_repo, "update_values.py", script_bytes, dest_branch)
+        update_remote_github(dest_token, scraper_repo, "values.json", json_bytes, dest_branch)
+        if os.path.exists(catalog_path):
+            with open(catalog_path, "rb") as cf:
+                cat_bytes = cf.read()
+            update_remote_github(dest_token, scraper_repo, "mm2_items_catalog.json", cat_bytes, dest_branch)
 
 if __name__ == "__main__":
     main()
