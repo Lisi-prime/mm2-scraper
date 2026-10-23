@@ -608,6 +608,35 @@ def main():
         if a_val is not None:
             combined_values[a_name] = a_val
 
+    # Auto-register newly released MM2 items from game dump if not yet on Supreme Values
+    catalog_new_added = 0
+    if game_dump:
+        for gitm in game_dump:
+            gn = gitm.get("name")
+            gt = gitm.get("type", "Knife")
+            gr = gitm.get("rarity", "Common")
+            gy = gitm.get("year")
+            if not gn or gn in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
+                continue
+            clean_gn = clean_base_name(gn)
+            if clean_gn not in combined_values and gn not in combined_values:
+                # Assign baseline placeholder so newly dropped weapons always show in-game
+                default_val = "x1 Common" if gr == "Common" else ("x1 Uncommon" if gr == "Uncommon" else ("x1 Rare" if gr == "Rare" else "TBD"))
+                combined_values[gn] = default_val
+                combined_values[clean_gn] = default_val
+                if gt:
+                    combined_values[f"{clean_gn} ({gt})"] = default_val
+                if gr:
+                    combined_values[f"{clean_gn} [{gr}]"] = default_val
+                    combined_values[f"{clean_gn} ({gt}) [{gr}]"] = default_val
+                if gy:
+                    combined_values[f"{clean_gn} [{gy}]"] = default_val
+                    combined_values[f"{clean_gn} ({gt}) [{gy}]"] = default_val
+                catalog_new_added += 1
+
+    if catalog_new_added > 0:
+        print(f"[Values System] Auto-registered {catalog_new_added} newly released MM2 catalog items as placeholders.")
+
     print(f"[Values System] Final Verified Catalog: {len(combined_values)} authentic lookup keys, {len(entries)} verified entries.")
     print(f"[Values System] Newly detected items: {new_items_detected}. Unresolved prices: {len(unresolved_items)}.")
 
@@ -635,9 +664,17 @@ def main():
     if os.path.exists(skins_path):
         update_skins_json_values(skins_path, combined_values)
 
-    dest_repo = os.environ.get("DEST_REPO", DEFAULT_REPO)
-    dest_token = os.environ.get("DEST_TOKEN") or os.environ.get("GITHUB_TOKEN") or DEFAULT_TOKEN
-    dest_branch = os.environ.get("DEST_BRANCH", "main")
+    dest_repo = (os.environ.get("DEST_REPO") or "").strip() or DEFAULT_REPO
+    dest_token = (os.environ.get("DEST_TOKEN") or "").strip() or (os.environ.get("GITHUB_TOKEN") or "").strip() or DEFAULT_TOKEN
+    dest_branch = (os.environ.get("DEST_BRANCH") or "").strip() or "main"
+
+    if "GITHUB_ENV" in os.environ:
+        try:
+            with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as gf:
+                gf.write(f"DEST_REPO={dest_repo}\n")
+                gf.write(f"DEST_TOKEN={dest_token}\n")
+        except Exception:
+            pass
 
     if dest_repo and dest_token:
         print(f"[Values System] Pushing clean values.json and skins.json to GitHub: {dest_repo} ...")
