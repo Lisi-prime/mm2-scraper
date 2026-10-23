@@ -466,11 +466,21 @@ def main():
 
         candidates = norm_dump.get(norm, [])
         if candidates:
-            for c in candidates:
-                if c.get("rarity") == cat_rarity:
-                    return c.get("type"), cat_rarity, is_chroma
-            chosen = candidates[0]
-            return chosen.get("type"), cat_rarity or chosen.get("rarity"), is_chroma
+            if cat not in ["pets", "misc"]:
+                # Ensure weapon categories only resolve to Knife or Gun, never Pet
+                for c in candidates:
+                    if c.get("type") in ["Knife", "Gun"] and c.get("rarity") == cat_rarity:
+                        return c.get("type"), cat_rarity, is_chroma
+                for c in candidates:
+                    if c.get("type") in ["Knife", "Gun"]:
+                        return c.get("type"), cat_rarity or c.get("rarity"), is_chroma
+                return "Knife", cat_rarity, is_chroma
+            else:
+                for c in candidates:
+                    if c.get("rarity") == cat_rarity:
+                        return c.get("type"), cat_rarity, is_chroma
+                chosen = candidates[0]
+                return chosen.get("type"), cat_rarity or chosen.get("rarity"), is_chroma
 
         return "Knife", cat_rarity, is_chroma
 
