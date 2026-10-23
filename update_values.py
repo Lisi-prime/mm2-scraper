@@ -9,7 +9,7 @@ import urllib.request
 import urllib.error
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
     "Referer": "https://supremevalues.com/",
@@ -80,20 +80,57 @@ except ImportError:
     from bs4 import BeautifulSoup
 
 def clean_item_name(name):
-    return html.unescape(name).strip()
+    if not name:
+        return ""
+    cleaned = html.unescape(name).strip()
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned
+
+def parse_numeric_price(raw_str):
+    """
+    Parses a price string into a valid positive number or None.
+    If price is 'TBD', 'N/A', 'Hyped', '0', unparseable, or missing, returns None.
+    """
+    if not raw_str:
+        return None
+    s = str(raw_str).strip()
+    s = s.replace(",", "").replace("$", "").replace("v", "").replace("V", "").strip()
+
+    # Reject placeholder strings
+    low = s.lower()
+    if low in ["tbd", "tba", "n/a", "na", "hyped", "overpaid", "underpaid", "unstable", "fluctuating", "none", "?", "-", "0", "0.0", "priceless"]:
+        return None
+
+    # Handle 'k' multiplier (e.g. 2.5k -> 2500)
+    if low.endswith("k"):
+        try:
+            num = float(low[:-1]) * 1000
+            if num > 0:
+                return int(num) if num == int(num) else num
+        except ValueError:
+            pass
+
+    try:
+        num = float(s)
+        if num > 0:
+            return int(num) if num == int(num) else num
+    except ValueError:
+        pass
+
+    return None
 
 def scrape_category(category):
     urls = [
-        f"https://supremevaluelist.com/mm2/{category}",
-        f"https://supremevalues.com/mm2/{category}"
+        f"https://supremevalues.com/mm2/{category}",
+        f"https://supremevaluelist.com/mm2/{category}"
     ]
     for url in urls:
         page_html = None
         try:
             if cffi_requests:
-                for imp in ["chrome120", "chrome124", "safari15_5"]:
+                for imp in ["chrome124", "chrome120", "safari15_5"]:
                     try:
-                        resp = cffi_requests.get(url, impersonate=imp, timeout=14)
+                        resp = cffi_requests.get(url, impersonate=imp, timeout=15)
                         if resp.status_code == 200 and len(resp.text) > 4000:
                             page_html = resp.text
                             break
@@ -103,7 +140,7 @@ def scrape_category(category):
             if not page_html:
                 req = urllib.request.Request(url, headers=HEADERS)
                 try:
-                    with urllib.request.urlopen(req, timeout=14) as response:
+                    with urllib.request.urlopen(req, timeout=15) as response:
                         page_html = response.read().decode("utf-8", errors="ignore")
                 except Exception as e:
                     print(f"[urllib] Warning {url}: {e}")
@@ -112,42 +149,72 @@ def scrape_category(category):
                 soup = BeautifulSoup(page_html, "html.parser")
                 results = []
                 for col in soup.find_all("div", class_="itemcolumn"):
-                    # Ignore hidden easter-eggs / unreleased placeholders on Supreme (e.g. hidden Batwing 1M, Black Luger 1M)
+                    # Ignore hidden easter-eggs / unreleased placeholders on Supreme
                     style_str = col.get("style", "").replace(" ", "").lower()
                     if "display:none" in style_str:
                         continue
 
+                    # Multi-selector: Check button[data-name], div.itemhead, or img[alt]
+                    name_raw = None
                     btn = col.find("button", attrs={"data-name": True})
-                    if not btn:
-                        continue
-                    name_raw = clean_item_name(btn["data-name"])
+                    head_div = col.find("div", class_="itemhead")
+                    img_tag = col.find("img", class_="itemimage")
+
+                    if btn and btn.get("data-name"):
+                        name_raw = clean_item_name(btn["data-name"])
+                    elif head_div and head_div.text.strip():
+                        name_raw = clean_item_name(head_div.text.strip())
+                    elif img_tag and img_tag.get("alt"):
+                        name_raw = clean_item_name(img_tag["alt"])
+
                     if not name_raw or name_raw in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
                         continue
 
-                    val_tag = col.find("b", class_=re.compile(r"itemvalue"))
-                    raw_val = val_tag.text.strip() if val_tag else "0"
-                    val_num_str = raw_val.replace(",", "")
-                    try:
-                        num_val = float(val_num_str)
-                        if num_val == int(num_val):
-                            num_val = int(num_val)
-                        final_val = num_val
-                    except ValueError:
-                        final_val = raw_val
+                    # Extract value: Check controls[data-value] first, then b tags, then text
+                    val_str = None
+                    controls_span = col.find("span", class_="controls")
+                    if controls_span and controls_span.get("data-value"):
+                        val_str = controls_span["data-value"].strip()
 
-                    year = col.get("data-year") or None
-                    event = col.get("data-event") or None
+                    if not val_str:
+                        val_tag = col.find("b", class_=re.compile(r"itemvalue|val-"))
+                        if val_tag and val_tag.text.strip():
+                            val_str = val_tag.text.strip()
+
+                    if not val_str:
+                        m_val = re.search(r"Value\s*-\s*([0-9,\.kK]+)", col.text)
+                        if m_val:
+                            val_str = m_val.group(1).strip()
+
+                    # Parse clean numeric price (None if undetermined/0)
+                    verified_price = parse_numeric_price(val_str)
+
+                    # Extract metadata
+                    year = col.get("data-year")
+                    event = col.get("data-event")
+                    image_url = None
+                    if img_tag and img_tag.get("src"):
+                        src = img_tag["src"]
+                        if src.startswith(".."):
+                            image_url = "https://supremevalues.com" + src[2:]
+                        elif src.startswith("/"):
+                            image_url = "https://supremevalues.com" + src
+                        elif src.startswith("http"):
+                            image_url = src
 
                     results.append({
                         "name_raw": name_raw,
-                        "value": final_val,
+                        "raw_value_str": val_str,
+                        "value": verified_price,
                         "category": category,
                         "year": year,
-                        "event": event
+                        "event": event,
+                        "image": image_url
                     })
 
                 if len(results) > 0:
-                    print(f"[Scraper] {category}: {len(results)} items scraped from {url}.")
+                    valid_prices = sum(1 for r in results if r["value"] is not None)
+                    print(f"[Scraper] {category}: {len(results)} items scraped from {url} ({valid_prices} with verified price).")
                     return results
         except Exception as e:
             print(f"[Scraper] Warning {url}: {e}")
@@ -203,6 +270,11 @@ def update_remote_github(token, repo, file_path, content_bytes, branch="main", r
     return False
 
 def update_skins_json_values(skins_json_path, prices_dict):
+    """
+    Updates skins.json with verified prices.
+    CRITICAL: Never overwrites a valid price with 0 or None.
+    If price is undetermined and skin has no previous price, Value is omitted or set None.
+    """
     if not os.path.exists(skins_json_path):
         return False
     try:
@@ -210,13 +282,14 @@ def update_skins_json_values(skins_json_path, prices_dict):
             data = json.load(f)
         entries = data.get("entries", {})
         updated_count = 0
+        unresolved_count = 0
         iterable = entries.values() if isinstance(entries, dict) else entries
 
         def norm(s):
             if not s: return ""
             return re.sub(r"[^a-zA-Z0-9]", "", str(s)).lower()
 
-        norm_prices = {norm(k): v for k, v in prices_dict.items()}
+        norm_prices = {norm(k): v for k, v in prices_dict.items() if v is not None}
 
         for rec in iterable:
             if not isinstance(rec, dict):
@@ -230,26 +303,69 @@ def update_skins_json_values(skins_json_path, prices_dict):
                 continue
 
             price = prices_dict.get(item_name) or prices_dict.get(name) or norm_prices.get(norm(item_name)) or norm_prices.get(norm(name))
-            meta["Value"] = price if price is not None else 0
+
+            # Only set price if it is a verified positive number
+            if price is not None and isinstance(price, (int, float)) and price > 0:
+                meta["Value"] = price
+                meta["PriceStatus"] = "verified"
+                updated_count += 1
+            else:
+                # Do NOT overwrite existing non-zero value with 0
+                old_val = meta.get("Value")
+                if old_val and isinstance(old_val, (int, float)) and old_val > 0:
+                    meta["PriceStatus"] = "historical_retained"
+                else:
+                    # Undetermined price: Do NOT write 0!
+                    meta.pop("Value", None)
+                    meta["PriceStatus"] = "unresolved_needs_manual_fix"
+                    unresolved_count += 1
+
             rec["meta"] = meta
-            updated_count += 1
 
         with open(skins_json_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"[Values System] Injected authentic values into {updated_count} skins in skins.json.")
+        print(f"[Values System] Injected authentic values into {updated_count} skins in skins.json ({unresolved_count} left without price for manual fix).")
         return True
     except Exception as e:
         print(f"[Values System] Warning updating skins.json: {e}")
         return False
 
 def main():
-    print("[Values System] Starting 100% Authentic Supreme Values scrape cycle...")
+    print("[Values System] Starting Smart Auto-Discovery & Authentic Values scrape cycle...")
     base_dir = os.path.dirname(os.path.abspath(__file__))
     output_path = os.path.join(base_dir, "values.json")
     skins_path = os.path.join(base_dir, "skins.json")
     catalog_dump_path = os.path.join(base_dir, "mm2_full_catalog_dump.json")
+    manual_overrides_path = os.path.join(base_dir, "manual_price_overrides.json")
+    unresolved_output_path = os.path.join(base_dir, "unresolved_items.json")
 
-    # Load official MM2 game dump
+    # 1. Load manual price overrides if present
+    manual_overrides = {}
+    if os.path.exists(manual_overrides_path):
+        try:
+            with open(manual_overrides_path, "r", encoding="utf-8") as f:
+                raw_overrides = json.load(f)
+            for k, v in raw_overrides.items():
+                if k.startswith("_"):
+                    continue
+                num_v = parse_numeric_price(v)
+                manual_overrides[k] = num_v if num_v is not None else v
+            print(f"[Values System] Loaded {len(manual_overrides)} manual price overrides.")
+        except Exception as e:
+            print(f"[Values System] Warning loading manual overrides: {e}")
+
+    # 2. Load historical values to preserve valid prices if Supreme is temporarily down/missing them
+    historical_values = {}
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+            historical_values = old_data.get("values", {})
+            print(f"[Values System] Loaded {len(historical_values)} historical prices for baseline preservation.")
+        except Exception:
+            pass
+
+    # 3. Load official MM2 game dump
     game_dump = []
     norm_dump = {}
     if os.path.exists(catalog_dump_path):
@@ -264,54 +380,59 @@ def main():
         except Exception as e:
             print(f"[Values System] Warning loading game dump: {e}")
 
-    # 1. Scrape all 11 valid tradeable categories from Supreme
+    # 4. Scrape all 11 categories with multi-selector parsing
     scraped_raw_items = []
     for cat in CATEGORIES:
         items = scrape_category(cat)
         scraped_raw_items.extend(items)
-        time.sleep(0.25)
+        time.sleep(0.2)
 
-    print(f"[Values System] Total raw scraped items from Supreme: {len(scraped_raw_items)}.")
+    print(f"[Values System] Total items scraped from Supreme: {len(scraped_raw_items)}.")
 
-    if len(scraped_raw_items) < 300:
-        print(f"[Values System] CRITICAL ERROR: Scraped only {len(scraped_raw_items)} items (< 300).")
+    if len(scraped_raw_items) < 250:
+        print(f"[Values System] CRITICAL ERROR: Scraped only {len(scraped_raw_items)} items (< 250).")
         print("[Values System] Likely network issue or Cloudflare block. REFUSING to overwrite database!")
         sys.exit(1)
 
-    # 2. Build complete, verified items and resolve exact Type, Rarity, Chroma, Year
-    entries = []
-    combined_values = {}
-
+    # 5. Type and Rarity Resolution for new & existing items
     def resolve_meta(raw_name, cat):
         clean = re.sub(r"\s*\(.*?\)", "", raw_name).strip()
         norm = re.sub(r"[^a-zA-Z0-9]", "", clean).lower()
         is_chroma = (cat == "chromas") or "chroma" in raw_name.lower()
 
-        # A. Vintages exact
+        # Vintages exact
         if cat == "vintages" and clean in VINTAGES_EXPLICIT:
             t, r, _ = VINTAGES_EXPLICIT[clean]
             return t, r, is_chroma
 
-        # B. Pets & Misc
+        # Pets & Misc
         if cat == "pets":
             return "Pet", "Common", is_chroma
         if cat == "misc":
             return "Misc", "Common", is_chroma
 
-        # C. Explicit (Gun), (Knife), (Pet), (Misc) in scraped raw name
+        # Explicit in raw name e.g. "(Gun)", "(Knife)", "(Pet)"
         m = re.search(r"\((Gun|Knife|Pet|Misc)\)", raw_name, re.IGNORECASE)
         if m:
             return m.group(1).capitalize(), RARITY_BY_CATEGORY.get(cat, "Common"), is_chroma
 
-        # D. Name keywords
+        # Keyword heuristics for new weapons
         cl = clean.lower()
         cat_rarity = RARITY_BY_CATEGORY.get(cat, "Common")
-        if cl.endswith("gun") or cl.endswith("revolver") or cl.endswith("luger") or cl.endswith("blaster") or cl.endswith("shotgun") or cl.endswith("bow"):
+        gun_keywords = [
+            "gun", "revolver", "luger", "blaster", "shotgun", "bow", "crossbow",
+            "cannon", "rifle", "piercer", "evergun", "watergun", "flintlock", "pistol"
+        ]
+        knife_keywords = [
+            "knife", "blade", "dagger", "scythe", "axe", "sword", "saw", "cleaver",
+            "sickle", "hammer", "bat", "staff", "wand", "spear", "fang", "claw", "katana"
+        ]
+        if any(cl.endswith(kw) or f" {kw}" in cl for kw in gun_keywords):
             return "Gun", cat_rarity, is_chroma
-        if cl.endswith("knife") or cl.endswith("blade") or cl.endswith("dagger") or cl.endswith("scythe") or cl.endswith("axe") or cl.endswith("sword") or cl.endswith("saw"):
+        if any(cl.endswith(kw) or f" {kw}" in cl for kw in knife_keywords):
             return "Knife", cat_rarity, is_chroma
 
-        # E. Official MM2 database dump
+        # Official MM2 database dump lookup
         candidates = norm_dump.get(norm, [])
         if candidates:
             for c in candidates:
@@ -321,6 +442,11 @@ def main():
             return chosen.get("type"), cat_rarity or chosen.get("rarity"), is_chroma
 
         return "Knife", cat_rarity, is_chroma
+
+    entries = []
+    combined_values = {}
+    unresolved_items = []
+    new_items_detected = 0
 
     seen_entries = set()
 
@@ -332,10 +458,30 @@ def main():
         clean_name = re.sub(r"\s*\(.*?\)", "", raw_name).strip()
         t, r, is_chroma = resolve_meta(raw_name, cat)
 
-        # Force exact vintage value from Supreme
+        # Force exact vintage values
         if clean_name in VINTAGES_EXPLICIT and cat == "vintages":
             t, r, v_val = VINTAGES_EXPLICIT[clean_name]
             val = v_val
+
+        # Check manual overrides first
+        if clean_name in manual_overrides:
+            val = manual_overrides[clean_name]
+        elif raw_name in manual_overrides:
+            val = manual_overrides[raw_name]
+        elif f"{clean_name} ({t})" in manual_overrides:
+            val = manual_overrides[f"{clean_name} ({t})"]
+
+        # If price is still None/undetermined, check historical values to avoid dropping known prices
+        if val is None or val == 0:
+            hist_val = historical_values.get(clean_name) or historical_values.get(f"{clean_name} ({t})")
+            if hist_val and isinstance(hist_val, (int, float)) and hist_val > 0:
+                val = hist_val
+
+        # Check if item is newly discovered (not in historical data)
+        if clean_name not in historical_values and f"{clean_name} ({t})" not in historical_values:
+            new_items_detected += 1
+
+        is_price_valid = (val is not None) and isinstance(val, (int, float)) and (val > 0)
 
         entry_key = f"{clean_name}|{t}|{r}|{is_chroma}"
         if entry_key not in seen_entries:
@@ -347,34 +493,45 @@ def main():
                 "rarity": r,
                 "is_chroma": is_chroma,
                 "year": item.get("year"),
-                "value": val
+                "event": item.get("event"),
+                "image": item.get("image"),
+                "value": val if is_price_valid else None,
+                "price_status": "verified" if is_price_valid else "unresolved"
             }
             entries.append(entry)
 
-        # Populate top-level dictionary keys
-        # 1. Base clean name
-        if clean_name not in combined_values:
-            combined_values[clean_name] = val
+            if not is_price_valid:
+                unresolved_items.append({
+                    "name": clean_name,
+                    "raw_name": raw_name,
+                    "category": cat,
+                    "type": t,
+                    "rarity": r,
+                    "raw_scraped_value": item.get("raw_value_str"),
+                    "manual_fix_tip": f"Add to manual_price_overrides.json: '{clean_name}': <price>"
+                })
 
-        # 2. Typed key: "Cowboy (Gun)", "Raygun (Gun)", "Alienbeam (Knife)"
-        if t:
-            combined_values[f"{clean_name} ({t})"] = val
-
-        # 3. Chroma specific
-        if is_chroma and not clean_name.startswith("Chroma "):
-            combined_values[f"Chroma {clean_name}"] = val
+        # CRITICAL: Only populate top-level lookup keys if price is VERIFIED > 0
+        # If price is undetermined, DO NOT write 0 or fake price!
+        if is_price_valid:
+            if clean_name not in combined_values:
+                combined_values[clean_name] = val
             if t:
-                combined_values[f"Chroma {clean_name} ({t})"] = val
+                combined_values[f"{clean_name} ({t})"] = val
+            if is_chroma and not clean_name.startswith("Chroma "):
+                combined_values[f"Chroma {clean_name}"] = val
+                if t:
+                    combined_values[f"Chroma {clean_name} ({t})"] = val
 
-    # Fix Batwing base key to 42 (Ancient standard weapon)
+    # Batwing standard fix
     combined_values["Batwing"] = 42
     combined_values["Batwing (Knife)"] = 42
     combined_values["Batwing [Ancient]"] = 42
 
-    # Add standard MM2 alternative spellings without clutter
+    # Standard MM2 alternative spellings without clutter
     common_aliases = {
         "Travelers Gun": combined_values.get("Traveler's Gun", 5200),
-        "Travelers Axe": combined_values.get("Traveler's Axe", 7100),
+        "Travelers Axe": combined_values.get("Traveler's Axe", 7700),
         "Vampires Gun": combined_values.get("Vampire's Gun", 1900),
         "Vampires Axe": combined_values.get("Vampire's Axe", 1500),
         "BattleAxe2": combined_values.get("Battle Axe II", 45),
@@ -390,13 +547,21 @@ def main():
         if a_val is not None:
             combined_values[a_name] = a_val
 
-    print(f"[Values System] Final clean catalog: {len(combined_values)} lookup keys, {len(entries)} verified entries.")
+    print(f"[Values System] Final Verified Catalog: {len(combined_values)} authentic lookup keys, {len(entries)} verified entries.")
+    print(f"[Values System] Newly detected items: {new_items_detected}. Unresolved prices: {len(unresolved_items)}.")
 
+    # Save unresolved items report for user review
+    with open(unresolved_output_path, "w", encoding="utf-8") as f:
+        json.dump(unresolved_items, f, indent=2, ensure_ascii=False)
+    print(f"[Values System] Saved unresolved items to: {unresolved_output_path}")
+
+    # Build payload
     payload = {
         "updated_at": int(time.time()),
         "updated_str": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
-        "source": "Supreme Values (Official)",
+        "source": "Supreme Values (Verified & Clean)",
         "count": len(combined_values),
+        "unresolved_count": len(unresolved_items),
         "values": combined_values,
         "entries": entries
     }
@@ -409,9 +574,11 @@ def main():
         f.write(json_bytes)
     print(f"[Values System] Saved clean local database: {output_path}")
 
+    # Update skins.json safely
     if os.path.exists(skins_path):
         update_skins_json_values(skins_path, combined_values)
 
+    # Sync to remote repositories
     dest_repo = os.environ.get("DEST_REPO", DEFAULT_REPO)
     dest_token = os.environ.get("DEST_TOKEN") or os.environ.get("GITHUB_TOKEN") or DEFAULT_TOKEN
     dest_branch = os.environ.get("DEST_BRANCH", "main")
@@ -422,13 +589,25 @@ def main():
         if os.path.exists(skins_path):
             with open(skins_path, "rb") as sf:
                 update_remote_github(dest_token, dest_repo, "skins.json", sf.read(), dest_branch)
+        if os.path.exists(unresolved_output_path):
+            with open(unresolved_output_path, "rb") as uf:
+                update_remote_github(dest_token, dest_repo, "unresolved_items.json", uf.read(), dest_branch)
+        if os.path.exists(manual_overrides_path):
+            with open(manual_overrides_path, "rb") as mf:
+                update_remote_github(dest_token, dest_repo, "manual_price_overrides.json", mf.read(), dest_branch)
 
-    # Sync to scraper repo
+    # Sync to scraper repository
     scraper_repo = "Lisi-prime/mm2-scraper"
     print(f"[Values System] Synchronizing scraper repo: {scraper_repo} ...")
     with open(__file__, "rb") as scf:
         update_remote_github(dest_token, scraper_repo, "update_values.py", scf.read(), dest_branch)
     update_remote_github(dest_token, scraper_repo, "values.json", json_bytes, dest_branch)
+    if os.path.exists(unresolved_output_path):
+        with open(unresolved_output_path, "rb") as uf:
+            update_remote_github(dest_token, scraper_repo, "unresolved_items.json", uf.read(), dest_branch)
+    if os.path.exists(manual_overrides_path):
+        with open(manual_overrides_path, "rb") as mf:
+            update_remote_github(dest_token, scraper_repo, "manual_price_overrides.json", mf.read(), dest_branch)
     if os.path.exists(catalog_dump_path):
         with open(catalog_dump_path, "rb") as cf:
             update_remote_github(dest_token, scraper_repo, "mm2_full_catalog_dump.json", cf.read(), dest_branch)
