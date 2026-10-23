@@ -139,17 +139,18 @@ def parse_value(raw_str):
     except ValueError:
         pass
 
-    m_tier = re.search(r"x\s*(\d+)\s*(?:T\d+\s*)?(Common|Uncommon|Rare|Legendar(?:y|ies))s?", s, re.IGNORECASE)
+    m_tier = re.search(r"x\s*(\d+)\s*(?:T(\d+)\s*)?(Common|Uncommon|Rare|Legendar(?:y|ies))s?", s, re.IGNORECASE)
     if m_tier:
         count = m_tier.group(1)
-        raw_r = m_tier.group(2).lower()
+        tier_num = m_tier.group(2) or "1"
+        raw_r = m_tier.group(3).lower()
         if "legendar" in raw_r:
             rarity = "Legendaries" if int(count) > 1 else "Legendary"
-            return f"x{count} {rarity}"
+            return f"x{count} T{tier_num} {rarity}"
         else:
             rarity = raw_r.capitalize()
             suffix = "s" if int(count) > 1 else ""
-            return f"x{count} {rarity}{suffix}"
+            return f"x{count} T{tier_num} {rarity}{suffix}"
 
     return None
 
@@ -621,7 +622,7 @@ def main():
             clean_gn = clean_base_name(gn)
             if clean_gn not in combined_values and gn not in combined_values:
                 # Assign baseline placeholder so newly dropped weapons always show in-game
-                default_val = "x1 Common" if gr == "Common" else ("x1 Uncommon" if gr == "Uncommon" else ("x1 Rare" if gr == "Rare" else "TBD"))
+                default_val = f"x1 T1 {gr}" if gr in ["Common", "Uncommon", "Rare"] else "TBD"
                 combined_values[gn] = default_val
                 combined_values[clean_gn] = default_val
                 if gt:
