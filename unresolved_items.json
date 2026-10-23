@@ -5,8 +5,7 @@
     "category": "ancients",
     "type": "Knife",
     "rarity": "Ancient",
-    "raw_scraped_value": "Priceless",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Nik's Scythe': <price>"
+    "raw_scraped_value": "Priceless"
   },
   {
     "name": "slouse's Clown",
@@ -14,8 +13,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'slouse's Clown': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "slouse's Clown",
@@ -23,8 +21,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'slouse's Clown': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Sharkseeker",
@@ -32,8 +29,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sharkseeker': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Dartbringer",
@@ -41,8 +37,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Dartbringer': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Candy",
@@ -50,8 +45,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Candy': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Hallow",
@@ -59,8 +53,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Hallow': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Sugar",
@@ -68,8 +61,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Sugar': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Elderwood",
@@ -77,8 +69,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Elderwood': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Minty",
@@ -86,8 +77,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Minty': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Logchopper",
@@ -95,8 +85,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Logchopper': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Vamp's Edge",
@@ -104,8 +93,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Vamp's Edge': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Iceblaster",
@@ -113,8 +101,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Iceblaster': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Icebreaker",
@@ -122,8 +109,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Icebreaker': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Harvester",
@@ -131,8 +117,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Harvester': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Swirly",
@@ -140,8 +125,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Swirly': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Icecrusher",
@@ -149,8 +133,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Icecrusher': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Icepiercer",
@@ -158,8 +141,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Icepiercer': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Traveler's",
@@ -167,8 +149,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Traveler's': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Gingerscythe",
@@ -176,8 +157,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Gingerscythe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Gingerscope",
@@ -185,8 +165,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Gingerscope': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Vampire's Axe",
@@ -194,8 +173,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Vampire's Axe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Constellation",
@@ -203,8 +181,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Constellation': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Celestial",
@@ -212,8 +189,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Celestial': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Synthwave",
@@ -221,8 +197,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Synthwave': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Raygun",
@@ -230,8 +205,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Raygun': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Snow Dagger",
@@ -239,8 +213,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Snow Dagger': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Gold Snowcannon",
@@ -248,8 +221,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gold Snowcannon': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Candy",
@@ -257,8 +229,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Candy': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Hallow",
@@ -266,8 +237,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Hallow': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Sugar",
@@ -275,8 +245,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Sugar': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Elderwood",
@@ -284,8 +253,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Elderwood': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Minty",
@@ -293,8 +261,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Minty': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Logchopper",
@@ -302,8 +269,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Logchopper': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Vamp's Edge",
@@ -311,8 +277,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Vamp's Edge': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Iceblaster",
@@ -320,8 +285,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Iceblaster': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Icebreaker",
@@ -329,8 +293,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Icebreaker': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Harvester",
@@ -338,8 +301,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Harvester': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Swirly",
@@ -347,8 +309,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Swirly': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Icecrusher",
@@ -356,8 +317,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Icecrusher': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Icepiercer",
@@ -365,8 +325,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Icepiercer': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Traveler's",
@@ -374,8 +333,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Traveler's': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Gingerscythe",
@@ -383,8 +341,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Gingerscythe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Gingerscope",
@@ -392,8 +349,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Gingerscope': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Vampire's Axe",
@@ -401,8 +357,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Vampire's Axe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Constellation",
@@ -410,8 +365,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Constellation': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Celestial",
@@ -419,8 +373,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Celestial': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Synthwave",
@@ -428,8 +381,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Synthwave': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Raygun",
@@ -437,8 +389,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Raygun': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Snow Dagger",
@@ -446,8 +397,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Snow Dagger': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Silver Snowcannon",
@@ -455,8 +405,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Silver Snowcannon': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Candy",
@@ -464,8 +413,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Candy': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Hallow",
@@ -473,8 +421,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Hallow': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Sugar",
@@ -482,8 +429,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Sugar': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Elderwood",
@@ -491,8 +437,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Elderwood': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Minty",
@@ -500,8 +445,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Minty': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Logchopper",
@@ -509,8 +453,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Logchopper': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Vamp's Edge",
@@ -518,8 +461,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Vamp's Edge': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Iceblaster",
@@ -527,8 +469,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Iceblaster': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Icebreaker",
@@ -536,8 +477,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Icebreaker': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Harvester",
@@ -545,8 +485,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Harvester': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Swirly",
@@ -554,8 +493,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Swirly': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Icecrusher",
@@ -563,8 +501,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Icecrusher': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Icepiercer",
@@ -572,8 +509,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Icepiercer': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Traveler's",
@@ -581,8 +517,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Traveler's': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Gingerscythe",
@@ -590,8 +525,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Gingerscythe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Gingerscope",
@@ -599,8 +533,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Gingerscope': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Vampire's Axe",
@@ -608,8 +541,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Vampire's Axe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Constellation",
@@ -617,8 +549,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Constellation': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Celestial",
@@ -626,8 +557,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Celestial': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Synthwave",
@@ -635,8 +565,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Synthwave': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Raygun",
@@ -644,8 +573,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Raygun': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Snow Dagger",
@@ -653,8 +581,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Snow Dagger': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bronze Snowcannon",
@@ -662,8 +589,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bronze Snowcannon': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Candy",
@@ -671,8 +597,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Candy': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Hallow",
@@ -680,8 +605,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Hallow': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Sugar",
@@ -689,8 +613,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Sugar': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Elderwood",
@@ -698,8 +621,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Elderwood': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Minty",
@@ -707,8 +629,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Minty': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Logchopper",
@@ -716,8 +637,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Logchopper': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Vamp's Edge",
@@ -725,8 +645,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Vamp's Edge': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Iceblaster",
@@ -734,8 +653,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Iceblaster': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Icebreaker",
@@ -743,8 +661,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Icebreaker': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Harvester",
@@ -752,8 +669,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Harvester': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Swirly",
@@ -761,8 +677,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Swirly': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Icecrusher",
@@ -770,8 +685,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Icecrusher': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Icepiercer",
@@ -779,8 +693,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Icepiercer': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Traveler's",
@@ -788,8 +701,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Traveler's': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Gingerscythe",
@@ -797,8 +709,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Gingerscythe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Gingerscope",
@@ -806,8 +717,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Gingerscope': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Purple Vampire's Axe",
@@ -815,8 +725,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Purple Vampire's Axe': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Constellation",
@@ -824,8 +733,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Constellation': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Celestial",
@@ -833,8 +741,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Celestial': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Blue Synthwave",
@@ -842,8 +749,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue Synthwave': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Raygun",
@@ -851,8 +757,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Raygun': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Snow Dagger",
@@ -860,8 +765,7 @@
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Snow Dagger': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Red Snowcannon",
@@ -869,2051 +773,7 @@
     "category": "uniques",
     "type": "Gun",
     "rarity": "Unique",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red Snowcannon': <price>"
-  },
-  {
-    "name": "Cursed",
-    "raw_name": "Cursed (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cursed': <price>"
-  },
-  {
-    "name": "Embergun",
-    "raw_name": "Embergun",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Embergun': <price>"
-  },
-  {
-    "name": "Emerald",
-    "raw_name": "Emerald",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Emerald': <price>"
-  },
-  {
-    "name": "Frozen",
-    "raw_name": "Frozen (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frozen': <price>"
-  },
-  {
-    "name": "Nightstar",
-    "raw_name": "Nightstar",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Nightstar': <price>"
-  },
-  {
-    "name": "Overseer",
-    "raw_name": "Overseer (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Overseer': <price>"
-  },
-  {
-    "name": "Predator",
-    "raw_name": "Predator (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Predator': <price>"
-  },
-  {
-    "name": "Ripper",
-    "raw_name": "Ripper (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ripper': <price>"
-  },
-  {
-    "name": "Rupture",
-    "raw_name": "Rupture",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Rupture': <price>"
-  },
-  {
-    "name": "Tree",
-    "raw_name": "Tree (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tree': <price>"
-  },
-  {
-    "name": "Tree",
-    "raw_name": "Tree (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tree': <price>"
-  },
-  {
-    "name": "Web",
-    "raw_name": "Web",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Web': <price>"
-  },
-  {
-    "name": "Green Fire",
-    "raw_name": "Green Fire",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Green Fire': <price>"
-  },
-  {
-    "name": "Aquarium",
-    "raw_name": "Aquarium (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Aquarium': <price>"
-  },
-  {
-    "name": "Cursed",
-    "raw_name": "Cursed (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cursed': <price>"
-  },
-  {
-    "name": "Frozen",
-    "raw_name": "Frozen (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frozen': <price>"
-  },
-  {
-    "name": "Midnight",
-    "raw_name": "Midnight",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Midnight': <price>"
-  },
-  {
-    "name": "Palms",
-    "raw_name": "Palms (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Palms': <price>"
-  },
-  {
-    "name": "Sparkle",
-    "raw_name": "Sparkle",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sparkle': <price>"
-  },
-  {
-    "name": "Bubbles",
-    "raw_name": "Bubbles",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bubbles': <price>"
-  },
-  {
-    "name": "Cupid",
-    "raw_name": "Cupid",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cupid': <price>"
-  },
-  {
-    "name": "Ripper",
-    "raw_name": "Ripper (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ripper': <price>"
-  },
-  {
-    "name": "Aquarium",
-    "raw_name": "Aquarium (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Aquarium': <price>"
-  },
-  {
-    "name": "Palms",
-    "raw_name": "Palms (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Palms': <price>"
-  },
-  {
-    "name": "Overseer",
-    "raw_name": "Overseer (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Overseer': <price>"
-  },
-  {
-    "name": "Predator",
-    "raw_name": "Predator (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Predator': <price>"
-  },
-  {
-    "name": "Rune",
-    "raw_name": "Rune",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Rune': <price>"
-  },
-  {
-    "name": "Universe",
-    "raw_name": "Universe",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Universe': <price>"
-  },
-  {
-    "name": "Viper",
-    "raw_name": "Viper",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Viper': <price>"
-  },
-  {
-    "name": "Fade",
-    "raw_name": "Fade",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fade': <price>"
-  },
-  {
-    "name": "Fusion",
-    "raw_name": "Fusion",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fusion': <price>"
-  },
-  {
-    "name": "Plasmite",
-    "raw_name": "Plasmite",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Plasmite': <price>"
-  },
-  {
-    "name": "Shiny",
-    "raw_name": "Shiny",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Shiny': <price>"
-  },
-  {
-    "name": "Splash",
-    "raw_name": "Splash (Knife)",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x4 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Splash': <price>"
-  },
-  {
-    "name": "Elite",
-    "raw_name": "Elite",
-    "category": "legendaries",
-    "type": "Knife",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Elite': <price>"
-  },
-  {
-    "name": "Splash",
-    "raw_name": "Splash (Gun)",
-    "category": "legendaries",
-    "type": "Gun",
-    "rarity": "Legendary",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Splash': <price>"
-  },
-  {
-    "name": "Catseye",
-    "raw_name": "Catseye (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Catseye': <price>"
-  },
-  {
-    "name": "Serpent",
-    "raw_name": "Serpent",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Serpent': <price>"
-  },
-  {
-    "name": "Cane [XMAS2015]",
-    "raw_name": "Cane (Gun) [XMAS2015]",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cane [XMAS2015]': <price>"
-  },
-  {
-    "name": "Cane [XMAS2015]",
-    "raw_name": "Cane (Knife) [XMAS2015]",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cane [XMAS2015]': <price>"
-  },
-  {
-    "name": "Mummy",
-    "raw_name": "Mummy",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Mummy': <price>"
-  },
-  {
-    "name": "Nuke",
-    "raw_name": "Nuke",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Nuke': <price>"
-  },
-  {
-    "name": "Snowy",
-    "raw_name": "Snowy",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowy': <price>"
-  },
-  {
-    "name": "Ice Camo",
-    "raw_name": "Ice Camo",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ice Camo': <price>"
-  },
-  {
-    "name": "Logcutter",
-    "raw_name": "Logcutter",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Logcutter': <price>"
-  },
-  {
-    "name": "Molten",
-    "raw_name": "Molten (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Molten': <price>"
-  },
-  {
-    "name": "Molten",
-    "raw_name": "Molten (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Molten': <price>"
-  },
-  {
-    "name": "Butterflies",
-    "raw_name": "Butterflies",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Butterflies': <price>"
-  },
-  {
-    "name": "Heart",
-    "raw_name": "Heart",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Heart': <price>"
-  },
-  {
-    "name": "Neon [XMAS2023]",
-    "raw_name": "Neon [XMAS2023]",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Neon [XMAS2023]': <price>"
-  },
-  {
-    "name": "Catseye",
-    "raw_name": "Catseye (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Catseye': <price>"
-  },
-  {
-    "name": "Damp",
-    "raw_name": "Damp",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Damp': <price>"
-  },
-  {
-    "name": "Frostflame",
-    "raw_name": "Frostflame (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frostflame': <price>"
-  },
-  {
-    "name": "Nether",
-    "raw_name": "Nether",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Nether': <price>"
-  },
-  {
-    "name": "Painted",
-    "raw_name": "Painted (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Painted': <price>"
-  },
-  {
-    "name": "Raven",
-    "raw_name": "Raven",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Raven': <price>"
-  },
-  {
-    "name": "Spitfire",
-    "raw_name": "Spitfire",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Spitfire': <price>"
-  },
-  {
-    "name": "Storm",
-    "raw_name": "Storm",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Storm': <price>"
-  },
-  {
-    "name": "Tree",
-    "raw_name": "Tree (2023)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tree': <price>"
-  },
-  {
-    "name": "Bio",
-    "raw_name": "Bio",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bio': <price>"
-  },
-  {
-    "name": "Bones",
-    "raw_name": "Bones (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bones': <price>"
-  },
-  {
-    "name": "Curse",
-    "raw_name": "Curse",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Curse': <price>"
-  },
-  {
-    "name": "Frostflame",
-    "raw_name": "Frostflame (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frostflame': <price>"
-  },
-  {
-    "name": "Ghosts",
-    "raw_name": "Ghosts (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ghosts': <price>"
-  },
-  {
-    "name": "Gingercookie",
-    "raw_name": "Gingercookie (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gingercookie': <price>"
-  },
-  {
-    "name": "Hologram",
-    "raw_name": "Hologram (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hologram': <price>"
-  },
-  {
-    "name": "Pop Art",
-    "raw_name": "Pop Art (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pop Art': <price>"
-  },
-  {
-    "name": "Spearmint",
-    "raw_name": "Spearmint (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Spearmint': <price>"
-  },
-  {
-    "name": "Xeno",
-    "raw_name": "Xeno (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Xeno': <price>"
-  },
-  {
-    "name": "Pier",
-    "raw_name": "Pier",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pier': <price>"
-  },
-  {
-    "name": "Sunny",
-    "raw_name": "Sunny",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sunny': <price>"
-  },
-  {
-    "name": "Tropical",
-    "raw_name": "Tropical",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tropical': <price>"
-  },
-  {
-    "name": "Hologram",
-    "raw_name": "Hologram (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hologram': <price>"
-  },
-  {
-    "name": "Portal",
-    "raw_name": "Portal (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Portal': <price>"
-  },
-  {
-    "name": "Tree",
-    "raw_name": "Tree (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tree': <price>"
-  },
-  {
-    "name": "Xeno",
-    "raw_name": "Xeno (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Xeno': <price>"
-  },
-  {
-    "name": "Kraken",
-    "raw_name": "Kraken",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Kraken': <price>"
-  },
-  {
-    "name": "Ritual",
-    "raw_name": "Ritual",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ritual': <price>"
-  },
-  {
-    "name": "Snowglobe",
-    "raw_name": "Snowglobe",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowglobe': <price>"
-  },
-  {
-    "name": "Gingercookie",
-    "raw_name": "Gingercookie (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gingercookie': <price>"
-  },
-  {
-    "name": "Heartbreak",
-    "raw_name": "Heartbreak",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Heartbreak': <price>"
-  },
-  {
-    "name": "Neon [SUMMER2025]",
-    "raw_name": "Neon [SUMMER2025]",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Neon [SUMMER2025]': <price>"
-  },
-  {
-    "name": "Pop Art",
-    "raw_name": "Pop Art (Gun)",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pop Art': <price>"
-  },
-  {
-    "name": "Robot",
-    "raw_name": "Robot",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Robot': <price>"
-  },
-  {
-    "name": "Sharky",
-    "raw_name": "Sharky",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sharky': <price>"
-  },
-  {
-    "name": "Sleigh",
-    "raw_name": "Sleigh",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sleigh': <price>"
-  },
-  {
-    "name": "Spearmint",
-    "raw_name": "Spearmint (Knife)",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Spearmint': <price>"
-  },
-  {
-    "name": "Spring",
-    "raw_name": "Spring",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Spring': <price>"
-  },
-  {
-    "name": "Yummy",
-    "raw_name": "Yummy",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Yummy': <price>"
-  },
-  {
-    "name": "Black",
-    "raw_name": "Black",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Black': <price>"
-  },
-  {
-    "name": "Abstract",
-    "raw_name": "Abstract",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Abstract': <price>"
-  },
-  {
-    "name": "Ace",
-    "raw_name": "Ace",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ace': <price>"
-  },
-  {
-    "name": "Bacon",
-    "raw_name": "Bacon",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bacon': <price>"
-  },
-  {
-    "name": "Galactic",
-    "raw_name": "Galactic",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Galactic': <price>"
-  },
-  {
-    "name": "Galaxy",
-    "raw_name": "Galaxy",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Galaxy': <price>"
-  },
-  {
-    "name": "Hacker",
-    "raw_name": "Hacker",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hacker': <price>"
-  },
-  {
-    "name": "Imbued",
-    "raw_name": "Imbued",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Imbued': <price>"
-  },
-  {
-    "name": "iRevolver",
-    "raw_name": "iRevolver",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'iRevolver': <price>"
-  },
-  {
-    "name": "Korblox",
-    "raw_name": "Korblox",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Korblox': <price>"
-  },
-  {
-    "name": "Krypto",
-    "raw_name": "Krypto",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Krypto': <price>"
-  },
-  {
-    "name": "Musical",
-    "raw_name": "Musical",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Musical': <price>"
-  },
-  {
-    "name": "Nightfire",
-    "raw_name": "Nightfire",
-    "category": "rares",
-    "type": "Gun",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Nightfire': <price>"
-  },
-  {
-    "name": "Nova",
-    "raw_name": "Nova",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Nova': <price>"
-  },
-  {
-    "name": "Purple",
-    "raw_name": "Purple",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Purple': <price>"
-  },
-  {
-    "name": "Space",
-    "raw_name": "Space",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Space': <price>"
-  },
-  {
-    "name": "Spectrum",
-    "raw_name": "Spectrum",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Spectrum': <price>"
-  },
-  {
-    "name": "Squire",
-    "raw_name": "Squire",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Squire': <price>"
-  },
-  {
-    "name": "Vortex",
-    "raw_name": "Vortex",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x4 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Vortex': <price>"
-  },
-  {
-    "name": "Deep Sea",
-    "raw_name": "Deep Sea",
-    "category": "rares",
-    "type": "Knife",
-    "rarity": "Rare",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Deep Sea': <price>"
-  },
-  {
-    "name": "Nutcracker",
-    "raw_name": "Nutcracker",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Nutcracker': <price>"
-  },
-  {
-    "name": "Snowman [XMAS2015]",
-    "raw_name": "Snowman (Gun) [XMAS2015]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowman [XMAS2015]': <price>"
-  },
-  {
-    "name": "Snowman [XMAS2015]",
-    "raw_name": "Snowman (Knife) [XMAS2015]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowman [XMAS2015]': <price>"
-  },
-  {
-    "name": "Snowy",
-    "raw_name": "Snowy",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowy': <price>"
-  },
-  {
-    "name": "Wrapped [XMAS2015]",
-    "raw_name": "Wrapped (Gun) [XMAS2015]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wrapped [XMAS2015]': <price>"
-  },
-  {
-    "name": "Wrapped [XMAS2015]",
-    "raw_name": "Wrapped (Knife) [XMAS2015]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wrapped [XMAS2015]': <price>"
-  },
-  {
-    "name": "Gifted",
-    "raw_name": "Gifted",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gifted': <price>"
-  },
-  {
-    "name": "Pool Noodle",
-    "raw_name": "Pool Noodle",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pool Noodle': <price>"
-  },
-  {
-    "name": "Snowflake [XMAS2022]",
-    "raw_name": "Snowflake (Knife) [XMAS2022]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowflake [XMAS2022]': <price>"
-  },
-  {
-    "name": "Wraiths",
-    "raw_name": "Wraiths (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wraiths': <price>"
-  },
-  {
-    "name": "Mistletoe",
-    "raw_name": "Mistletoe (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Mistletoe': <price>"
-  },
-  {
-    "name": "Gingerheart",
-    "raw_name": "Gingerheart",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gingerheart': <price>"
-  },
-  {
-    "name": "Love",
-    "raw_name": "Love (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Love': <price>"
-  },
-  {
-    "name": "Rose",
-    "raw_name": "Rose",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Rose': <price>"
-  },
-  {
-    "name": "Canes",
-    "raw_name": "Canes (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Canes': <price>"
-  },
-  {
-    "name": "Drool",
-    "raw_name": "Drool (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Drool': <price>"
-  },
-  {
-    "name": "Fireplace",
-    "raw_name": "Fireplace",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fireplace': <price>"
-  },
-  {
-    "name": "Forest",
-    "raw_name": "Forest",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Forest': <price>"
-  },
-  {
-    "name": "Haunted House",
-    "raw_name": "Haunted House",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Haunted House': <price>"
-  },
-  {
-    "name": "Marble",
-    "raw_name": "Marble",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Marble': <price>"
-  },
-  {
-    "name": "Melon [SUMMER2023]",
-    "raw_name": "Melon [SUMMER2023]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Melon [SUMMER2023]': <price>"
-  },
-  {
-    "name": "Mummy [HALLOWS2020]",
-    "raw_name": "Mummy (Knife) [HALLOWS2020]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Mummy [HALLOWS2020]': <price>"
-  },
-  {
-    "name": "Skelly",
-    "raw_name": "Skelly",
-    "category": "uncommons",
-    "type": "Pet",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Skelly': <price>"
-  },
-  {
-    "name": "Wrapped [XMAS2024]",
-    "raw_name": "Wrapped (Gun) [XMAS2024]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wrapped [XMAS2024]': <price>"
-  },
-  {
-    "name": "Frosty",
-    "raw_name": "Frosty",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frosty': <price>"
-  },
-  {
-    "name": "Stockings",
-    "raw_name": "Stockings (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stockings': <price>"
-  },
-  {
-    "name": "Carrot",
-    "raw_name": "Carrot",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Carrot': <price>"
-  },
-  {
-    "name": "Carrot",
-    "raw_name": "Carrot (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Carrot': <price>"
-  },
-  {
-    "name": "Clown",
-    "raw_name": "Clown (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Clown': <price>"
-  },
-  {
-    "name": "Fall Camo",
-    "raw_name": "Fall Camo",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fall Camo': <price>"
-  },
-  {
-    "name": "Floatie",
-    "raw_name": "Floatie",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Floatie': <price>"
-  },
-  {
-    "name": "Gingerbread [XMAS2021]",
-    "raw_name": "Gingerbread (Gun) [XMAS2021]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gingerbread [XMAS2021]': <price>"
-  },
-  {
-    "name": "Mummy [HALLOWS2020]",
-    "raw_name": "Mummy (Gun) [HALLOWS2020]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Mummy [HALLOWS2020]': <price>"
-  },
-  {
-    "name": "Painted",
-    "raw_name": "Painted (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Painted': <price>"
-  },
-  {
-    "name": "Snowflake [XMAS2022]",
-    "raw_name": "Snowflake (Gun) [XMAS2022]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowflake [XMAS2022]': <price>"
-  },
-  {
-    "name": "Witchbrew",
-    "raw_name": "Witchbrew",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Witchbrew': <price>"
-  },
-  {
-    "name": "Wraiths",
-    "raw_name": "Wraiths (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wraiths': <price>"
-  },
-  {
-    "name": "Brew",
-    "raw_name": "Brew",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Brew': <price>"
-  },
-  {
-    "name": "Drool",
-    "raw_name": "Drool (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Drool': <price>"
-  },
-  {
-    "name": "Glow",
-    "raw_name": "Glow",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Glow': <price>"
-  },
-  {
-    "name": "Sweater",
-    "raw_name": "Sweater",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sweater': <price>"
-  },
-  {
-    "name": "Checkers",
-    "raw_name": "Checkers",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Checkers': <price>"
-  },
-  {
-    "name": "Decorated",
-    "raw_name": "Decorated",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Decorated': <price>"
-  },
-  {
-    "name": "Eclipse",
-    "raw_name": "Eclipse",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Eclipse': <price>"
-  },
-  {
-    "name": "Eyes",
-    "raw_name": "Eyes",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Eyes': <price>"
-  },
-  {
-    "name": "Future",
-    "raw_name": "Future",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Future': <price>"
-  },
-  {
-    "name": "Gingerbread [XMAS2025]",
-    "raw_name": "Gingerbread (Gun) [XMAS2025]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gingerbread [XMAS2025]': <price>"
-  },
-  {
-    "name": "Glowy",
-    "raw_name": "Glowy",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Glowy': <price>"
-  },
-  {
-    "name": "Lava",
-    "raw_name": "Lava (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Lava': <price>"
-  },
-  {
-    "name": "Meadow",
-    "raw_name": "Meadow",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Meadow': <price>"
-  },
-  {
-    "name": "Mistletoe",
-    "raw_name": "Mistletoe (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Mistletoe': <price>"
-  },
-  {
-    "name": "Night",
-    "raw_name": "Night",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Night': <price>"
-  },
-  {
-    "name": "Polar Bear",
-    "raw_name": "Polar Bear",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Polar Bear': <price>"
-  },
-  {
-    "name": "Pool",
-    "raw_name": "Pool",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pool': <price>"
-  },
-  {
-    "name": "Popsicle",
-    "raw_name": "Popsicle",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Popsicle': <price>"
-  },
-  {
-    "name": "Pumpkin",
-    "raw_name": "Pumpkin (2025)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pumpkin': <price>"
-  },
-  {
-    "name": "Soda",
-    "raw_name": "Soda (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Soda': <price>"
-  },
-  {
-    "name": "Stockings",
-    "raw_name": "Stockings (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stockings': <price>"
-  },
-  {
-    "name": "Sweater [XMAS2025]",
-    "raw_name": "Sweater (Knife) [XMAS2025]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sweater [XMAS2025]': <price>"
-  },
-  {
-    "name": "Treats",
-    "raw_name": "Treats (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Treats': <price>"
-  },
-  {
-    "name": "Canes",
-    "raw_name": "Canes (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Canes': <price>"
-  },
-  {
-    "name": "Neopolitan",
-    "raw_name": "Neopolitan",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Neopolitan': <price>"
-  },
-  {
-    "name": "Snowman",
-    "raw_name": "Snowman (2023)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowman': <price>"
-  },
-  {
-    "name": "Turtles",
-    "raw_name": "Turtles",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Turtles': <price>"
-  },
-  {
-    "name": "Ghostly",
-    "raw_name": "Ghostly",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ghostly': <price>"
-  },
-  {
-    "name": "Ghosts",
-    "raw_name": "Ghosts (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ghosts': <price>"
-  },
-  {
-    "name": "Portal",
-    "raw_name": "Portal (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Portal': <price>"
-  },
-  {
-    "name": "Donut",
-    "raw_name": "Donut",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Donut': <price>"
-  },
-  {
-    "name": "Abduction",
-    "raw_name": "Abduction",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Abduction': <price>"
-  },
-  {
-    "name": "Bones",
-    "raw_name": "Bones (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bones': <price>"
-  },
-  {
-    "name": "Gingerbread [XMAS2025]",
-    "raw_name": "Gingerbread (Knife) [XMAS2025]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gingerbread [XMAS2025]': <price>"
-  },
-  {
-    "name": "Jellyfish",
-    "raw_name": "Jellyfish",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Jellyfish': <price>"
-  },
-  {
-    "name": "Lava",
-    "raw_name": "Lava (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Lava': <price>"
-  },
-  {
-    "name": "Leaves",
-    "raw_name": "Leaves",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Leaves': <price>"
-  },
-  {
-    "name": "Ornaments",
-    "raw_name": "Ornaments",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ornaments': <price>"
-  },
-  {
-    "name": "Paws",
-    "raw_name": "Paws",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Paws': <price>"
-  },
-  {
-    "name": "Popsicle",
-    "raw_name": "Popsicle (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Popsicle': <price>"
-  },
-  {
-    "name": "Pumpkin Patch",
-    "raw_name": "Pumpkin Patch",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pumpkin Patch': <price>"
-  },
-  {
-    "name": "Retro",
-    "raw_name": "Retro",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Retro': <price>"
-  },
-  {
-    "name": "Soda",
-    "raw_name": "Soda (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Soda': <price>"
-  },
-  {
-    "name": "Sweater [XMAS2025]",
-    "raw_name": "Sweater (Gun) [XMAS2025]",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sweater [XMAS2025]': <price>"
-  },
-  {
-    "name": "Treats",
-    "raw_name": "Treats (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Treats': <price>"
-  },
-  {
-    "name": "Turtle",
-    "raw_name": "Turtle",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Turtle': <price>"
-  },
-  {
-    "name": "Witch's Brew",
-    "raw_name": "Witch's Brew",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Witch's Brew': <price>"
-  },
-  {
-    "name": "Wrapped [XMAS2024]",
-    "raw_name": "Wrapped (Knife) [XMAS2024]",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wrapped [XMAS2024]': <price>"
-  },
-  {
-    "name": "Wreaths",
-    "raw_name": "Wreaths",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wreaths': <price>"
-  },
-  {
-    "name": "Doge",
-    "raw_name": "Doge",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Doge': <price>"
-  },
-  {
-    "name": "Sketch",
-    "raw_name": "Sketch",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sketch': <price>"
-  },
-  {
-    "name": "Adurite",
-    "raw_name": "Adurite (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Adurite': <price>"
-  },
-  {
-    "name": "Adurite",
-    "raw_name": "Adurite (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Adurite': <price>"
-  },
-  {
-    "name": "Biogun",
-    "raw_name": "Biogun",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Biogun': <price>"
-  },
-  {
-    "name": "Blue",
-    "raw_name": "Blue",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Blue': <price>"
-  },
-  {
-    "name": "Bluesteel",
-    "raw_name": "Bluesteel (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bluesteel': <price>"
-  },
-  {
-    "name": "Bluesteel",
-    "raw_name": "Bluesteel (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bluesteel': <price>"
-  },
-  {
-    "name": "Brush",
-    "raw_name": "Brush",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Brush': <price>"
-  },
-  {
-    "name": "Camo",
-    "raw_name": "Camo (Gun)",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Camo': <price>"
-  },
-  {
-    "name": "Camo",
-    "raw_name": "Camo (Knife)",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Camo': <price>"
-  },
-  {
-    "name": "Caution",
-    "raw_name": "Caution",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Caution': <price>"
-  },
-  {
-    "name": "Cheddar",
-    "raw_name": "Cheddar",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cheddar': <price>"
-  },
-  {
-    "name": "Cheesy",
-    "raw_name": "Cheesy",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cheesy': <price>"
-  },
-  {
-    "name": "Circuit",
-    "raw_name": "Circuit",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Circuit': <price>"
-  },
-  {
-    "name": "Hazmat",
-    "raw_name": "Hazmat",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hazmat': <price>"
-  },
-  {
-    "name": "Hive",
-    "raw_name": "Hive",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hive': <price>"
-  },
-  {
-    "name": "Jigsaw",
-    "raw_name": "Jigsaw",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Jigsaw': <price>"
-  },
-  {
-    "name": "Lucky",
-    "raw_name": "Lucky",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Lucky': <price>"
-  },
-  {
-    "name": "Marina",
-    "raw_name": "Marina",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Marina': <price>"
-  },
-  {
-    "name": "Melon",
-    "raw_name": "Melon",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Melon': <price>"
-  },
-  {
-    "name": "Missing",
-    "raw_name": "Missing",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Missing': <price>"
-  },
-  {
-    "name": "Paper",
-    "raw_name": "Paper",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Paper': <price>"
-  },
-  {
-    "name": "Pink",
-    "raw_name": "Pink",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pink': <price>"
-  },
-  {
-    "name": "Pirate",
-    "raw_name": "Pirate",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pirate': <price>"
-  },
-  {
-    "name": "Red",
-    "raw_name": "Red",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Red': <price>"
-  },
-  {
-    "name": "Stalker",
-    "raw_name": "Stalker",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stalker': <price>"
-  },
-  {
-    "name": "Tiger",
-    "raw_name": "Tiger",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tiger': <price>"
-  },
-  {
-    "name": "Wanwood",
-    "raw_name": "Wanwood",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wanwood': <price>"
-  },
-  {
-    "name": "Wooden",
-    "raw_name": "Wooden",
-    "category": "uncommons",
-    "type": "Gun",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x4 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wooden': <price>"
-  },
-  {
-    "name": "Graffiti",
-    "raw_name": "Graffiti",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Graffiti': <price>"
-  },
-  {
-    "name": "High Tech",
-    "raw_name": "High Tech",
-    "category": "uncommons",
-    "type": "Knife",
-    "rarity": "Uncommon",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'High Tech': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Hexed",
@@ -2921,1952 +781,7 @@
     "category": "commons",
     "type": "Knife",
     "rarity": "Common",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hexed': <price>"
-  },
-  {
-    "name": "2015",
-    "raw_name": "2015",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: '2015': <price>"
-  },
-  {
-    "name": "Bunny",
-    "raw_name": "Bunny",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bunny': <price>"
-  },
-  {
-    "name": "Carrot",
-    "raw_name": "Carrot",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Carrot': <price>"
-  },
-  {
-    "name": "Choco",
-    "raw_name": "Choco",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Choco': <price>"
-  },
-  {
-    "name": "Egg",
-    "raw_name": "Egg",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Egg': <price>"
-  },
-  {
-    "name": "Goo",
-    "raw_name": "Goo",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Goo': <price>"
-  },
-  {
-    "name": "Hearts",
-    "raw_name": "Hearts",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hearts': <price>"
-  },
-  {
-    "name": "Ornament1",
-    "raw_name": "Ornament1",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ornament1': <price>"
-  },
-  {
-    "name": "Ornament2",
-    "raw_name": "Ornament2 (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ornament2': <price>"
-  },
-  {
-    "name": "Ornament2",
-    "raw_name": "Ornament2 (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ornament2': <price>"
-  },
-  {
-    "name": "Passion",
-    "raw_name": "Passion",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Passion': <price>"
-  },
-  {
-    "name": "Patrick",
-    "raw_name": "Patrick",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Patrick': <price>"
-  },
-  {
-    "name": "Reptile",
-    "raw_name": "Reptile",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Reptile': <price>"
-  },
-  {
-    "name": "Roses",
-    "raw_name": "Roses",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Roses': <price>"
-  },
-  {
-    "name": "Santa",
-    "raw_name": "Santa (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Santa': <price>"
-  },
-  {
-    "name": "Santa",
-    "raw_name": "Santa (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Santa': <price>"
-  },
-  {
-    "name": "Sweetheart",
-    "raw_name": "Sweetheart",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sweetheart': <price>"
-  },
-  {
-    "name": "Tulip",
-    "raw_name": "Tulip",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tulip': <price>"
-  },
-  {
-    "name": "Valentine",
-    "raw_name": "Valentine",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Valentine': <price>"
-  },
-  {
-    "name": "Bones",
-    "raw_name": "Bones",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bones': <price>"
-  },
-  {
-    "name": "Witch",
-    "raw_name": "Witch",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x4 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Witch': <price>"
-  },
-  {
-    "name": "Gift Bag",
-    "raw_name": "Gift Bag (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gift Bag': <price>"
-  },
-  {
-    "name": "Hunter",
-    "raw_name": "Hunter",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hunter': <price>"
-  },
-  {
-    "name": "Neon",
-    "raw_name": "Neon",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Neon': <price>"
-  },
-  {
-    "name": "TNL",
-    "raw_name": "TNL",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'TNL': <price>"
-  },
-  {
-    "name": "Ribbons",
-    "raw_name": "Ribbons",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ribbons': <price>"
-  },
-  {
-    "name": "RB Knife",
-    "raw_name": "RB Knife",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'RB Knife': <price>"
-  },
-  {
-    "name": "Cane",
-    "raw_name": "Cane (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Rares",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cane': <price>"
-  },
-  {
-    "name": "Etched",
-    "raw_name": "Etched",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Etched': <price>"
-  },
-  {
-    "name": "Ornaments",
-    "raw_name": "Ornaments (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ornaments': <price>"
-  },
-  {
-    "name": "Bats [HALLOWS2026]",
-    "raw_name": "Bats [HALLOWS2026]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Rare",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bats [HALLOWS2026]': <price>"
-  },
-  {
-    "name": "Coal [XMAS2021]",
-    "raw_name": "Coal (Knife) [XMAS2021]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Coal [XMAS2021]': <price>"
-  },
-  {
-    "name": "Moon",
-    "raw_name": "Moon",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Moon': <price>"
-  },
-  {
-    "name": "Love",
-    "raw_name": "Love (2023)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Love': <price>"
-  },
-  {
-    "name": "Scarf",
-    "raw_name": "Scarf",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Scarf': <price>"
-  },
-  {
-    "name": "Candied",
-    "raw_name": "Candied (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candied': <price>"
-  },
-  {
-    "name": "Cracks",
-    "raw_name": "Cracks (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cracks': <price>"
-  },
-  {
-    "name": "Darkness",
-    "raw_name": "Darkness (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Darkness': <price>"
-  },
-  {
-    "name": "Snowman [XMAS2022]",
-    "raw_name": "Snowman (Gun) [XMAS2022]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowman [XMAS2022]': <price>"
-  },
-  {
-    "name": "Fragile",
-    "raw_name": "Fragile (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fragile': <price>"
-  },
-  {
-    "name": "Fragile",
-    "raw_name": "Fragile (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fragile': <price>"
-  },
-  {
-    "name": "Gift Bag",
-    "raw_name": "Gift Bag (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gift Bag': <price>"
-  },
-  {
-    "name": "Ornaments",
-    "raw_name": "Ornaments (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ornaments': <price>"
-  },
-  {
-    "name": "Stockings",
-    "raw_name": "Stockings",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stockings': <price>"
-  },
-  {
-    "name": "Toy",
-    "raw_name": "Toy (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Toy': <price>"
-  },
-  {
-    "name": "Trees",
-    "raw_name": "Trees",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Uncommons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Trees': <price>"
-  },
-  {
-    "name": "Aliens",
-    "raw_name": "Aliens",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Aliens': <price>"
-  },
-  {
-    "name": "Ghosts",
-    "raw_name": "Ghosts (2023)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ghosts': <price>"
-  },
-  {
-    "name": "Vines",
-    "raw_name": "Vines (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Vines': <price>"
-  },
-  {
-    "name": "Cat",
-    "raw_name": "Cat",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cat': <price>"
-  },
-  {
-    "name": "Coal [XMAS2022]",
-    "raw_name": "Coal (Gun) [XMAS2022]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Coal [XMAS2022]': <price>"
-  },
-  {
-    "name": "Ribbon",
-    "raw_name": "Ribbon",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ribbon': <price>"
-  },
-  {
-    "name": "Toy",
-    "raw_name": "Toy (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Toy': <price>"
-  },
-  {
-    "name": "Bramble",
-    "raw_name": "Bramble",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bramble': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2026]",
-    "raw_name": "Candy Corn [HALLOWS2026]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2026]': <price>"
-  },
-  {
-    "name": "Penguin",
-    "raw_name": "Penguin",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Penguin': <price>"
-  },
-  {
-    "name": "Reindeer [XMAS2025]",
-    "raw_name": "Reindeer [XMAS2025]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Reindeer [XMAS2025]': <price>"
-  },
-  {
-    "name": "Candied",
-    "raw_name": "Candied (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candied': <price>"
-  },
-  {
-    "name": "Candle",
-    "raw_name": "Candle",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candle': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2022]",
-    "raw_name": "Candy Corn (Gun) [HALLOWS2022]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2022]': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2020]",
-    "raw_name": "Candy Corn (Knife) [HALLOWS2020]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2020]': <price>"
-  },
-  {
-    "name": "Cane",
-    "raw_name": "Cane (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cane': <price>"
-  },
-  {
-    "name": "Carved",
-    "raw_name": "Carved (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Carved': <price>"
-  },
-  {
-    "name": "Coal",
-    "raw_name": "Coal",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Coal': <price>"
-  },
-  {
-    "name": "Coal [XMAS2021]",
-    "raw_name": "Coal (Gun) [XMAS2021]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Coal [XMAS2021]': <price>"
-  },
-  {
-    "name": "Cracks",
-    "raw_name": "Cracks (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cracks': <price>"
-  },
-  {
-    "name": "Darkness",
-    "raw_name": "Darkness (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Darkness': <price>"
-  },
-  {
-    "name": "Frozen",
-    "raw_name": "Frozen (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frozen': <price>"
-  },
-  {
-    "name": "Present",
-    "raw_name": "Present",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Present': <price>"
-  },
-  {
-    "name": "Stickers [SUMMER2023]",
-    "raw_name": "Stickers (Gun) [SUMMER2023]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [SUMMER2023]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2022]",
-    "raw_name": "Stickers (Knife) [XMAS2022]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2022]': <price>"
-  },
-  {
-    "name": "Wavy",
-    "raw_name": "Wavy (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wavy': <price>"
-  },
-  {
-    "name": "Bats [HALLOWS2024]",
-    "raw_name": "Bats (Gun) [HALLOWS2024]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bats [HALLOWS2024]': <price>"
-  },
-  {
-    "name": "Bombs",
-    "raw_name": "Bombs",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bombs': <price>"
-  },
-  {
-    "name": "Bullets",
-    "raw_name": "Bullets",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bullets': <price>"
-  },
-  {
-    "name": "Candles",
-    "raw_name": "Candles",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candles': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2025]",
-    "raw_name": "Candy Corn (Gun) [HALLOWS2025]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2025]': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2024]",
-    "raw_name": "Candy Corn (Knife) [HALLOWS2024]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2024]': <price>"
-  },
-  {
-    "name": "CandyCorn [HALLOWS2026]",
-    "raw_name": "CandyCorn [HALLOWS2026]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'CandyCorn [HALLOWS2026]': <price>"
-  },
-  {
-    "name": "Carrots",
-    "raw_name": "Carrots",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Carrots': <price>"
-  },
-  {
-    "name": "Cats",
-    "raw_name": "Cats",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cats': <price>"
-  },
-  {
-    "name": "Chick",
-    "raw_name": "Chick",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Chick': <price>"
-  },
-  {
-    "name": "Clownfish",
-    "raw_name": "Clownfish (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Clownfish': <price>"
-  },
-  {
-    "name": "Hot Chocolate",
-    "raw_name": "Hot Chocolate",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hot Chocolate': <price>"
-  },
-  {
-    "name": "Igloo",
-    "raw_name": "Igloo (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Igloo': <price>"
-  },
-  {
-    "name": "Scarytree",
-    "raw_name": "Scarytree",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Scarytree': <price>"
-  },
-  {
-    "name": "Skulls [HALLOWS2026]",
-    "raw_name": "Skulls [HALLOWS2026]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Skulls [HALLOWS2026]': <price>"
-  },
-  {
-    "name": "UFOs",
-    "raw_name": "UFOs (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'UFOs': <price>"
-  },
-  {
-    "name": "Wavy",
-    "raw_name": "Wavy (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wavy': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2020]",
-    "raw_name": "Candy Corn (Gun) [HALLOWS2020]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2020]': <price>"
-  },
-  {
-    "name": "Carved",
-    "raw_name": "Carved (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Carved': <price>"
-  },
-  {
-    "name": "Coal [XMAS2022]",
-    "raw_name": "Coal (Knife) [XMAS2022]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Coal [XMAS2022]': <price>"
-  },
-  {
-    "name": "Giftwrap",
-    "raw_name": "Giftwrap",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Giftwrap': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2022]",
-    "raw_name": "Candy Corn (Knife) [HALLOWS2022]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2022]': <price>"
-  },
-  {
-    "name": "Eyeball",
-    "raw_name": "Eyeball",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Eyeball': <price>"
-  },
-  {
-    "name": "Snowman [XMAS2022]",
-    "raw_name": "Snowman (Knife) [XMAS2022]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowman [XMAS2022]': <price>"
-  },
-  {
-    "name": "Stickers [HALLOWS2021]",
-    "raw_name": "Stickers (Gun) [HALLOWS2021]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [HALLOWS2021]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2021]",
-    "raw_name": "Stickers (Gun) [XMAS2021]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2021]': <price>"
-  },
-  {
-    "name": "Stickers [HALLOWS2021]",
-    "raw_name": "Stickers (Knife) [HALLOWS2021]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [HALLOWS2021]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2021]",
-    "raw_name": "Stickers (Knife) [XMAS2021]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2021]': <price>"
-  },
-  {
-    "name": "Balloons",
-    "raw_name": "Balloons",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Balloons': <price>"
-  },
-  {
-    "name": "Bats [HALLOWS2024]",
-    "raw_name": "Bats (Knife) [HALLOWS2024]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bats [HALLOWS2024]': <price>"
-  },
-  {
-    "name": "Bells",
-    "raw_name": "Bells",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bells': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2024]",
-    "raw_name": "Candy Corn (Gun) [HALLOWS2024]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2024]': <price>"
-  },
-  {
-    "name": "Candy Corn [HALLOWS2025]",
-    "raw_name": "Candy Corn (Knife) [HALLOWS2025]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candy Corn [HALLOWS2025]': <price>"
-  },
-  {
-    "name": "Cherries",
-    "raw_name": "Cherries",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cherries': <price>"
-  },
-  {
-    "name": "Clownfish",
-    "raw_name": "Clownfish (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Clownfish': <price>"
-  },
-  {
-    "name": "Coconut",
-    "raw_name": "Coconut",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Coconut': <price>"
-  },
-  {
-    "name": "Dolphins",
-    "raw_name": "Dolphins",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Dolphins': <price>"
-  },
-  {
-    "name": "Duckies",
-    "raw_name": "Duckies",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Duckies': <price>"
-  },
-  {
-    "name": "Fall",
-    "raw_name": "Fall",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fall': <price>"
-  },
-  {
-    "name": "Frozen",
-    "raw_name": "Frozen (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frozen': <price>"
-  },
-  {
-    "name": "Igloo",
-    "raw_name": "Igloo (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Igloo': <price>"
-  },
-  {
-    "name": "Leaves [HALLOWS2023]",
-    "raw_name": "Leaves [HALLOWS2023]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Leaves [HALLOWS2023]': <price>"
-  },
-  {
-    "name": "Leaves [SUMMER2025]",
-    "raw_name": "Leaves [SUMMER2025]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Leaves [SUMMER2025]': <price>"
-  },
-  {
-    "name": "Plaid",
-    "raw_name": "Plaid",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Plaid': <price>"
-  },
-  {
-    "name": "Reindeer",
-    "raw_name": "Reindeer",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Reindeer': <price>"
-  },
-  {
-    "name": "Sand",
-    "raw_name": "Sand",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sand': <price>"
-  },
-  {
-    "name": "Sandy",
-    "raw_name": "Sandy (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sandy': <price>"
-  },
-  {
-    "name": "Skyline",
-    "raw_name": "Skyline",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Skyline': <price>"
-  },
-  {
-    "name": "Snowball",
-    "raw_name": "Snowball (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowball': <price>"
-  },
-  {
-    "name": "Snowball",
-    "raw_name": "Snowball (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowball': <price>"
-  },
-  {
-    "name": "Snowfall",
-    "raw_name": "Snowfall",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowfall': <price>"
-  },
-  {
-    "name": "Starfish",
-    "raw_name": "Starfish (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Starfish': <price>"
-  },
-  {
-    "name": "Starfish",
-    "raw_name": "Starfish (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Starfish': <price>"
-  },
-  {
-    "name": "Stickers [HALLOWS2024]",
-    "raw_name": "Stickers (Gun) [HALLOWS2024]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [HALLOWS2024]': <price>"
-  },
-  {
-    "name": "Stickers [SUMMER2025]",
-    "raw_name": "Stickers (Gun) [SUMMER2025]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [SUMMER2025]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2022]",
-    "raw_name": "Stickers (Gun) [XMAS2022]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2022]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2024]",
-    "raw_name": "Stickers (Gun) [XMAS2024]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2024]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2025]",
-    "raw_name": "Stickers (Gun) [XMAS2025]",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2025]': <price>"
-  },
-  {
-    "name": "Stickers [HALLOWS2024]",
-    "raw_name": "Stickers (Knife) [HALLOWS2024]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [HALLOWS2024]': <price>"
-  },
-  {
-    "name": "Stickers [SUMMER2023]",
-    "raw_name": "Stickers (Knife) [SUMMER2023]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [SUMMER2023]': <price>"
-  },
-  {
-    "name": "Stickers [SUMMER2025]",
-    "raw_name": "Stickers (Knife) [SUMMER2025]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [SUMMER2025]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2024]",
-    "raw_name": "Stickers (Knife) [XMAS2024]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2024]': <price>"
-  },
-  {
-    "name": "Stickers [XMAS2025]",
-    "raw_name": "Stickers (Knife) [XMAS2025]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [XMAS2025]': <price>"
-  },
-  {
-    "name": "Stickers [HALLOWS2022]",
-    "raw_name": "Stickers [HALLOWS2022]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [HALLOWS2022]': <price>"
-  },
-  {
-    "name": "Stickers [HALLOWS2025]",
-    "raw_name": "Stickers [HALLOWS2025]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [HALLOWS2025]': <price>"
-  },
-  {
-    "name": "Stickers [THANKSGIVING2025]",
-    "raw_name": "Stickers [THANKSGIVING2025]",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stickers [THANKSGIVING2025]': <price>"
-  },
-  {
-    "name": "Strawberries",
-    "raw_name": "Strawberries (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Strawberries': <price>"
-  },
-  {
-    "name": "Strawberries",
-    "raw_name": "Strawberries (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Strawberries': <price>"
-  },
-  {
-    "name": "Striped",
-    "raw_name": "Striped (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Striped': <price>"
-  },
-  {
-    "name": "Striped",
-    "raw_name": "Striped (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Striped': <price>"
-  },
-  {
-    "name": "Tourist",
-    "raw_name": "Tourist",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Tourist': <price>"
-  },
-  {
-    "name": "UFOs",
-    "raw_name": "UFOs (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'UFOs': <price>"
-  },
-  {
-    "name": "Vines",
-    "raw_name": "Vines (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Vines': <price>"
-  },
-  {
-    "name": "Wood",
-    "raw_name": "Wood",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Wood': <price>"
-  },
-  {
-    "name": "Xbox",
-    "raw_name": "Xbox",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Xbox': <price>"
-  },
-  {
-    "name": "Clown",
-    "raw_name": "Clown (Gun)",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Clown': <price>"
-  },
-  {
-    "name": "Clown",
-    "raw_name": "Clown (Knife)",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Clown': <price>"
-  },
-  {
-    "name": "8Bit",
-    "raw_name": "8Bit",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: '8Bit': <price>"
-  },
-  {
-    "name": "Aqua",
-    "raw_name": "Aqua",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Aqua': <price>"
-  },
-  {
-    "name": "Big Kill",
-    "raw_name": "Big Kill",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Big Kill': <price>"
-  },
-  {
-    "name": "Bit",
-    "raw_name": "Bit",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bit': <price>"
-  },
-  {
-    "name": "Bleached",
-    "raw_name": "Bleached",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bleached': <price>"
-  },
-  {
-    "name": "Borders",
-    "raw_name": "Borders",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Borders': <price>"
-  },
-  {
-    "name": "Brown",
-    "raw_name": "Brown",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Brown': <price>"
-  },
-  {
-    "name": "Cardboard",
-    "raw_name": "Cardboard",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cardboard': <price>"
-  },
-  {
-    "name": "Cherry",
-    "raw_name": "Cherry",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cherry': <price>"
-  },
-  {
-    "name": "Clan",
-    "raw_name": "Clan",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Clan': <price>"
-  },
-  {
-    "name": "Cold",
-    "raw_name": "Cold",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cold': <price>"
-  },
-  {
-    "name": "Combat",
-    "raw_name": "Combat",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Combat': <price>"
-  },
-  {
-    "name": "Copper",
-    "raw_name": "Copper",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Copper': <price>"
-  },
-  {
-    "name": "Eco",
-    "raw_name": "Eco",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Eco': <price>"
-  },
-  {
-    "name": "Engraved",
-    "raw_name": "Engraved",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Engraved': <price>"
-  },
-  {
-    "name": "Fallout",
-    "raw_name": "Fallout",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fallout': <price>"
-  },
-  {
-    "name": "Green",
-    "raw_name": "Green",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Green': <price>"
-  },
-  {
-    "name": "Hardened",
-    "raw_name": "Hardened",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Hardened': <price>"
-  },
-  {
-    "name": "HL2",
-    "raw_name": "HL2",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'HL2': <price>"
-  },
-  {
-    "name": "Ice",
-    "raw_name": "Ice",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ice': <price>"
-  },
-  {
-    "name": "Infiltrator",
-    "raw_name": "Infiltrator",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Infiltrator': <price>"
-  },
-  {
-    "name": "Iron",
-    "raw_name": "Iron",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Iron': <price>"
-  },
-  {
-    "name": "Juice",
-    "raw_name": "Juice",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Juice': <price>"
-  },
-  {
-    "name": "Leaf",
-    "raw_name": "Leaf",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Leaf': <price>"
-  },
-  {
-    "name": "Linked",
-    "raw_name": "Linked",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Linked': <price>"
-  },
-  {
-    "name": "Log",
-    "raw_name": "Log",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Log': <price>"
-  },
-  {
-    "name": "Lovely",
-    "raw_name": "Lovely",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Lovely': <price>"
-  },
-  {
-    "name": "News",
-    "raw_name": "News",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'News': <price>"
-  },
-  {
-    "name": "Oily",
-    "raw_name": "Oily",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Oily': <price>"
-  },
-  {
-    "name": "Orange",
-    "raw_name": "Orange",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Orange': <price>"
-  },
-  {
-    "name": "Pea",
-    "raw_name": "Pea",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pea': <price>"
-  },
-  {
-    "name": "Shaded",
-    "raw_name": "Shaded",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Shaded': <price>"
-  },
-  {
-    "name": "Slate",
-    "raw_name": "Slate",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Slate': <price>"
-  },
-  {
-    "name": "Splat",
-    "raw_name": "Splat",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Splat': <price>"
-  },
-  {
-    "name": "Splatter",
-    "raw_name": "Splatter",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Splatter': <price>"
-  },
-  {
-    "name": "Stainless",
-    "raw_name": "Stainless",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Stainless': <price>"
-  },
-  {
-    "name": "Star",
-    "raw_name": "Star",
-    "category": "commons",
-    "type": "Gun",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Star': <price>"
-  },
-  {
-    "name": "Static",
-    "raw_name": "Static",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Static': <price>"
-  },
-  {
-    "name": "Whiteout",
-    "raw_name": "Whiteout",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Whiteout': <price>"
-  },
-  {
-    "name": "Yellow",
-    "raw_name": "Yellow",
-    "category": "commons",
-    "type": "Knife",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Yellow': <price>"
-  },
-  {
-    "name": "Carrot Bunny",
-    "raw_name": "Carrot Bunny",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Carrot Bunny': <price>"
-  },
-  {
-    "name": "Deathspeaker",
-    "raw_name": "Deathspeaker",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Deathspeaker': <price>"
-  },
-  {
-    "name": "Electro",
-    "raw_name": "Electro",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Electro': <price>"
-  },
-  {
-    "name": "Frostbird",
-    "raw_name": "Frostbird",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Frostbird': <price>"
-  },
-  {
-    "name": "Ice Phoenix",
-    "raw_name": "Ice Phoenix",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Ice Phoenix': <price>"
-  },
-  {
-    "name": "Icey",
-    "raw_name": "Icey",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Icey': <price>"
-  },
-  {
-    "name": "Phoenix",
-    "raw_name": "Phoenix",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Phoenix': <price>"
-  },
-  {
-    "name": "Sammy",
-    "raw_name": "Sammy",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Sammy': <price>"
-  },
-  {
-    "name": "Skelly",
-    "raw_name": "Skelly",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Skelly': <price>"
-  },
-  {
-    "name": "Steambird",
-    "raw_name": "Steambird",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Steambird': <price>"
-  },
-  {
-    "name": "Traveller",
-    "raw_name": "Traveller",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Traveller': <price>"
-  },
-  {
-    "name": "Fire Bat",
-    "raw_name": "Fire Bat",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fire Bat': <price>"
-  },
-  {
-    "name": "Fire Bear",
-    "raw_name": "Fire Bear",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fire Bear': <price>"
-  },
-  {
-    "name": "Fire Bunny",
-    "raw_name": "Fire Bunny",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fire Bunny': <price>"
-  },
-  {
-    "name": "Fire Cat",
-    "raw_name": "Fire Cat",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fire Cat': <price>"
-  },
-  {
-    "name": "Fire Dog",
-    "raw_name": "Fire Dog",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fire Dog': <price>"
-  },
-  {
-    "name": "Fire Fox",
-    "raw_name": "Fire Fox",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fire Fox': <price>"
-  },
-  {
-    "name": "Fire Pig",
-    "raw_name": "Fire Pig",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fire Pig': <price>"
-  },
-  {
-    "name": "Scarecrow",
-    "raw_name": "Scarecrow",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Scarecrow': <price>"
-  },
-  {
-    "name": "Teddy",
-    "raw_name": "Teddy",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Legendary",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Teddy': <price>"
-  },
-  {
-    "name": "Santa Dog",
-    "raw_name": "Santa Dog",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Santa Dog': <price>"
-  },
-  {
-    "name": "Elitey",
-    "raw_name": "Elitey",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Uncommon",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Elitey': <price>"
-  },
-  {
-    "name": "Bear",
-    "raw_name": "Bear",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x3 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bear': <price>"
-  },
-  {
-    "name": "Fox",
-    "raw_name": "Fox",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Fox': <price>"
-  },
-  {
-    "name": "Pig",
-    "raw_name": "Pig",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Pig': <price>"
-  },
-  {
-    "name": "Cat",
-    "raw_name": "Cat",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Cat': <price>"
-  },
-  {
-    "name": "Dog",
-    "raw_name": "Dog",
-    "category": "pets",
-    "type": "Pet",
-    "rarity": "Common",
-    "raw_scraped_value": "x1 T1 Common",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Dog': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Santa",
@@ -4874,8 +789,7 @@
     "category": "pets",
     "type": "Pet",
     "rarity": "Common",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Santa': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Bunny",
@@ -4883,8 +797,7 @@
     "category": "pets",
     "type": "Pet",
     "rarity": "Common",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Bunny': <price>"
+    "raw_scraped_value": null
   },
   {
     "name": "Snowman",
@@ -4892,34 +805,6 @@
     "category": "pets",
     "type": "Pet",
     "rarity": "Common",
-    "raw_scraped_value": null,
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowman': <price>"
-  },
-  {
-    "name": "Gifts 2015",
-    "raw_name": "Gifts 2015",
-    "category": "misc",
-    "type": "Misc",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Gifts 2015': <price>"
-  },
-  {
-    "name": "Snowflake Key",
-    "raw_name": "Snowflake Key",
-    "category": "misc",
-    "type": "Misc",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Legendaries",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Snowflake Key': <price>"
-  },
-  {
-    "name": "Candies",
-    "raw_name": "Candies (2016)",
-    "category": "misc",
-    "type": "Misc",
-    "rarity": "Common",
-    "raw_scraped_value": "x2 T1 Commons",
-    "manual_fix_tip": "Add to manual_price_overrides.json: 'Candies': <price>"
+    "raw_scraped_value": null
   }
 ]
