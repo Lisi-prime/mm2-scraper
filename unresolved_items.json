@@ -128,6 +128,14 @@
     "raw_scraped_value": null
   },
   {
+    "name": "Gold Elderwood",
+    "raw_name": "Gold Elderwood",
+    "category": "uniques",
+    "type": "Knife",
+    "rarity": "Unique",
+    "raw_scraped_value": null
+  },
+  {
     "name": "Gold Icecrusher",
     "raw_name": "Gold Icecrusher",
     "category": "uniques",
@@ -312,6 +320,14 @@
     "raw_scraped_value": null
   },
   {
+    "name": "Silver Elderwood",
+    "raw_name": "Silver Elderwood",
+    "category": "uniques",
+    "type": "Knife",
+    "rarity": "Unique",
+    "raw_scraped_value": null
+  },
+  {
     "name": "Silver Icecrusher",
     "raw_name": "Silver Icecrusher",
     "category": "uniques",
@@ -435,7 +451,7 @@
     "name": "Bronze Elderwood",
     "raw_name": "Bronze Elderwood",
     "category": "uniques",
-    "type": "Knife",
+    "type": "Gun",
     "rarity": "Unique",
     "raw_scraped_value": null
   },
@@ -490,6 +506,14 @@
   {
     "name": "Bronze Swirly",
     "raw_name": "Bronze Swirly",
+    "category": "uniques",
+    "type": "Knife",
+    "rarity": "Unique",
+    "raw_scraped_value": null
+  },
+  {
+    "name": "Bronze Elderwood",
+    "raw_name": "Bronze Elderwood",
     "category": "uniques",
     "type": "Knife",
     "rarity": "Unique",
@@ -675,7 +699,15 @@
     "name": "Blue Swirly",
     "raw_name": "Blue Swirly",
     "category": "uniques",
-    "type": "Gun",
+    "type": "Knife",
+    "rarity": "Unique",
+    "raw_scraped_value": null
+  },
+  {
+    "name": "Blue Elderwood",
+    "raw_name": "Blue Elderwood",
+    "category": "uniques",
+    "type": "Knife",
     "rarity": "Unique",
     "raw_scraped_value": null
   },
