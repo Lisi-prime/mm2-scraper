@@ -774,5 +774,29 @@
     "type": "Gun",
     "rarity": "Unique",
     "raw_scraped_value": null
+  },
+  {
+    "name": "Santa",
+    "raw_name": "Santa (2019)",
+    "category": "pets",
+    "type": "Pet",
+    "rarity": "Common",
+    "raw_scraped_value": null
+  },
+  {
+    "name": "Snowman",
+    "raw_name": "Snowman",
+    "category": "pets",
+    "type": "Pet",
+    "rarity": "Common",
+    "raw_scraped_value": null
+  },
+  {
+    "name": "Ghosty",
+    "raw_name": "Ghosty",
+    "category": "pets",
+    "type": "Pet",
+    "rarity": "Common",
+    "raw_scraped_value": null
   }
 ]
