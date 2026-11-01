@@ -204,8 +204,10 @@ def scrape_category(category):
                         if resp.status_code == 200 and len(resp.text) > 4000:
                             page_html = resp.text
                             break
-                    except Exception:
-                        pass
+                        else:
+                            print(f"[curl_cffi] {url} ({imp}): status={resp.status_code}, len={len(resp.text)}")
+                    except Exception as e:
+                        print(f"[curl_cffi] {url} ({imp}) exception: {e}")
 
             if not page_html:
                 req = urllib.request.Request(url, headers=HEADERS)
