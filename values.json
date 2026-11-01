@@ -1,8 +1,8 @@
 {
-  "updated_at": 1793533699,
-  "updated_str": "2026-11-01 11:48:19 UTC",
+  "updated_at": 1793537885,
+  "updated_str": "2026-11-01 12:58:05 UTC",
   "source": "Supreme Values (Official Strict)",
-  "count": 980,
+  "count": 992,
   "unresolved_count": 100,
   "values": {
     "Traveler's Gun": 5200,
@@ -984,6 +984,18 @@
     "ElderwoodBlade": 33,
     "ElderwoodRevolver": 33,
     "ElderwoodScythe": 38,
-    "HeartWand": 340
+    "HeartWand": 340,
+    "UFOs": 3,
+    "Hearts": "x1 T1 Legendary",
+    "Treats": 155,
+    "Checker": "x3 T1 Uncommons",
+    "Carrot": "x3 T1 Commons",
+    "BattleAxe": 22,
+    "Tree": "x2 T1 Uncommons",
+    "Cat": "x3 T1 Commons",
+    "Moons": "x3 T1 Uncommons",
+    "Stars": "x1 T1 Common",
+    "Webs": "x4 T1 Legendaries",
+    "8bit": "x1 T1 Common"
   }
 }
