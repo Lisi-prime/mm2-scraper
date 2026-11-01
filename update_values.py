@@ -599,6 +599,58 @@ def main():
 
 # Generic base omitted for duplicate items per user preference
 
+    # Build clean helper entries containing strictly what is needed for exact matching (name, value, type, rarity, is_chroma)
+    clean_entries = []
+    for name, item_list in by_clean_name.items():
+        if len(item_list) == 1:
+            e = item_list[0]
+            val = e.get("value")
+            if val is None or val == "":
+                continue
+            v_str = str(val).strip().upper()
+            if v_str in ["TBD", "N/A", "NA", "NONE", "NIL", "UNDEFINED"]:
+                continue
+            prefix = "Chroma " if (e.get("is_chroma") and not name.startswith("Chroma ")) else ""
+            ent = {
+                "name": f"{prefix}{name}",
+                "value": val,
+                "type": e.get("type"),
+                "rarity": e.get("rarity")
+            }
+            if e.get("is_chroma"):
+                ent["is_chroma"] = True
+            clean_entries.append(ent)
+        else:
+            for e in item_list:
+                val = e.get("value")
+                if val is None or val == "":
+                    continue
+                v_str = str(val).strip().upper()
+                if v_str in ["TBD", "N/A", "NA", "NONE", "NIL", "UNDEFINED"]:
+                    continue
+                prefix = "Chroma " if (e.get("is_chroma") and not name.startswith("Chroma ")) else ""
+                base = f"{prefix}{name}"
+                t = e.get("type")
+                y = e.get("year")
+
+                if y and t:
+                    key = f"{base} ({t}) [{y}]"
+                elif y:
+                    key = f"{base} [{y}]"
+                elif t:
+                    key = f"{base} ({t})"
+                else:
+                    key = base
+                ent = {
+                    "name": key,
+                    "value": val,
+                    "type": t,
+                    "rarity": e.get("rarity")
+                }
+                if e.get("is_chroma"):
+                    ent["is_chroma"] = True
+                clean_entries.append(ent)
+
     common_aliases = {
         "Travelers Gun": combined_values.get("Traveler's Gun", 5200),
         "Travelers Axe": combined_values.get("Traveler's Axe", 7700),
@@ -629,7 +681,7 @@ def main():
         clean_combined[k] = v
     combined_values = clean_combined
 
-    print(f"[Values System] Final Verified Catalog: {len(combined_values)} authentic lookup keys, {len(entries)} verified entries.")
+    print(f"[Values System] Final Verified Catalog: {len(combined_values)} authentic lookup keys, {len(clean_entries)} verified entries.")
     print(f"[Values System] Newly detected items: {new_items_detected}. Unresolved prices: {len(unresolved_items)}.")
 
     with open(unresolved_output_path, "w", encoding="utf-8") as f:
@@ -642,10 +694,8 @@ def main():
         "count": len(combined_values),
         "unresolved_count": len(unresolved_items),
         "values": combined_values,
-        "entries": entries
+        "entries": clean_entries
     }
-    for k, v in combined_values.items():
-        payload[k] = v
 
     json_bytes = json.dumps(payload, indent=2, ensure_ascii=False).encode("utf-8")
 
