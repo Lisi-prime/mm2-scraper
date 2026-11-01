@@ -670,6 +670,24 @@ def main():
         if a_val is not None:
             combined_values[a_name] = a_val
 
+    # Reconcile discrepancies between Supreme Values and in-game MM2 item names (e.g. Checker vs Checkers, Tree vs Trees)
+    if game_dump:
+        v_clean = {re.sub(r"[^a-zA-Z0-9]", "", k).lower(): (k, v) for k, v in combined_values.items()}
+        for item in game_dump:
+            g_name = item.get("name", "")
+            if not g_name or g_name in combined_values or f"{g_name} (Knife)" in combined_values or f"{g_name} (Gun)" in combined_values:
+                continue
+            cn = re.sub(r"[^a-zA-Z0-9]", "", g_name).lower()
+            val_found = None
+            if cn in v_clean:
+                val_found = v_clean[cn][1]
+            elif cn + "s" in v_clean:
+                val_found = v_clean[cn + "s"][1]
+            elif cn.endswith("s") and cn[:-1] in v_clean:
+                val_found = v_clean[cn[:-1]][1]
+            if val_found is not None:
+                combined_values[g_name] = val_found
+
     # Strictly keep only authentic verified prices (No artificial placeholders or TBD)
     clean_combined = {}
     for k, v in combined_values.items():
