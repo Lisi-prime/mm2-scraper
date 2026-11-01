@@ -597,9 +597,7 @@ def main():
                     key = base
                 combined_values[key] = val
 
-                # Keep primary base key for Godly or highest value
-                if base not in combined_values or (isinstance(val, (int, float)) and isinstance(combined_values.get(base), (int, float)) and val > combined_values[base]):
-                    combined_values[base] = val
+# Generic base omitted for duplicate items per user preference
 
     common_aliases = {
         "Travelers Gun": combined_values.get("Traveler's Gun", 5200),
