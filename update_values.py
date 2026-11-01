@@ -564,58 +564,48 @@ def main():
                     "raw_scraped_value": item.get("raw_value_str")
                 })
 
-        # Register robust lookup keys into combined_values
-        if is_price_valid:
-            # 1. Exact raw scraped key
-            combined_values[raw_name] = val
-            combined_values[raw_name.replace(" (Knife)", "").replace(" (Gun)", "")] = val
+    # Option 2: Clean 1-line-per-item catalog, disambiguating duplicates cleanly
+    from collections import defaultdict
+    by_clean_name = defaultdict(list)
+    for e in entries:
+        by_clean_name[e["name"]].append(e)
 
-            # 2. Specific year and event keys
-            if item_year:
-                y = str(item_year)
-                combined_values[f"{clean_base} ({t}) [{y}]"] = val
-                combined_values[f"{clean_base} [{y}]"] = val
-                combined_values[f"{clean_base} ({y})"] = val
-                combined_values[f"{clean_base} ({t}) [HALLOWS{y}]"] = val
-                combined_values[f"{clean_base} [HALLOWS{y}]"] = val
-                combined_values[f"{clean_base} ({t}) [XMAS{y}]"] = val
-                combined_values[f"{clean_base} [XMAS{y}]"] = val
+    for name, item_list in by_clean_name.items():
+        if len(item_list) == 1:
+            e = item_list[0]
+            val = e.get("value")
+            if val is not None and val != "":
+                prefix = "Chroma " if (e.get("is_chroma") and not name.startswith("Chroma ")) else ""
+                combined_values[f"{prefix}{name}"] = val
+        else:
+            for e in item_list:
+                val = e.get("value")
+                if val is None or val == "":
+                    continue
+                prefix = "Chroma " if (e.get("is_chroma") and not name.startswith("Chroma ")) else ""
+                base = f"{prefix}{name}"
+                t = e.get("type")
+                y = e.get("year")
 
-            # 3. Rarity qualified keys
-            if r:
-                combined_values[f"{clean_base} ({t}) [{r}]"] = val
-                combined_values[f"{clean_base} [{r}]"] = val
-                if item_year:
-                    combined_values[f"{clean_base} ({t}) [{item_year}] [{r}]"] = val
+                if y and t:
+                    key = f"{base} ({t}) [{y}]"
+                elif y:
+                    key = f"{base} [{y}]"
+                elif t:
+                    key = f"{base} ({t})"
+                else:
+                    key = base
+                combined_values[key] = val
 
-            # 4. Chroma keys
-            if is_chroma and not clean_base.startswith("Chroma "):
-                combined_values[f"Chroma {clean_base}"] = val
-                if t:
-                    combined_values[f"Chroma {clean_base} ({t})"] = val
-
-            # 5. Base / Flat keys:
-            # If an item has an old collector year in parenthesis (e.g. Candy Corn (2019) or CandyCorn (2017))
-            # and is part of a multi-year item family, do NOT let the rare collector item overwrite the flat common key!
-            is_old_collector = bool(re.search(r"\((?:201[5-9]|202[0-1])\)", raw_name))
-            if clean_base in multi_year_clean_names and is_old_collector:
-                # Collector items are looked up via specific year/rarity keys, keep base keys for modern common drops
-                pass
-            else:
-                if clean_base not in combined_values or not is_old_collector:
-                    combined_values[clean_base] = val
-                if t:
-                    combined_values[f"{clean_base} ({t})"] = val
-
-    combined_values["Batwing"] = 42
-    combined_values["Batwing (Knife)"] = 42
-    combined_values["Batwing [Ancient]"] = 42
+                # Keep primary base key for Godly or highest value
+                if base not in combined_values or (isinstance(val, (int, float)) and isinstance(combined_values.get(base), (int, float)) and val > combined_values[base]):
+                    combined_values[base] = val
 
     common_aliases = {
         "Travelers Gun": combined_values.get("Traveler's Gun", 5200),
         "Travelers Axe": combined_values.get("Traveler's Axe", 7700),
         "Vampires Gun": combined_values.get("Vampire's Gun", 1900),
-        "Vampires Axe": combined_values.get("Vampire's Axe", 1500),
+        "Vampires Axe": combined_values.get("Vampire's Axe", 1400),
         "BattleAxe2": combined_values.get("Battle Axe II", 45),
         "BattleAxe II": combined_values.get("Battle Axe II", 45),
         "Battleaxe": combined_values.get("BattleAxe", 22),
@@ -624,6 +614,7 @@ def main():
         "ElderwoodRevolver": combined_values.get("Elderwood Revolver", 33),
         "ElderwoodScythe": combined_values.get("Elderwood Scythe", 38),
         "HeartWand": combined_values.get("Heart Wand", 340),
+        "Batwing": 42,
     }
     for a_name, a_val in common_aliases.items():
         if a_val is not None:
