@@ -693,8 +693,7 @@ def main():
         "source": "Supreme Values (Official Strict)",
         "count": len(combined_values),
         "unresolved_count": len(unresolved_items),
-        "values": combined_values,
-        "entries": clean_entries
+        "values": combined_values
     }
 
     json_bytes = json.dumps(payload, indent=2, ensure_ascii=False).encode("utf-8")
