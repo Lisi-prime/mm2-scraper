@@ -57,27 +57,35 @@ VINTAGES_EXPLICIT = {
 }
 
 DEFAULT_REPO = "Lisi-prime/mm2_skin"
-DEFAULT_TOKEN = "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"
+DEFAULT_TOKEN = ""
+
+import subprocess
+import site
+import importlib
 
 try:
     from curl_cffi import requests as cffi_requests
+    from bs4 import BeautifulSoup
 except ImportError:
-    print("[Values System] curl_cffi not found, installing via pip...")
+    print("[Values System] Installing required packages: curl_cffi, beautifulsoup4 ...")
     try:
-        import subprocess
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "curl_cffi", "--quiet"])
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "curl_cffi", "beautifulsoup4", "--quiet"])
+        importlib.invalidate_caches()
+        if hasattr(site, "main"):
+            site.main()
         from curl_cffi import requests as cffi_requests
-        print("[Values System] curl_cffi successfully installed!")
+        from bs4 import BeautifulSoup
+        print("[Values System] Dependencies loaded successfully!")
     except Exception as e:
-        print(f"[Values System] Could not install curl_cffi: {e}")
-        cffi_requests = None
-
-try:
-    from bs4 import BeautifulSoup
-except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "beautifulsoup4", "--quiet"])
-    from bs4 import BeautifulSoup
+        print(f"[Values System] Dependency bootstrap error: {e}")
+        try:
+            from curl_cffi import requests as cffi_requests
+        except Exception:
+            cffi_requests = None
+        try:
+            from bs4 import BeautifulSoup
+        except Exception:
+            BeautifulSoup = None
 
 def clean_item_name(name):
     if not name:
@@ -619,34 +627,16 @@ def main():
         if a_val is not None:
             combined_values[a_name] = a_val
 
-    # Auto-register newly released MM2 items from game dump if not yet on Supreme Values
-    catalog_new_added = 0
-    if game_dump:
-        for gitm in game_dump:
-            gn = gitm.get("name")
-            gt = gitm.get("type", "Knife")
-            gr = gitm.get("rarity", "Common")
-            gy = gitm.get("year")
-            if not gn or gn in ["Default Knife", "Default Gun", "DefaultKnife", "DefaultGun"]:
-                continue
-            clean_gn = clean_base_name(gn)
-            if clean_gn not in combined_values and gn not in combined_values:
-                # Assign baseline placeholder so newly dropped weapons always show in-game
-                default_val = f"x1 T1 {gr}" if gr in ["Common", "Uncommon", "Rare"] else "TBD"
-                combined_values[gn] = default_val
-                combined_values[clean_gn] = default_val
-                if gt:
-                    combined_values[f"{clean_gn} ({gt})"] = default_val
-                if gr:
-                    combined_values[f"{clean_gn} [{gr}]"] = default_val
-                    combined_values[f"{clean_gn} ({gt}) [{gr}]"] = default_val
-                if gy:
-                    combined_values[f"{clean_gn} [{gy}]"] = default_val
-                    combined_values[f"{clean_gn} ({gt}) [{gy}]"] = default_val
-                catalog_new_added += 1
-
-    if catalog_new_added > 0:
-        print(f"[Values System] Auto-registered {catalog_new_added} newly released MM2 catalog items as placeholders.")
+    # Strictly keep only authentic verified prices (No artificial placeholders or TBD)
+    clean_combined = {}
+    for k, v in combined_values.items():
+        if v is None or v == "" or v == 0:
+            continue
+        v_str = str(v).strip().upper()
+        if v_str in ["TBD", "N/A", "NA", "NONE", "NIL", "UNDEFINED"]:
+            continue
+        clean_combined[k] = v
+    combined_values = clean_combined
 
     print(f"[Values System] Final Verified Catalog: {len(combined_values)} authentic lookup keys, {len(entries)} verified entries.")
     print(f"[Values System] Newly detected items: {new_items_detected}. Unresolved prices: {len(unresolved_items)}.")
