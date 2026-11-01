@@ -441,10 +441,11 @@ def main():
         sys.exit(1)
 
     
-    def resolve_meta(raw_name, cat):
-        clean = re.sub(r"\s*\(.*?\)", "", raw_name).strip()
+    def resolve_meta(raw_name, cat, raw_year=None):
+        clean = clean_base_name(raw_name)
         norm = re.sub(r"[^a-zA-Z0-9]", "", clean).lower()
         is_chroma = (cat == "chromas") or "chroma" in raw_name.lower()
+        item_year = extract_year_from_raw(raw_name, raw_year)
 
         if cat == "vintages" and clean in VINTAGES_EXPLICIT:
             t, r, _ = VINTAGES_EXPLICIT[clean]
@@ -459,8 +460,24 @@ def main():
         if m:
             return m.group(1).capitalize(), RARITY_BY_CATEGORY.get(cat, "Common"), is_chroma
 
-        cl = clean.lower()
+        candidates = norm_dump.get(norm, [])
         cat_rarity = RARITY_BY_CATEGORY.get(cat, "Common")
+        if candidates:
+            if item_year:
+                for c in candidates:
+                    if c.get("name") == clean and str(c.get("year", "")) == str(item_year) and c.get("type") in ["Knife", "Gun"]:
+                        return c.get("type"), cat_rarity or c.get("rarity"), is_chroma
+                for c in candidates:
+                    if str(c.get("year", "")) == str(item_year) and c.get("type") in ["Knife", "Gun"]:
+                        return c.get("type"), cat_rarity or c.get("rarity"), is_chroma
+            for c in candidates:
+                if c.get("name") == clean and c.get("type") in ["Knife", "Gun"] and c.get("rarity") == cat_rarity:
+                    return c.get("type"), cat_rarity, is_chroma
+            for c in candidates:
+                if c.get("name") == clean and c.get("type") in ["Knife", "Gun"]:
+                    return c.get("type"), cat_rarity or c.get("rarity"), is_chroma
+
+        cl = clean.lower()
         gun_keywords = [
             "gun", "revolver", "luger", "blaster", "shotgun", "bow", "crossbow",
             "cannon", "rifle", "piercer", "evergun", "watergun", "flintlock", "pistol"
@@ -474,10 +491,8 @@ def main():
         if any(cl.endswith(kw) or f" {kw}" in cl for kw in knife_keywords):
             return "Knife", cat_rarity, is_chroma
 
-        candidates = norm_dump.get(norm, [])
         if candidates:
             if cat not in ["pets", "misc"]:
-                # Ensure weapon categories only resolve to Knife or Gun, never Pet
                 for c in candidates:
                     if c.get("type") in ["Knife", "Gun"] and c.get("rarity") == cat_rarity:
                         return c.get("type"), cat_rarity, is_chroma
@@ -520,7 +535,7 @@ def main():
         clean_name = re.sub(r"\s*\(.*?\)", "", raw_name).strip()
         clean_base = clean_base_name(raw_name)
         item_year = extract_year_from_raw(raw_name, raw_year)
-        t, r, is_chroma = resolve_meta(raw_name, cat)
+        t, r, is_chroma = resolve_meta(raw_name, cat, raw_year)
 
         if clean_base in VINTAGES_EXPLICIT and cat == "vintages":
             t, r, v_val = VINTAGES_EXPLICIT[clean_base]
@@ -597,6 +612,17 @@ def main():
                     key = base
                 combined_values[key] = val
 
+            by_type = defaultdict(list)
+            for e in item_list:
+                by_type[e.get("type")].append(e)
+            for it_type, sub_items in by_type.items():
+                if len(sub_items) == 1:
+                    se = sub_items[0]
+                    s_val = se.get("value")
+                    if s_val is not None and s_val != "":
+                        prefix = "Chroma " if (se.get("is_chroma") and not name.startswith("Chroma ")) else ""
+                        combined_values[f"{prefix}{name} ({it_type})"] = s_val
+
 # Generic base omitted for duplicate items per user preference
 
     # Build clean helper entries containing strictly what is needed for exact matching (name, value, type, rarity, is_chroma)
@@ -665,6 +691,11 @@ def main():
         "ElderwoodScythe": combined_values.get("Elderwood Scythe", 38),
         "HeartWand": combined_values.get("Heart Wand", 340),
         "Batwing": 42,
+        "CandyCorn": combined_values.get("CandyCorn (Gun) [2026]") or combined_values.get("CandyCorn (Gun)", "x2 T1 Commons"),
+        "CandyCorn (Gun)": combined_values.get("CandyCorn (Gun) [2026]", "x2 T1 Commons"),
+        "Wolf (Gun)": combined_values.get("Wolf (Gun) [2026]", "x2 T1 Commons"),
+        "Checker": combined_values.get("Checkers", "x3 T1 Uncommons"),
+        "Checkers": combined_values.get("Checkers", "x3 T1 Uncommons"),
     }
     for a_name, a_val in common_aliases.items():
         if a_val is not None:
